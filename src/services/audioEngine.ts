@@ -6,8 +6,14 @@ export class AudioEngine {
   private ctx: AudioContext | null = null;
   private source: AudioBufferSourceNode | null = null;
   private gain: GainNode | null = null;
+  private masterGain: GainNode | null = null;
+  private volume = 1;
   private rafId: number | null = null;
   private cachedBuffers = new Map<string, AudioBuffer>();
+
+  constructor(initialVolume = 1) {
+    this.volume = Math.max(0, Math.min(1, initialVolume));
+  }
 
   private ensureContext(): AudioContext {
     if (!this.ctx) {
@@ -16,10 +22,27 @@ export class AudioEngine {
         (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
       this.ctx = new AudioCtx();
     }
+    if (!this.masterGain) {
+      this.masterGain = this.ctx.createGain();
+      this.masterGain.gain.setValueAtTime(this.volume, this.ctx.currentTime);
+      this.masterGain.connect(this.ctx.destination);
+    }
     if (this.ctx.state === 'suspended') {
       void this.ctx.resume();
     }
     return this.ctx;
+  }
+
+  setVolume(nextVolume: number): void {
+    const clamped = Math.max(0, Math.min(1, nextVolume));
+    this.volume = clamped;
+    if (this.ctx && this.masterGain) {
+      this.masterGain.gain.setTargetAtTime(clamped, this.ctx.currentTime, 0.015);
+    }
+  }
+
+  getVolume(): number {
+    return this.volume;
   }
 
   async loadBuffer(previewUrl: string, signal?: AbortSignal): Promise<AudioBuffer> {
@@ -70,7 +93,7 @@ export class AudioEngine {
     gain.gain.linearRampToValueAtTime(0, endTime);
 
     source.connect(gain);
-    gain.connect(ctx.destination);
+    gain.connect(this.masterGain ?? ctx.destination);
 
     this.source = source;
     this.gain = gain;
@@ -128,6 +151,10 @@ export class AudioEngine {
 
   dispose(): void {
     this.stop();
+    if (this.masterGain) {
+      this.masterGain.disconnect();
+      this.masterGain = null;
+    }
     if (this.ctx) {
       void this.ctx.close();
       this.ctx = null;

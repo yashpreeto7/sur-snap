@@ -19,6 +19,7 @@ import { GuessInput } from './components/GuessInput';
 import { HelpDialog } from './components/HelpDialog';
 import { ImportPlaylistDialog } from './components/ImportPlaylistDialog';
 import { ManagePackDialog } from './components/ManagePackDialog';
+import { VolumeControl } from './components/VolumeControl';
 import { MultiplayerLobby } from './components/multiplayer/MultiplayerLobby';
 import { MultiplayerRoomView } from './components/multiplayer/MultiplayerRoomView';
 import {
@@ -171,11 +172,32 @@ export function App() {
     return { played: 0, won: 0, streak: 0, bestStreak: 0, points: 0 };
   });
 
+  const [audioPrefs, setAudioPrefs] = useState<{ volumePercent: number; muted: boolean }>(() => {
+    try {
+      const saved = localStorage.getItem('sursnap_audio_volume_v1');
+      if (saved) {
+        const parsed = JSON.parse(saved) as { volumePercent?: number; muted?: boolean };
+        if (typeof parsed.volumePercent === 'number' && Number.isFinite(parsed.volumePercent)) {
+          return {
+            volumePercent: Math.max(0, Math.min(100, Math.round(parsed.volumePercent))),
+            muted: Boolean(parsed.muted),
+          };
+        }
+      }
+    } catch {
+      // Ignore storage failures
+    }
+    return { volumePercent: 80, muted: false };
+  });
+
+  const effectiveGain = audioPrefs.muted ? 0 : audioPrefs.volumePercent / 100;
+  const volumeGainRef = useRef(effectiveGain);
+
   const searchInputRef = useRef<HTMLInputElement>(null);
   const engineRef = useRef<AudioEngine | null>(null);
   const getEngine = useCallback(() => {
     if (!engineRef.current) {
-      engineRef.current = new AudioEngine();
+      engineRef.current = new AudioEngine(volumeGainRef.current);
     }
     return engineRef.current;
   }, []);
@@ -215,7 +237,38 @@ export function App() {
     return mpClientRef.current;
   }, []);
 
-  const [mpEngine] = useState(() => new AudioEngine());
+  const [mpEngine] = useState(() => new AudioEngine(effectiveGain));
+
+  useEffect(() => {
+    volumeGainRef.current = effectiveGain;
+    engineRef.current?.setVolume(effectiveGain);
+    mpEngine.setVolume(effectiveGain);
+    try {
+      localStorage.setItem('sursnap_audio_volume_v1', JSON.stringify(audioPrefs));
+    } catch {
+      // Ignore storage failures
+    }
+  }, [audioPrefs, effectiveGain, mpEngine]);
+
+  const handleChangeVolume = (nextPercent: number) => {
+    const clamped = Math.max(0, Math.min(100, Math.round(nextPercent)));
+    setAudioPrefs({
+      volumePercent: clamped,
+      muted: false,
+    });
+  };
+
+  const handleToggleMute = () => {
+    setAudioPrefs((prev) => {
+      if (prev.muted || prev.volumePercent === 0) {
+        return {
+          volumePercent: prev.volumePercent > 0 ? prev.volumePercent : 60,
+          muted: false,
+        };
+      }
+      return { ...prev, muted: true };
+    });
+  };
 
   useEffect(() => {
     const client = getMpClient();
@@ -1191,6 +1244,13 @@ export function App() {
                 </div>
               </div>
             )}
+
+            <VolumeControl
+              volumePercent={audioPrefs.volumePercent}
+              muted={audioPrefs.muted}
+              onChangeVolume={handleChangeVolume}
+              onToggleMute={handleToggleMute}
+            />
 
             <button
               type="button"
