@@ -29,7 +29,7 @@ export const SYNC_STEP_DURATION_MS = 12_000;
 export const RACE_ROUND_DURATION_MS = 45_000;
 export const BUZZ_WINDOW_DURATION_MS = 8_000;
 export const ROUND_REVEAL_DURATION_MS = 8_000;
-export const BUZZ_PENALTY_POINTS = 150;
+export const BUZZ_PENALTY_POINTS = 250;
 export const IDLE_ROOM_TTL_MS = 30 * 60_000;
 
 interface InternalPlayer {
@@ -587,6 +587,7 @@ export class RoomManager {
       player.score -= penalty;
       player.roundPointsDelta -= penalty;
       player.roundStatus = 'locked-out';
+      player.stepGuessed = true;
 
       this.sendDirect(playerId, {
         type: 'guess_feedback',
@@ -594,8 +595,8 @@ export class RoomManager {
         status,
         message:
           status === 'artist-match'
-            ? `Right artist, wrong song — locked out (-${penalty} pts).`
-            : `Wrong buzz — locked out for this round (-${penalty} pts).`,
+            ? `Right artist, wrong song (-${penalty} pts) — unlocked on next snippet.`
+            : `Wrong buzz (-${penalty} pts) — unlocked on next snippet.`,
         pointsAwarded: -penalty,
         lockedOut: true,
       });
@@ -651,7 +652,7 @@ export class RoomManager {
 
     this.touchIdleTimer(room);
 
-    if (room.mode === 'classic-sync') {
+    if (room.mode === 'classic-sync' || room.mode === 'buzz-in') {
       if (player.stepGuessed) return;
       player.stepGuessed = true;
       player.roundStatus = 'skipped';
@@ -702,11 +703,12 @@ export class RoomManager {
       player.score -= penalty;
       player.roundPointsDelta -= penalty;
       player.roundStatus = 'locked-out';
+      player.stepGuessed = true;
       this.sendDirect(playerId, {
         type: 'guess_feedback',
         roundIndex,
         status: 'wrong',
-        message: `Time ran out on your buzz (-${penalty} pts).`,
+        message: `Time ran out on your buzz (-${penalty} pts) — unlocked on next snippet.`,
         pointsAwarded: -penalty,
         lockedOut: true,
       });
@@ -778,6 +780,17 @@ export class RoomManager {
       return;
     }
 
+    if (room.phase === 'playing') {
+      if (room.mode === 'classic-sync' || room.mode === 'buzz-in') {
+        this.maybeAdvanceSyncStep(room);
+        return;
+      }
+      if (room.mode === 'speed-race') {
+        this.checkRaceCompletion(room);
+        return;
+      }
+    }
+
     this.broadcastRoom(room);
   }
 
@@ -818,22 +831,13 @@ export class RoomManager {
         return;
       }
     } else if (room.phase === 'playing') {
-      if (room.mode === 'classic-sync') {
+      if (room.mode === 'classic-sync' || room.mode === 'buzz-in') {
         this.maybeAdvanceSyncStep(room);
         return;
       }
       if (room.mode === 'speed-race') {
         this.checkRaceCompletion(room);
         return;
-      }
-      if (room.mode === 'buzz-in') {
-        const remainingActive = [...room.players.values()].some(
-          (p) => p.connected && p.roundStatus !== 'locked-out' && p.roundStatus !== 'solved',
-        );
-        if (!remainingActive) {
-          this.enterRoundReveal(room);
-          return;
-        }
       }
     }
 
@@ -972,7 +976,7 @@ export class RoomManager {
     room.stepIndex += 1;
     for (const player of room.players.values()) {
       player.stepGuessed = false;
-      if (player.connected && player.roundStatus !== 'solved' && player.roundStatus !== 'locked-out') {
+      if (player.connected && player.roundStatus !== 'solved') {
         player.roundStatus = 'guessing';
       }
     }
@@ -1012,15 +1016,20 @@ export class RoomManager {
     this.clearActiveTimer(room);
     room.buzzedPlayerId = null;
 
-    const remainingActive = [...room.players.values()].some(
-      (p) => p.connected && p.roundStatus !== 'locked-out' && p.roundStatus !== 'solved',
+    const activeOnRound = [...room.players.values()].filter(
+      (p) => p.connected && p.roundStatus !== 'solved',
     );
-    if (!remainingActive) {
+    if (activeOnRound.length === 0) {
       this.enterRoundReveal(room);
       return;
     }
 
     room.phase = 'playing';
+    if (activeOnRound.every((p) => p.stepGuessed)) {
+      this.advanceStepOrReveal(room);
+      return;
+    }
+
     this.scheduleStepWindow(room, room.remainingStepMs);
     this.broadcastRoom(room);
   }

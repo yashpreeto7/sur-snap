@@ -44,7 +44,7 @@ const MODE_OPTIONS: Array<{
   {
     id: 'buzz-in',
     label: 'Buzz-In',
-    summary: 'Hit Buzz first to answer! Right wins big, miss locks you out (-150).',
+    summary: 'Hit Buzz first to answer! Miss costs -250 pts until the next snippet; Vote Skip anytime.',
     icon: Sparkles,
   },
 ];

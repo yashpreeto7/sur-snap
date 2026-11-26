@@ -163,7 +163,7 @@ function renderPlayerStatusBadge(player: PublicRoomPlayer) {
     case 'locked-out':
       return (
         <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-md bg-rose-500/15 border border-rose-400/40 text-rose-300">
-          Locked
+          Step Lock
         </span>
       );
     case 'wrong':
@@ -731,6 +731,7 @@ export function MultiplayerRoomView({
                           disabled={
                             room.phase !== 'playing' ||
                             myPlayer?.roundStatus === 'locked-out' ||
+                            myPlayer?.roundStatus === 'skipped' ||
                             myPlayer?.roundStatus === 'solved'
                           }
                           onClick={() => onBuzzIn(room.currentRound)}
@@ -741,27 +742,56 @@ export function MultiplayerRoomView({
                         </button>
                       )}
 
-                      {(room.mode === 'classic-sync' || room.mode === 'speed-race') &&
-                        myPlayer?.roundStatus !== 'solved' && (
-                          <button
-                            type="button"
-                            disabled={
-                              room.phase !== 'playing' ||
-                              (room.mode === 'classic-sync' &&
-                                (myPlayer?.roundStatus === 'skipped' ||
-                                  myPlayer?.roundStatus === 'wrong' ||
-                                  myPlayer?.roundStatus === 'artist-match')) ||
-                              (room.mode === 'speed-race' && (myPlayer?.attemptIndex ?? 0) >= 6)
-                            }
-                            onClick={() => onSkipStep(room.currentRound)}
-                            className="px-4 py-2.5 rounded-xl bg-white/[0.06] hover:bg-white/[0.12] border border-white/10 text-xs font-semibold text-slate-200 inline-flex items-center gap-1.5 cursor-pointer disabled:opacity-45"
-                          >
-                            <SkipForward size={14} aria-hidden="true" />
-                            <span>
-                              {room.mode === 'speed-race' ? 'Unlock Next Snippet' : 'Skip Step'}
-                            </span>
-                          </button>
-                        )}
+                      {myPlayer?.roundStatus !== 'solved' &&
+                        (() => {
+                          const eligiblePlayers = room.players.filter(
+                            (p) => p.connected && p.roundStatus !== 'solved',
+                          );
+                          const skipVotes = eligiblePlayers.filter(
+                            (p) => p.roundStatus === 'skipped',
+                          ).length;
+                          const isSyncOrBuzz =
+                            room.mode === 'classic-sync' || room.mode === 'buzz-in';
+                          const nextDuration = ATTEMPT_DURATIONS[room.stepIndex + 1];
+                          const alreadyActedStep =
+                            isSyncOrBuzz &&
+                            (myPlayer?.roundStatus === 'skipped' ||
+                              myPlayer?.roundStatus === 'locked-out' ||
+                              myPlayer?.roundStatus === 'wrong' ||
+                              myPlayer?.roundStatus === 'artist-match');
+
+                          return (
+                            <button
+                              type="button"
+                              disabled={
+                                room.phase !== 'playing' ||
+                                alreadyActedStep ||
+                                (room.mode === 'speed-race' && (myPlayer?.attemptIndex ?? 0) >= 6)
+                              }
+                              onClick={() => onSkipStep(room.currentRound)}
+                              className="px-4 py-2.5 rounded-xl bg-white/[0.06] hover:bg-white/[0.12] border border-white/10 text-xs font-semibold text-slate-200 inline-flex items-center gap-1.5 cursor-pointer disabled:opacity-45"
+                            >
+                              <SkipForward size={14} aria-hidden="true" />
+                              <span>
+                                {room.mode === 'speed-race'
+                                  ? 'Unlock Next Snippet'
+                                  : myPlayer?.roundStatus === 'skipped'
+                                    ? `Voted Skip (${skipVotes}/${eligiblePlayers.length})`
+                                    : nextDuration !== undefined
+                                      ? `Skip -> ${nextDuration}s${
+                                          skipVotes > 0
+                                            ? ` (${skipVotes}/${eligiblePlayers.length})`
+                                            : ''
+                                        }`
+                                      : `Reveal Song${
+                                          skipVotes > 0
+                                            ? ` (${skipVotes}/${eligiblePlayers.length})`
+                                            : ''
+                                        }`}
+                              </span>
+                            </button>
+                          );
+                        })()}
                     </div>
                   </>
                 )}
@@ -812,7 +842,7 @@ export function MultiplayerRoomView({
                   myPlayer?.roundStatus === 'solved'
                     ? 'You already solved this round!'
                     : myPlayer?.roundStatus === 'locked-out'
-                      ? 'Locked out for this round after wrong buzz'
+                      ? 'Cooldown until next snippet (-250 pts penalty)'
                       : room.mode === 'buzz-in' && room.phase !== 'buzz-window'
                         ? 'Hit BUZZ IN first to answer...'
                         : 'Type song title or artist to guess...'

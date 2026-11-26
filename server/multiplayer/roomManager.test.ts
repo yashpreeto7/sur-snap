@@ -239,7 +239,7 @@ test('Buzz-in flow: exclusive buzz lock, penalty lockout on miss, and immediate 
   assert.equal(won?.phase, 'round-reveal');
   assert.equal(won?.players.find((p) => p.id === 'p2')?.score, 1000);
 
-  // Round 2: p2 buzzes wrong -> loses BUZZ_PENALTY_POINTS (150) -> 850
+  // Round 2: p2 buzzes wrong -> loses BUZZ_PENALTY_POINTS (250) -> 750, and p1 votes skip -> advances to step 1 and unlocks p2!
   manager.nextRound('p1');
   await new Promise((r) => setTimeout(r, 10));
   manager.markRoundReady('p1', 1);
@@ -248,6 +248,56 @@ test('Buzz-in flow: exclusive buzz lock, penalty lockout on miss, and immediate 
   manager.submitGuess('p2', 1, { id: 2, title: 'Wrong', artistName: 'Nobody' });
   const afterPenalty = manager.getPublicRoomState(room.code);
   assert.equal(afterPenalty?.players.find((p) => p.id === 'p2')?.score, 1000 - BUZZ_PENALTY_POINTS);
+  assert.equal(afterPenalty?.players.find((p) => p.id === 'p2')?.roundStatus, 'locked-out');
+
+  // Collective skip: p1 votes skip on step 0; since p2 already acted (missed buzz), advances immediately to step 1 & unlocks p2!
+  manager.playerSkip('p1', 1);
+  const step1Buzz = manager.getPublicRoomState(room.code);
+  assert.equal(step1Buzz?.phase, 'playing');
+  assert.equal(step1Buzz?.stepIndex, 1);
+  assert.equal(step1Buzz?.players.find((p) => p.id === 'p2')?.roundStatus, 'guessing');
+
+  // p2 can now buzz again on step 1 and solve (+800)
+  manager.buzzIn('p2', 1);
+  manager.submitGuess('p2', 1, { id: 901, title: 'Kesariya 2', artistName: 'Arijit Singh' });
+  const r2Reveal = manager.getPublicRoomState(room.code);
+  assert.equal(r2Reveal?.phase, 'round-reveal');
+  assert.equal(
+    r2Reveal?.players.find((p) => p.id === 'p2')?.score,
+    1000 - BUZZ_PENALTY_POINTS + 800,
+  );
+
+  manager.destroyRoom(room.code);
+});
+
+test('Buzz-in collective vote skip advances step when all active players vote skip', async () => {
+  const { manager } = createHarness(createStubResolver(950), () => 60_000);
+
+  const room = manager.createRoom('p1', 'One', {
+    mode: 'buzz-in',
+    packId: 'all-india',
+    packName: 'All India Mix',
+    roundCount: 1,
+  });
+  assert.ok(room);
+  manager.joinRoom('p2', room.code, 'Two');
+
+  await manager.startMatch('p1');
+  manager.markRoundReady('p1', 0);
+  manager.markRoundReady('p2', 0);
+
+  // Only p1 votes skip -> stays on step 0 waiting on p2
+  manager.playerSkip('p1', 0);
+  const partialSkip = manager.getPublicRoomState(room.code);
+  assert.equal(partialSkip?.stepIndex, 0);
+  assert.equal(partialSkip?.players.find((p) => p.id === 'p1')?.roundStatus, 'skipped');
+
+  // p2 also votes skip -> immediately advances to step 1 and resets both to guessing
+  manager.playerSkip('p2', 0);
+  const nextStep = manager.getPublicRoomState(room.code);
+  assert.equal(nextStep?.stepIndex, 1);
+  assert.equal(nextStep?.players.find((p) => p.id === 'p1')?.roundStatus, 'guessing');
+  assert.equal(nextStep?.players.find((p) => p.id === 'p2')?.roundStatus, 'guessing');
 
   manager.destroyRoom(room.code);
 });
