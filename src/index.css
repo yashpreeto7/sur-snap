@@ -1,0 +1,188 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+
+  --color-obsidian: #090A0F;
+  --color-sidebar: #0D1017;
+  --color-card: #11141D;
+
+  --color-cyanNeon-300: #67E8F9;
+  --color-cyanNeon-400: #22D3EE;
+  --color-cyanNeon-500: #06B6D4;
+  --color-cyanNeon-600: #0891B2;
+  --color-cyanNeon-700: #0E7490;
+
+  --color-saffron-400: #FF7B47;
+  --color-saffron-500: #FF5E2B;
+  --color-saffron-600: #E64615;
+}
+
+:root {
+  color-scheme: dark;
+  scrollbar-color: rgba(255, 255, 255, 0.16) transparent;
+  accent-color: #06B6D4;
+}
+
+@layer base {
+  body {
+    background-color: #090A0F;
+    color: #F4F5F8;
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  :where(a:any-link, button, input, select):focus-visible {
+    outline: 2px solid #22D3EE;
+    outline-offset: 2px;
+  }
+}
+
+/* Restrained Editorial Obsidian Backdrop with Subtle Cyan Edge Lighting */
+.studio-bg {
+  background-image:
+    radial-gradient(circle at 55% 22%, rgba(6, 182, 212, 0.065) 0%, transparent 48%),
+    radial-gradient(circle at 88% 82%, rgba(8, 145, 178, 0.04) 0%, transparent 45%);
+}
+
+/* Subtle noise grain */
+.noise-overlay {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.02'/%3E%3C/svg%3E");
+}
+
+/* Tactile 3D Beveled Cyan Play Button */
+.tactile-play-btn {
+  background: linear-gradient(180deg, #22D3EE 0%, #06B6D4 100%);
+  box-shadow:
+    0 6px 0 #0E7490,
+    0 14px 34px -4px rgba(6, 182, 212, 0.5),
+    inset 0 1.5px 1px rgba(255, 255, 255, 0.45),
+    inset 0 -2px 3px rgba(0, 0, 0, 0.25);
+  transition: transform 0.12s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.12s ease, filter 0.15s ease;
+}
+
+.tactile-play-btn:hover:not(:disabled) {
+  filter: brightness(1.06);
+  box-shadow:
+    0 6px 0 #0E7490,
+    0 18px 42px -2px rgba(34, 211, 238, 0.65),
+    inset 0 1.5px 1px rgba(255, 255, 255, 0.55),
+    inset 0 -2px 3px rgba(0, 0, 0, 0.25);
+}
+
+.tactile-play-btn:active:not(:disabled),
+.tactile-play-btn.is-pressed {
+  transform: translateY(4px);
+  box-shadow:
+    0 2px 0 #0E7490,
+    0 6px 20px -2px rgba(6, 182, 212, 0.45),
+    inset 0 1px 1px rgba(255, 255, 255, 0.35);
+}
+
+/* Equalizer animation inside active square box */
+@keyframes eqDance {
+  0%, 100% { transform: scaleY(0.32); }
+  50% { transform: scaleY(1); }
+}
+
+.mini-eq-bar {
+  transform-origin: bottom;
+  animation: eqDance 0.8s ease-in-out infinite alternate;
+}
+
+.is-playing .mini-eq-bar {
+  animation-duration: 0.36s;
+}
+
+/* Cyan pulse ring on active play */
+@keyframes cyanPulseRing {
+  0% { transform: scale(0.96); opacity: 0.7; }
+  100% { transform: scale(1.42); opacity: 0; }
+}
+
+.play-pulse-ring {
+  animation: cyanPulseRing 1.15s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+@supports not (scrollbar-color: auto) {
+  .custom-scroll::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .custom-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scroll::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 9999px;
+  }
+  .custom-scroll::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.24);
+  }
+}
+
+/* Desktop Sidebar Smooth Width Transition (260px <-> 72px) */
+@media (min-width: 1024px) {
+  .desktop-sidebar {
+    transition: width 240ms cubic-bezier(0.22, 1, 0.36, 1), padding 240ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .desktop-sidebar.is-collapsed {
+    width: 72px;
+    padding-left: 0.65rem;
+    padding-right: 0.65rem;
+  }
+  .desktop-sidebar.is-collapsed .sidebar-collapsible-text,
+  .desktop-sidebar.is-collapsed .sidebar-footer-card {
+    display: none;
+  }
+  .desktop-sidebar.is-collapsed .sidebar-header-row {
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .desktop-sidebar.is-collapsed .sidebar-cat-btn {
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* Native Modal Dialog Scroll Containment */
+dialog.sursnap-dialog {
+  margin: auto;
+  padding: 0;
+  background: transparent;
+  border: none;
+  max-width: min(28rem, calc(100vw - 2rem));
+  width: 100%;
+}
+
+dialog.sursnap-dialog.sursnap-dialog--wide {
+  max-width: min(38rem, calc(100vw - 2rem));
+}
+
+dialog.sursnap-dialog:modal {
+  overscroll-behavior: contain;
+}
+
+dialog.sursnap-dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(8px);
+  overflow: hidden;
+  overscroll-behavior: contain;
+}
+
+.visually-hidden:where(:not(:focus-within, :active)) {
+  position: absolute !important;
+  clip-path: inset(50%) !important;
+  overflow: hidden !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  white-space: nowrap !important;
+}
