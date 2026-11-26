@@ -8,6 +8,8 @@ interface GuessInputProps {
   catalog: CatalogTrack[];
   extras?: SearchSuggestion[];
   activeCategory: string;
+  roomCode?: string;
+  placeholder?: string;
   disabled: boolean;
   inputRef?: React.RefObject<HTMLInputElement | null>;
   onSelectGuess: (suggestion: SearchSuggestion) => void;
@@ -19,6 +21,8 @@ export function GuessInput({
   catalog,
   extras = [],
   activeCategory,
+  roomCode,
+  placeholder = 'Search song title or artist...',
   disabled,
   inputRef: externalRef,
   onSelectGuess,
@@ -80,8 +84,21 @@ export function GuessInput({
     const timer = window.setTimeout(async () => {
       setIsSearching(true);
       try {
-        const results = await searchIndianTracks(trimmed, controller.signal);
-        setRemoteResults(results);
+        const roomPromise: Promise<SearchSuggestion[]> = roomCode
+          ? fetch(
+              `/api/rooms/${encodeURIComponent(roomCode)}/suggest?q=${encodeURIComponent(trimmed)}`,
+              { signal: controller.signal },
+            )
+              .then((r) => (r.ok ? (r.json() as Promise<{ suggestions?: SearchSuggestion[] }>) : null))
+              .then((payload) => payload?.suggestions ?? [])
+              .catch(() => [])
+          : Promise.resolve([]);
+
+        const [roomResults, itunesResults] = await Promise.all([
+          roomPromise,
+          searchIndianTracks(trimmed, controller.signal).catch(() => [] as SearchSuggestion[]),
+        ]);
+        setRemoteResults([...roomResults, ...itunesResults]);
       } catch {
         // Ignore aborted or rate-limited remote search errors; local matches stay instant
       } finally {
@@ -95,7 +112,7 @@ export function GuessInput({
       window.clearTimeout(timer);
       controller.abort();
     };
-  }, [query]);
+  }, [query, roomCode]);
 
   const combinedSuggestions = useMemo<SearchSuggestion[]>(() => {
     const seen = new Set<string>();
@@ -192,8 +209,10 @@ export function GuessInput({
           value={query}
           disabled={disabled}
           autoComplete="off"
+          autoCorrect="off"
+          autoCapitalize="none"
           spellCheck={false}
-          placeholder="Search song title or artist..."
+          placeholder={placeholder}
           role="combobox"
           aria-expanded={showDropdown}
           aria-controls={listboxId}

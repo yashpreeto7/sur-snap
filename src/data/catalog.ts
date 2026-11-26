@@ -1,4 +1,4 @@
-import type { CatalogTrack, CategoryMeta, SearchSuggestion } from '../types/game';
+import type { CatalogTrack, CategoryMeta, SearchSuggestion } from '../types/game.ts';
 
 export const CATEGORIES: CategoryMeta[] = [
   {

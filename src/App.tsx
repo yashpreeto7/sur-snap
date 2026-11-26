@@ -8,8 +8,10 @@ import {
   HelpCircle,
   Menu,
   Plus,
+  Radio,
   SlidersHorizontal,
   Trash2,
+  Users,
   X,
 } from 'lucide-react';
 import { AudioPlayerCard } from './components/AudioPlayerCard';
@@ -17,6 +19,8 @@ import { GuessInput } from './components/GuessInput';
 import { HelpDialog } from './components/HelpDialog';
 import { ImportPlaylistDialog } from './components/ImportPlaylistDialog';
 import { ManagePackDialog } from './components/ManagePackDialog';
+import { MultiplayerLobby } from './components/multiplayer/MultiplayerLobby';
+import { MultiplayerRoomView } from './components/multiplayer/MultiplayerRoomView';
 import {
   CATEGORIES,
   EXTRA_AUTOCOMPLETE_SONGS,
@@ -29,6 +33,12 @@ import {
   type ResolvedTrackPreview,
 } from './services/itunes';
 import {
+  loadSavedMultiplayerSession,
+  MultiplayerClient,
+  saveMultiplayerSession,
+  type GuessFeedbackEvent,
+} from './services/multiplayerClient';
+import {
   ATTEMPT_DURATIONS,
   MAX_PREVIEW_SECONDS,
   type CatalogTrack,
@@ -40,6 +50,11 @@ import {
   type SearchSuggestion,
   type SessionStats,
 } from './types/game';
+import type {
+  PublicRoomState,
+  RoomSettingsInput,
+  RoomTrackInput,
+} from './types/multiplayer';
 import { dedupeTracksByTitleAndArtist, evaluateGuess } from './utils/matching';
 
 function shuffleIds(tracks: CatalogTrack[]): number[] {
@@ -78,7 +93,29 @@ const SOURCE_LABEL: Record<PlaylistSource, string> = {
 
 const STEP_POINTS = [1000, 800, 650, 500, 350, 250] as const;
 
+function readRoomParamFromUrl(): string {
+  try {
+    const raw = new URLSearchParams(window.location.search).get('room') ?? '';
+    return raw.trim().toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 6);
+  } catch {
+    return '';
+  }
+}
+
 export function App() {
+  const initialRoomParam = useMemo(() => readRoomParamFromUrl(), []);
+  const savedMpSession = useMemo(() => loadSavedMultiplayerSession(), []);
+
+  const [appMode, setAppMode] = useState<'solo' | 'multiplayer'>(() =>
+    initialRoomParam || savedMpSession ? 'multiplayer' : 'solo',
+  );
+  const [mpBusy, setMpBusy] = useState(false);
+  const [mpError, setMpError] = useState<string | null>(null);
+  const [mpRoom, setMpRoom] = useState<PublicRoomState | null>(null);
+  const [mpPlayerId, setMpPlayerId] = useState<string | null>(null);
+  const [mpClockOffsetMs, setMpClockOffsetMs] = useState(0);
+  const [mpFeedback, setMpFeedback] = useState<GuessFeedbackEvent | null>(null);
+
   const [customPlaylists, setCustomPlaylists] = useState<CustomPlaylist[]>(() => {
     try {
       const saved = localStorage.getItem('sursnap_custom_playlists_v1');
@@ -170,11 +207,52 @@ export function App() {
     }
   }, [sidebarCollapsed]);
 
+  const mpClientRef = useRef<MultiplayerClient | null>(null);
+  const getMpClient = useCallback(() => {
+    if (!mpClientRef.current) {
+      mpClientRef.current = new MultiplayerClient();
+    }
+    return mpClientRef.current;
+  }, []);
+
+  const [mpEngine] = useState(() => new AudioEngine());
+
   useEffect(() => {
+    const client = getMpClient();
+    client.setHandlers({
+      onRoomState: (state, playerId, clockOffsetMs) => {
+        setMpBusy(false);
+        setMpError(null);
+        setMpRoom(state);
+        setMpPlayerId(playerId);
+        setMpClockOffsetMs(clockOffsetMs);
+      },
+      onGuessFeedback: (fb) => {
+        setMpFeedback(fb);
+      },
+      onError: (code, message) => {
+        setMpBusy(false);
+        setMpError(message);
+        if (code === 'ROOM_NOT_FOUND') {
+          saveMultiplayerSession(null);
+        }
+      },
+    });
+
+    if (savedMpSession && (!initialRoomParam || savedMpSession.roomCode === initialRoomParam)) {
+      void client
+        .joinRoom(savedMpSession.roomCode, savedMpSession.nickname, savedMpSession.reconnectToken)
+        .catch(() => {
+          // Allow user to retry or join manually on lobby
+        });
+    }
+
     return () => {
       engineRef.current?.dispose();
+      mpEngine.dispose();
+      mpClientRef.current?.disconnect();
     };
-  }, []);
+  }, [getMpClient, initialRoomParam, mpEngine, savedMpSession]);
 
   const categoryCounts = useMemo(() => {
     const counts: Record<CategoryId, number> = {
@@ -584,12 +662,14 @@ export function App() {
   // Global Keyboard Shortcuts: Space (Play), S (Skip), / (Search), [ (Sidebar Collapse), Esc (Drawer)
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
+      if (appMode !== 'solo') return;
       if (helpOpen || importOpen || manageTargetPack !== null) return;
       const target = e.target as HTMLElement | null;
       const isTyping =
         target !== null &&
         (target.tagName === 'INPUT' ||
           target.tagName === 'TEXTAREA' ||
+          target.tagName === 'SELECT' ||
           target.isContentEditable);
 
       if (e.key === '/' && !isTyping) {
@@ -615,7 +695,57 @@ export function App() {
 
     window.addEventListener('keydown', onKeyDown);
     return () => window.removeEventListener('keydown', onKeyDown);
-  }, [handleSkip, handleTogglePlay, helpOpen, importOpen, manageTargetPack]);
+  }, [appMode, handleSkip, handleTogglePlay, helpOpen, importOpen, manageTargetPack]);
+
+  const switchAppMode = (nextMode: 'solo' | 'multiplayer') => {
+    if (nextMode === appMode) return;
+    if (nextMode === 'multiplayer') {
+      getEngine().stop();
+      setIsPlaying(false);
+    } else {
+      mpEngine.stop();
+    }
+    setAppMode(nextMode);
+  };
+
+  const handleMpCreateRoom = async (
+    nickname: string,
+    settings: RoomSettingsInput,
+    customTracks?: RoomTrackInput[],
+  ) => {
+    setMpBusy(true);
+    setMpError(null);
+    setMpFeedback(null);
+    try {
+      await getMpClient().createRoom(nickname, settings, customTracks);
+    } catch (err) {
+      setMpBusy(false);
+      setMpError(err instanceof Error ? err.message : 'Failed to create room.');
+    }
+  };
+
+  const handleMpJoinRoom = async (code: string, nickname: string) => {
+    setMpBusy(true);
+    setMpError(null);
+    setMpFeedback(null);
+    try {
+      await getMpClient().joinRoom(code, nickname);
+    } catch (err) {
+      setMpBusy(false);
+      setMpError(err instanceof Error ? err.message : 'Failed to join room.');
+    }
+  };
+
+  const handleMpLeaveRoom = () => {
+    mpEngine.stop();
+    getMpClient().leaveRoom();
+    setMpRoom(null);
+    setMpFeedback(null);
+    setMpError(null);
+    if (window.location.search.includes('room=')) {
+      window.history.replaceState({}, '', window.location.pathname);
+    }
+  };
 
   const activeCustom = customPlaylists.find((p) => p.id === category);
   const activeBuiltIn = CATEGORIES.find((c) => c.id === category);
@@ -645,7 +775,7 @@ export function App() {
       <div className="noise-overlay fixed inset-0 pointer-events-none z-0" />
 
       {/* MOBILE SIDEBAR BACKDROP */}
-      {mobileSidebarOpen && (
+      {appMode === 'solo' && mobileSidebarOpen && (
         <div
           onClick={() => setMobileSidebarOpen(false)}
           className="fixed inset-0 bg-black/70 backdrop-blur-sm z-30 lg:hidden"
@@ -653,12 +783,13 @@ export function App() {
         />
       )}
 
-      {/* 1. LEFT SIDEBAR NAVIGATION */}
-      <aside
-        className={`desktop-sidebar custom-scroll fixed lg:static top-0 left-0 z-40 h-[100dvh] w-[260px] shrink-0 bg-[#0D1017]/95 backdrop-blur-xl border-r border-white/[0.07] flex flex-col justify-between p-4 transition-transform duration-300 ease-out lg:translate-x-0 ${
-          mobileSidebarOpen ? 'translate-x-0' : '-translate-x-full'
-        } ${sidebarCollapsed ? 'is-collapsed' : ''}`}
-      >
+      {/* 1. LEFT SIDEBAR NAVIGATION (Solo Mode) */}
+      {appMode === 'solo' && (
+        <aside
+          className={`desktop-sidebar custom-scroll fixed lg:static top-0 left-0 z-40 h-[100dvh] w-[260px] shrink-0 bg-[#0D1017]/95 backdrop-blur-xl border-r border-white/[0.07] flex flex-col justify-between p-4 transition-transform duration-300 ease-out lg:translate-x-0 ${
+            mobileSidebarOpen ? 'translate-x-0' : '-translate-x-full'
+          } ${sidebarCollapsed ? 'is-collapsed' : ''}`}
+        >
         <div className="flex flex-col gap-4 overflow-y-auto overflow-x-hidden pr-0.5 custom-scroll">
           {/* Brand Identity + Desktop Collapse Toggle */}
           <div className="sidebar-header-row flex items-center justify-between gap-2">
@@ -948,66 +1079,118 @@ export function App() {
             </div>
           </div>
         </div>
-      </aside>
+        </aside>
+      )}
 
       {/* RIGHT MAIN WORKSPACE */}
       <div className="relative z-10 flex-1 flex flex-col min-h-screen lg:h-[100dvh] lg:overflow-hidden">
         {/* 2. TOP NAVIGATION BAR */}
         <header className="w-full shrink-0 px-4 sm:px-5 py-2.5 flex flex-wrap items-center justify-between gap-2.5 border-b border-white/[0.06] bg-[#0B0D14]/85 backdrop-blur-md">
           <div className="flex items-center gap-2 sm:gap-2.5 flex-wrap">
-            <button
-              type="button"
-              aria-label="Open Categories"
-              onClick={() => setMobileSidebarOpen(true)}
-              className="lg:hidden p-2 rounded-xl bg-white/[0.05] border border-white/10 text-slate-200 hover:bg-white/10 cursor-pointer"
+            {appMode === 'solo' ? (
+              <>
+                <button
+                  type="button"
+                  aria-label="Open Categories"
+                  onClick={() => setMobileSidebarOpen(true)}
+                  className="lg:hidden p-2 rounded-xl bg-white/[0.05] border border-white/10 text-slate-200 hover:bg-white/10 cursor-pointer"
+                >
+                  <Menu size={16} aria-hidden="true" />
+                </button>
+
+                <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-cyanNeon-500/[0.1] border border-cyanNeon-400/30 shadow-[inset_0_0_16px_rgba(6,182,212,0.08)]">
+                  <span className="w-2 h-2 rounded-full bg-cyanNeon-400 shadow-[0_0_8px_#22D3EE]" />
+                  <span className="font-mono text-[11px] sm:text-xs font-semibold uppercase tracking-[0.11em] text-cyanNeon-300">
+                    {activePackName.toUpperCase()} — {activeCount} TRACKS
+                  </span>
+                </div>
+
+                <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#131722] border border-white/[0.08]">
+                  <span className="font-mono text-[11px] sm:text-xs font-semibold uppercase tracking-[0.11em] text-slate-200">
+                    ROUND {roundNumber}
+                  </span>
+                </div>
+              </>
+            ) : (
+              <div className="flex items-center gap-2.5">
+                <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-cyanNeon-400 via-cyanNeon-500 to-cyanNeon-700 flex items-center justify-center border border-white/25">
+                  <span className="font-display font-extrabold text-[11px] tracking-tight text-[#041318]">
+                    0.1s
+                  </span>
+                </div>
+                <span className="font-display font-extrabold text-sm tracking-tight text-white">
+                  SurSnap
+                </span>
+              </div>
+            )}
+
+            {/* Mode Switcher */}
+            <div
+              role="group"
+              aria-label="Game mode"
+              className="inline-flex items-center p-0.5 rounded-xl bg-[#131722] border border-white/[0.08]"
             >
-              <Menu size={16} aria-hidden="true" />
-            </button>
-
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-cyanNeon-500/[0.1] border border-cyanNeon-400/30 shadow-[inset_0_0_16px_rgba(6,182,212,0.08)]">
-              <span className="w-2 h-2 rounded-full bg-cyanNeon-400 shadow-[0_0_8px_#22D3EE]" />
-              <span className="font-mono text-[11px] sm:text-xs font-semibold uppercase tracking-[0.11em] text-cyanNeon-300">
-                {activePackName.toUpperCase()} — {activeCount} TRACKS
-              </span>
-            </div>
-
-            <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#131722] border border-white/[0.08]">
-              <span className="font-mono text-[11px] sm:text-xs font-semibold uppercase tracking-[0.11em] text-slate-200">
-                ROUND {roundNumber}
-              </span>
+              <button
+                type="button"
+                aria-pressed={appMode === 'solo'}
+                onClick={() => switchAppMode('solo')}
+                className={`px-3 py-1 rounded-lg text-xs font-semibold inline-flex items-center gap-1.5 transition cursor-pointer ${
+                  appMode === 'solo'
+                    ? 'bg-cyanNeon-500/20 text-cyanNeon-200 border border-cyanNeon-400/40'
+                    : 'text-slate-400 hover:text-white border border-transparent'
+                }`}
+              >
+                <Radio size={13} aria-hidden="true" />
+                <span>Solo</span>
+              </button>
+              <button
+                type="button"
+                aria-pressed={appMode === 'multiplayer'}
+                onClick={() => switchAppMode('multiplayer')}
+                className={`px-3 py-1 rounded-lg text-xs font-semibold inline-flex items-center gap-1.5 transition cursor-pointer ${
+                  appMode === 'multiplayer'
+                    ? 'bg-cyanNeon-500/20 text-cyanNeon-200 border border-cyanNeon-400/40'
+                    : 'text-slate-400 hover:text-white border border-transparent'
+                }`}
+              >
+                <Users size={13} aria-hidden="true" />
+                <span>Live Rooms</span>
+              </button>
             </div>
           </div>
 
           <div className="flex items-center gap-2.5 ml-auto">
-            <div
-              className="px-3.5 py-1.5 rounded-xl bg-[#131722] border border-white/[0.08] flex items-center gap-3.5 shadow-md"
-              aria-label="Session score and streak"
-            >
-              <div className="flex items-center gap-1.5" title="Current Streak">
-                <Flame
-                  size={15}
-                  className="text-cyanNeon-400 drop-shadow-[0_0_8px_rgba(34,211,238,0.6)]"
-                  aria-hidden="true"
-                />
-                <span className="font-mono font-bold text-xs sm:text-sm text-white">
-                  {stats.streak}
-                </span>
-              </div>
+            {appMode === 'solo' && (
+              <div
+                className="px-3.5 py-1.5 rounded-xl bg-[#131722] border border-white/[0.08] flex items-center gap-3.5 shadow-md"
+                aria-label="Session score and streak"
+              >
+                <div className="flex items-center gap-1.5" title="Current Streak">
+                  <Flame
+                    size={15}
+                    className="text-cyanNeon-400 drop-shadow-[0_0_8px_rgba(34,211,238,0.6)]"
+                    aria-hidden="true"
+                  />
+                  <span className="font-mono font-bold text-xs sm:text-sm text-white">
+                    {stats.streak}
+                  </span>
+                </div>
 
-              <div className="w-px h-3.5 bg-white/10" />
+                <div className="w-px h-3.5 bg-white/10" />
 
-              <div className="flex items-center gap-1.5" title="Total Points">
-                <Award
-                  size={15}
-                  className="text-cyanNeon-300"
-                  aria-hidden="true"
-                />
-                <span className="font-mono font-bold text-xs sm:text-sm text-white">
-                  {stats.points}{' '}
-                  <span className="text-slate-400 font-normal">pts</span>
-                </span>
+                <div className="flex items-center gap-1.5" title="Total Points">
+                  <Award
+                    size={15}
+                    className="text-cyanNeon-300"
+                    aria-hidden="true"
+                  />
+                  <span className="font-mono font-bold text-xs sm:text-sm text-white">
+                    {stats.points}{' '}
+                    <span className="text-slate-400 font-normal">pts</span>
+                  </span>
+                </div>
               </div>
-            </div>
+            )}
 
             <button
               type="button"
@@ -1021,9 +1204,57 @@ export function App() {
         </header>
 
         {/* 3. FULL-BLEED WORKSPACE STAGE */}
-        <main className="flex-1 flex flex-col p-3 sm:p-4 lg:p-4 overflow-y-auto lg:overflow-visible">
+        <main
+          className={`flex-1 flex flex-col p-3 sm:p-4 lg:p-4 overflow-y-auto ${
+            appMode === 'solo' ? 'lg:overflow-visible' : 'lg:overflow-y-auto'
+          }`}
+        >
           <div className="w-full max-w-[1360px] mx-auto flex-1 rounded-2xl bg-gradient-to-b from-[#111520]/95 to-[#0C0F17]/98 border border-white/[0.08] shadow-[0_24px_64px_-16px_rgba(0,0,0,0.85),inset_0_1px_0_rgba(255,255,255,0.06)] px-4 sm:px-8 lg:px-10 pt-4 sm:pt-5 pb-4 flex flex-col justify-start relative">
             <div className="absolute inset-x-16 top-0 h-px bg-gradient-to-r from-transparent via-cyanNeon-400/50 to-transparent" />
+
+            {appMode === 'multiplayer' ? (
+              mpRoom ? (
+                <MultiplayerRoomView
+                  room={mpRoom}
+                  myPlayerId={mpPlayerId}
+                  clockOffsetMs={mpClockOffsetMs}
+                  customPlaylists={customPlaylists}
+                  feedback={mpFeedback}
+                  errorMessage={mpError}
+                  audioEngine={mpEngine}
+                  onUpdateSettings={(settings, customTracks) =>
+                    getMpClient().updateSettings(settings, customTracks)
+                  }
+                  onStartMatch={() => getMpClient().startMatch()}
+                  onRoundReady={(roundIdx) => getMpClient().markRoundReady(roundIdx)}
+                  onSubmitGuess={(roundIdx, suggestion) =>
+                    getMpClient().submitGuess(roundIdx, {
+                      id: suggestion.id,
+                      title: suggestion.title,
+                      trackName: suggestion.trackName,
+                      artistName: suggestion.artistName,
+                    })
+                  }
+                  onSkipStep={(roundIdx) => getMpClient().skipStep(roundIdx)}
+                  onBuzzIn={(roundIdx) => getMpClient().buzzIn(roundIdx)}
+                  onNextRound={() => getMpClient().nextRound()}
+                  onPlayAgain={() => getMpClient().playAgain()}
+                  onLeaveRoom={handleMpLeaveRoom}
+                />
+              ) : (
+                <MultiplayerLobby
+                  customPlaylists={customPlaylists}
+                  initialCode={initialRoomParam}
+                  initialNickname={savedMpSession?.nickname ?? ''}
+                  busy={mpBusy}
+                  errorMessage={mpError}
+                  onClearError={() => setMpError(null)}
+                  onCreateRoom={handleMpCreateRoom}
+                  onJoinRoom={handleMpJoinRoom}
+                />
+              )
+            ) : (
+              <>
 
             {importNotice && (
               <div className="w-full max-w-[960px] mx-auto mb-3 px-3.5 py-2 rounded-xl bg-cyanNeon-500/[0.1] border border-cyanNeon-400/30 flex items-center justify-between gap-3 text-xs text-cyanNeon-300">
@@ -1156,6 +1387,8 @@ export function App() {
             <div className="visually-hidden" aria-live="polite">
               {liveAnnouncement}
             </div>
+              </>
+            )}
           </div>
         </main>
       </div>

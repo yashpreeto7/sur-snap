@@ -3,10 +3,12 @@ import { readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { handleImportPlaylistRequest, sendJson } from './importPlaylistHandler.ts';
+import { createMultiplayerRuntime } from './multiplayer/wsServer.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST_DIR = path.resolve(__dirname, '..', 'dist');
 const INDEX_PATH = path.join(DIST_DIR, 'index.html');
+const multiplayer = createMultiplayerRuntime();
 
 const MIME_TYPES: Record<string, string> = {
   '.html': 'text/html; charset=utf-8',
@@ -86,6 +88,11 @@ async function routeRequest(req: IncomingMessage, res: ServerResponse): Promise<
     return;
   }
 
+  if (pathname.startsWith('/api/rooms/')) {
+    const handled = await multiplayer.handleHttpRequest(req, res, parsedUrl);
+    if (handled) return;
+  }
+
   if (pathname.startsWith('/api/')) {
     sendJson(res, 404, { error: 'API route not found.' });
     return;
@@ -128,6 +135,8 @@ const server = createServer((req, res) => {
     }
   });
 });
+
+multiplayer.attachToHttpServer(server, { destroyUnknownUpgrades: true });
 
 server.listen(port, host, () => {
   console.log(`SurSnap production server listening on http://${host}:${port}`);
