@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
+import { matchesMetadataQuery } from '../services/itunes.ts';
 import { dedupeTracksByTitleAndArtist, evaluateGuess, isSameTrack } from './matching.ts';
 
 test('evaluateGuess matches exact track ID', () => {
@@ -57,4 +58,26 @@ test('isSameTrack and dedupeTracksByTitleAndArtist preserve same-title songs by 
   assert.equal(combined.length, 2);
   assert.equal(added.length, 1);
   assert.equal(added[0].artistName, 'Arijit Singh');
+});
+
+test('matchesMetadataQuery blocks lyric-only hits while keeping title/artist matches', () => {
+  const aashiyan = {
+    title: 'Aashiyan',
+    trackName: 'Aashiyan',
+    artistName: 'Shreya Ghoshal, Nikhil Paul George & Pritam',
+    albumName: 'Barfi! (Original Motion Picture Soundtrack)',
+  };
+
+  assert.equal(matchesMetadataQuery(aashiyan, 'itni si hasi'), false);
+  assert.equal(matchesMetadataQuery(aashiyan, 'itni si khushi'), false);
+  assert.equal(matchesMetadataQuery(aashiyan, 'ashiyan'), true);
+  assert.equal(matchesMetadataQuery(aashiyan, 'shreya barfi'), true);
+
+  const chaiyya = {
+    title: 'Chaiyya Chaiyya',
+    trackName: 'Chaiyya Chaiyya',
+    artistName: 'Sukhwinder Singh & Sapna Awasthi',
+    albumName: 'Dil Se',
+  };
+  assert.equal(matchesMetadataQuery(chaiyya, 'chaiya chaiya'), true);
 });

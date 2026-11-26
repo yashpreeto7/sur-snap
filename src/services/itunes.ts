@@ -113,6 +113,60 @@ export async function resolveTrackPreview(
   throw new Error('No playable 30s preview returned by iTunes for this track.');
 }
 
+function normalizeForMetadataFilter(value: string): string {
+  return value
+    .toLowerCase()
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/['’"`]/g, '')
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function collapseRepeatedChars(value: string): string {
+  return value.replace(/(.)\1+/g, '$1');
+}
+
+/**
+ * Ensures autocomplete hits from iTunes actually match the song's title, artist,
+ * or album metadata—preventing Apple's lyric index from leaking song names when
+ * players type heard lyrics.
+ */
+export function matchesMetadataQuery(
+  candidate: {
+    title?: string;
+    trackName: string;
+    artistName: string;
+    albumName?: string;
+  },
+  query: string,
+): boolean {
+  const normQuery = normalizeForMetadataFilter(query);
+  const queryTokens = normQuery.split(' ').filter(Boolean);
+  if (queryTokens.length === 0) return false;
+
+  const normMeta = normalizeForMetadataFilter(
+    `${candidate.title ?? ''} ${candidate.trackName} ${candidate.artistName} ${candidate.albumName ?? ''}`,
+  );
+  if (!normMeta) return false;
+
+  const compactQuery = normQuery.replace(/\s+/g, '');
+  const compactMeta = normMeta.replace(/\s+/g, '');
+  if (
+    compactMeta.includes(compactQuery) ||
+    collapseRepeatedChars(compactMeta).includes(collapseRepeatedChars(compactQuery))
+  ) {
+    return true;
+  }
+
+  const collapsedMeta = collapseRepeatedChars(normMeta);
+  return queryTokens.every(
+    (token) =>
+      normMeta.includes(token) || collapsedMeta.includes(collapseRepeatedChars(token)),
+  );
+}
+
 /**
  * Searches Indian iTunes Store tracks for autocomplete suggestions.
  */
@@ -136,6 +190,20 @@ export async function searchIndianTracks(
 
   for (const item of data.results) {
     const clean = cleanTrackTitle(item.trackName);
+    if (
+      !matchesMetadataQuery(
+        {
+          title: clean,
+          trackName: item.trackName,
+          artistName: item.artistName,
+          albumName: item.collectionName ?? '',
+        },
+        trimmed,
+      )
+    ) {
+      continue;
+    }
+
     const key = `${clean.toLowerCase()}::${item.artistName.toLowerCase()}`;
     if (seen.has(key)) continue;
     seen.add(key);
