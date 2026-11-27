@@ -42,6 +42,7 @@ import {
 import {
   ATTEMPT_DURATIONS,
   MAX_PREVIEW_SECONDS,
+  getSnippetStartOffset,
   type CatalogTrack,
   type CategoryId,
   type CustomPlaylist,
@@ -189,6 +190,26 @@ export function App() {
     }
     return { volumePercent: 80, muted: false };
   });
+
+  const [playFromCheckpoint, setPlayFromCheckpoint] = useState<boolean>(() => {
+    try {
+      return localStorage.getItem('sursnap_checkpoint_playback_v1') === 'true';
+    } catch {
+      return false;
+    }
+  });
+
+  const handleToggleCheckpoint = useCallback(() => {
+    setPlayFromCheckpoint((prev) => {
+      const next = !prev;
+      try {
+        localStorage.setItem('sursnap_checkpoint_playback_v1', String(next));
+      } catch {
+        // Ignore storage failures
+      }
+      return next;
+    });
+  }, []);
 
   const effectiveGain = audioPrefs.muted ? 0 : audioPrefs.volumePercent / 100;
   const volumeGainRef = useRef(effectiveGain);
@@ -446,6 +467,9 @@ export function App() {
       const duration = isRoundOver
         ? MAX_PREVIEW_SECONDS
         : ATTEMPT_DURATIONS[stepIdx] ?? ATTEMPT_DURATIONS[0];
+      const startOffset = isRoundOver
+        ? 0
+        : getSnippetStartOffset(stepIdx, playFromCheckpoint);
 
       setIsPlaying(true);
       void getEngine().playSnippet(
@@ -456,9 +480,10 @@ export function App() {
           setIsPlaying(false);
           setElapsedSec(0);
         },
+        startOffset,
       );
     },
-    [audioBuffer, getEngine, phase],
+    [audioBuffer, getEngine, phase, playFromCheckpoint],
   );
 
   const handleTogglePlay = useCallback(() => {
@@ -1282,6 +1307,8 @@ export function App() {
                   feedback={mpFeedback}
                   errorMessage={mpError}
                   audioEngine={mpEngine}
+                  playFromCheckpoint={playFromCheckpoint}
+                  onToggleCheckpoint={handleToggleCheckpoint}
                   onUpdateSettings={(settings, customTracks) =>
                     getMpClient().updateSettings(settings, customTracks)
                   }
@@ -1337,9 +1364,11 @@ export function App() {
               guesses={guesses}
               isPlaying={isPlaying}
               elapsedSec={elapsedSec}
+              playFromCheckpoint={playFromCheckpoint}
               errorMessage={errorMessage}
               onSelectStep={handleSelectStepTile}
               onTogglePlay={handleTogglePlay}
+              onToggleCheckpoint={handleToggleCheckpoint}
               onSkip={handleSkip}
               onGiveUp={handleGiveUp}
               onRetry={handleNextSong}

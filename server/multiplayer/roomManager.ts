@@ -25,9 +25,9 @@ const ROOM_CODE_ALPHABET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
 const TOTAL_STEPS = ATTEMPT_DURATIONS.length; // 6
 
 export const LOADING_ROUND_TIMEOUT_MS = 4_000;
-export const SYNC_STEP_DURATION_MS = 12_000;
-export const RACE_ROUND_DURATION_MS = 45_000;
-export const BUZZ_WINDOW_DURATION_MS = 8_000;
+export const SYNC_STEP_DURATION_MS = 60_000;
+export const RACE_ROUND_DURATION_MS = 60_000;
+export const BUZZ_WINDOW_DURATION_MS = 40_000;
 export const ROUND_REVEAL_DURATION_MS = 8_000;
 export const BUZZ_PENALTY_POINTS = 250;
 export const IDLE_ROOM_TTL_MS = 30 * 60_000;
@@ -583,7 +583,7 @@ export class RoomManager {
 
     // Wrong or artist-match
     if (room.mode === 'buzz-in') {
-      const penalty = Math.min(BUZZ_PENALTY_POINTS, player.score);
+      const penalty = BUZZ_PENALTY_POINTS;
       player.score -= penalty;
       player.roundPointsDelta -= penalty;
       player.roundStatus = 'locked-out';
@@ -688,7 +688,7 @@ export class RoomManager {
 
     this.touchIdleTimer(room);
     const now = this.nowFn();
-    room.remainingStepMs = Math.max(2500, (room.phaseEndsAt ?? now) - now);
+    room.remainingStepMs = Math.max(5_000, (room.phaseEndsAt ?? now) - now);
     room.buzzedPlayerId = playerId;
     room.phase = 'buzz-window';
     room.phaseEndsAt = now + BUZZ_WINDOW_DURATION_MS;
@@ -699,7 +699,7 @@ export class RoomManager {
       if (room.roundGeneration !== gen || room.phase !== 'buzz-window') return;
       if (room.buzzedPlayerId !== playerId) return;
 
-      const penalty = Math.min(BUZZ_PENALTY_POINTS, player.score);
+      const penalty = BUZZ_PENALTY_POINTS;
       player.score -= penalty;
       player.roundPointsDelta -= penalty;
       player.roundStatus = 'locked-out';

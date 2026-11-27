@@ -7,6 +7,7 @@ import {
   Copy,
   Crown,
   ExternalLink,
+  FastForward,
   LogOut,
   Pause,
   Play,
@@ -21,6 +22,7 @@ import type { GuessFeedbackEvent } from '../../services/multiplayerClient';
 import {
   ATTEMPT_DURATIONS,
   MAX_PREVIEW_SECONDS,
+  getSnippetStartOffset,
   type CustomPlaylist,
   type SearchSuggestion,
 } from '../../types/game';
@@ -42,12 +44,14 @@ interface MultiplayerRoomViewProps {
   feedback: GuessFeedbackEvent | null;
   errorMessage: string | null;
   audioEngine: AudioEngine;
+  playFromCheckpoint: boolean;
   onUpdateSettings: (settings: RoomSettingsInput, customTracks?: RoomTrackInput[]) => void;
   onStartMatch: () => void;
   onRoundReady: (roundIndex: number) => void;
   onSubmitGuess: (roundIndex: number, suggestion: SearchSuggestion) => void;
   onSkipStep: (roundIndex: number) => void;
   onBuzzIn: (roundIndex: number) => void;
+  onToggleCheckpoint: () => void;
   onNextRound: () => void;
   onPlayAgain: () => void;
   onLeaveRoom: () => void;
@@ -201,12 +205,14 @@ export function MultiplayerRoomView({
   feedback,
   errorMessage,
   audioEngine,
+  playFromCheckpoint,
   onUpdateSettings,
   onStartMatch,
   onRoundReady,
   onSubmitGuess,
   onSkipStep,
   onBuzzIn,
+  onToggleCheckpoint,
   onNextRound,
   onPlayAgain,
   onLeaveRoom,
@@ -313,10 +319,10 @@ export function MultiplayerRoomView({
   }, [room.phase, audioEngine]);
 
   const playDuration = useCallback(
-    (durationSec: number) => {
+    (durationSec: number, startOffsetSec = 0) => {
       if (!audioBuffer) return;
       setIsPlaying(true);
-      setElapsedSec(0);
+      setElapsedSec(startOffsetSec);
       void audioEngine
         .playSnippet(
           audioBuffer,
@@ -326,6 +332,7 @@ export function MultiplayerRoomView({
             setIsPlaying(false);
             setElapsedSec(0);
           },
+          startOffsetSec,
         )
         .catch(() => {
           setIsPlaying(false);
@@ -343,10 +350,22 @@ export function MultiplayerRoomView({
     lastAutoPlayedKeyRef.current = key;
 
     const timer = window.setTimeout(() => {
-      playDuration(ATTEMPT_DURATIONS[room.stepIndex] ?? 1);
+      const idx = Math.min(5, room.stepIndex);
+      playDuration(
+        ATTEMPT_DURATIONS[idx] ?? 1,
+        getSnippetStartOffset(idx, playFromCheckpoint),
+      );
     }, 0);
     return () => window.clearTimeout(timer);
-  }, [room.phase, room.mode, room.currentRound, room.stepIndex, audioBuffer, playDuration]);
+  }, [
+    room.phase,
+    room.mode,
+    room.currentRound,
+    room.stepIndex,
+    audioBuffer,
+    playDuration,
+    playFromCheckpoint,
+  ]);
 
   // Focus guess input automatically when current player wins the buzz
   useEffect(() => {
@@ -363,14 +382,17 @@ export function MultiplayerRoomView({
       return;
     }
     if (room.phase === 'round-reveal' || room.phase === 'finished') {
-      playDuration(MAX_PREVIEW_SECONDS);
+      playDuration(MAX_PREVIEW_SECONDS, 0);
       return;
     }
     const idx =
       room.mode === 'speed-race'
         ? Math.min(5, raceSelectedStep)
         : Math.min(5, room.stepIndex);
-    playDuration(ATTEMPT_DURATIONS[idx] ?? 1);
+    playDuration(
+      ATTEMPT_DURATIONS[idx] ?? 1,
+      getSnippetStartOffset(idx, playFromCheckpoint),
+    );
   };
 
   const handleLobbyPackChange = (nextPackId: string) => {
@@ -453,7 +475,7 @@ export function MultiplayerRoomView({
           {remainingSeconds !== null && room.phase !== 'lobby' && room.phase !== 'finished' && (
             <div
               className={`px-3 py-1 rounded-xl font-mono text-xs font-bold border ${
-                remainingSeconds <= 3
+                remainingSeconds <= 5
                   ? 'bg-rose-500/15 border-rose-400/40 text-rose-300'
                   : 'bg-[#131722] border-white/10 text-cyanNeon-200'
               }`}
@@ -647,7 +669,10 @@ export function MultiplayerRoomView({
                             step: idx,
                           });
                         }
-                        playDuration(dur);
+                        playDuration(
+                          dur,
+                          getSnippetStartOffset(idx, playFromCheckpoint),
+                        );
                       }}
                       className={`h-14 rounded-xl border font-mono text-xs font-bold transition flex flex-col items-center justify-center ${
                         isActive
@@ -714,17 +739,64 @@ export function MultiplayerRoomView({
                       </button>
                       <div>
                         <div className="text-xs font-bold text-white">
-                          {effectiveIsPlaying
-                            ? `Playing ${elapsedSec.toFixed(1)}s / ${activeDurationSec}s`
-                            : `${activeDurationSec}s Snippet Ready`}
+                          {(() => {
+                            const currentIdx =
+                              room.mode === 'speed-race' ? raceSelectedStep : room.stepIndex;
+                            const startAt = getSnippetStartOffset(currentIdx, playFromCheckpoint);
+                            if (effectiveIsPlaying) {
+                              return `Playing ${elapsedSec.toFixed(1)}s / ${activeDurationSec}s${
+                                startAt > 0 ? ` (from ${startAt}s)` : ''
+                              }`;
+                            }
+                            return startAt > 0
+                              ? `${startAt}s → ${activeDurationSec}s Snippet Ready`
+                              : `${activeDurationSec}s Snippet Ready`;
+                          })()}
                         </div>
                         <div className="text-[11px] text-slate-400">
-                          Worth {MULTIPLAYER_STEP_POINTS[room.mode === 'speed-race' ? Math.min(5, myPlayer?.attemptIndex ?? 0) : room.stepIndex]} base pts
+                          Worth{' '}
+                          {MULTIPLAYER_STEP_POINTS[
+                            room.mode === 'speed-race'
+                              ? Math.min(5, myPlayer?.attemptIndex ?? 0)
+                              : room.stepIndex
+                          ]}{' '}
+                          base pts ·{' '}
+                          {room.mode === 'speed-race' ? '60s race' : '60s limit · Vote Skip anytime'}
                         </div>
                       </div>
                     </div>
 
-                    <div className="flex items-center gap-2.5">
+                    <div className="flex flex-wrap items-center gap-2">
+                      <button
+                        type="button"
+                        aria-pressed={playFromCheckpoint}
+                        onClick={onToggleCheckpoint}
+                        title={
+                          playFromCheckpoint
+                            ? 'Playing from last checkpoint. Click to start from 0s.'
+                            : 'Playing from 0s. Click to jump straight to new checkpoint audio.'
+                        }
+                        className={`px-3 py-2.5 rounded-xl border text-xs font-semibold inline-flex items-center gap-1.5 transition cursor-pointer ${
+                          playFromCheckpoint
+                            ? 'bg-cyanNeon-500/15 border-cyanNeon-400/50 text-cyanNeon-200 hover:bg-cyanNeon-500/25'
+                            : 'bg-white/[0.05] hover:bg-white/[0.1] border-white/10 text-slate-300'
+                        }`}
+                      >
+                        <FastForward size={13} aria-hidden="true" />
+                        <span>
+                          {(() => {
+                            const currentIdx =
+                              room.mode === 'speed-race' ? raceSelectedStep : room.stepIndex;
+                            const startAt = getSnippetStartOffset(currentIdx, playFromCheckpoint);
+                            return playFromCheckpoint
+                              ? startAt > 0
+                                ? `From ${startAt}s`
+                                : 'Checkpoint'
+                              : 'From 0s';
+                          })()}
+                        </span>
+                      </button>
+
                       {room.mode === 'buzz-in' && (
                         <button
                           type="button"
@@ -809,7 +881,7 @@ export function MultiplayerRoomView({
                 >
                   <span>
                     {room.buzzedPlayerId === myPlayerId
-                      ? 'You buzzed in! Submit your guess before the timer runs out.'
+                      ? 'You buzzed in! Submit your guess within 40s.'
                       : `${buzzedPlayerName} buzzed in first — waiting on their guess...`}
                   </span>
                 </div>

@@ -71,6 +71,7 @@ export class AudioEngine {
     durationSec: number,
     onProgress: (elapsedSec: number) => void,
     onEnded: () => void,
+    startOffsetSec = 0,
   ): Promise<void> {
     this.stop();
 
@@ -79,14 +80,17 @@ export class AudioEngine {
       await ctx.resume();
     }
 
-    const playDuration = Math.min(durationSec, buffer.duration);
+    const safeEnd = Math.min(durationSec, buffer.duration);
+    const safeOffset = Math.max(0, Math.min(startOffsetSec, Math.max(0, safeEnd - 0.05)));
+    const playSpan = Math.max(0.02, safeEnd - safeOffset);
+
     const source = ctx.createBufferSource();
     source.buffer = buffer;
 
     const gain = ctx.createGain();
     const now = ctx.currentTime;
-    const endTime = now + playDuration;
-    const fadeSec = Math.min(0.008, playDuration * 0.15);
+    const endTime = now + playSpan;
+    const fadeSec = Math.min(0.008, playSpan * 0.15);
 
     gain.gain.setValueAtTime(1, now);
     gain.gain.setValueAtTime(1, Math.max(now, endTime - fadeSec));
@@ -115,13 +119,13 @@ export class AudioEngine {
     };
 
     source.onended = finish;
-    source.start(now, 0, playDuration);
+    source.start(now, safeOffset, playSpan);
 
     const tick = () => {
       if (finished) return;
-      const elapsed = Math.min(playDuration, Math.max(0, ctx.currentTime - now));
-      onProgress(elapsed);
-      if (elapsed < playDuration) {
+      const elapsed = Math.min(playSpan, Math.max(0, ctx.currentTime - now));
+      onProgress(Math.min(safeEnd, safeOffset + elapsed));
+      if (elapsed < playSpan) {
         this.rafId = requestAnimationFrame(tick);
       }
     };

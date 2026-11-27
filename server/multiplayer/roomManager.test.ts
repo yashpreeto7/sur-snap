@@ -1,7 +1,13 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import type { PublicRoomState, ServerWsMessage } from '../../src/types/multiplayer.ts';
-import { BUZZ_PENALTY_POINTS, RoomManager } from './roomManager.ts';
+import {
+  BUZZ_PENALTY_POINTS,
+  BUZZ_WINDOW_DURATION_MS,
+  RACE_ROUND_DURATION_MS,
+  RoomManager,
+  SYNC_STEP_DURATION_MS,
+} from './roomManager.ts';
 import type { RoomTrackResolver } from './trackResolver.ts';
 
 function createStubResolver(trackId = 101): RoomTrackResolver {
@@ -201,7 +207,11 @@ test('Speed-race flow: independent skips advance per-player attemptIndex and end
   manager.destroyRoom(room.code);
 });
 
-test('Buzz-in flow: exclusive buzz lock, penalty lockout on miss, and immediate win on correct buzz', async () => {
+test('Buzz-in flow: exclusive buzz lock, negative penalty + step cooldown on miss, and immediate win on correct buzz', async () => {
+  assert.equal(SYNC_STEP_DURATION_MS, 60_000);
+  assert.equal(RACE_ROUND_DURATION_MS, 60_000);
+  assert.equal(BUZZ_WINDOW_DURATION_MS, 40_000);
+
   const { manager, lastMessage } = createHarness(createStubResolver(900), () => 50_000);
 
   const room = manager.createRoom('p1', 'One', {
@@ -223,14 +233,16 @@ test('Buzz-in flow: exclusive buzz lock, penalty lockout on miss, and immediate 
   const buzzState = manager.getPublicRoomState(room.code);
   assert.equal(buzzState?.phase, 'buzz-window');
   assert.equal(buzzState?.buzzedPlayerId, 'p1');
+  assert.equal(buzzState?.phaseEndsAt, 50_000 + BUZZ_WINDOW_DURATION_MS);
 
-  // p1 submits wrong guess -> locked out, score remains 0 (floored), returns to playing
+  // p1 submits wrong guess -> score drops below zero (-250), step-locked until next snippet
   manager.submitGuess('p1', 0, { id: 1, title: 'Wrong', artistName: 'Nobody' });
   assert.equal(lastMessage('p1')?.type, 'guess_feedback');
   const resumed = manager.getPublicRoomState(room.code);
   assert.equal(resumed?.phase, 'playing');
   assert.equal(resumed?.buzzedPlayerId, null);
   assert.equal(resumed?.players.find((p) => p.id === 'p1')?.roundStatus, 'locked-out');
+  assert.equal(resumed?.players.find((p) => p.id === 'p1')?.score, -BUZZ_PENALTY_POINTS);
 
   // p2 buzzes and wins step 0 -> +1000
   manager.buzzIn('p2', 0);

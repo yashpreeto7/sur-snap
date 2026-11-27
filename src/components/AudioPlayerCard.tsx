@@ -1,7 +1,8 @@
-import { Check, Flag, Pause, Play, RotateCw, SkipForward, X } from 'lucide-react';
+import { Check, FastForward, Flag, Pause, Play, RotateCw, SkipForward, X } from 'lucide-react';
 import {
   ATTEMPT_DURATIONS,
   MAX_PREVIEW_SECONDS,
+  getSnippetStartOffset,
   type GuessEntry,
   type RoundPhase,
 } from '../types/game';
@@ -15,9 +16,11 @@ interface AudioPlayerCardProps {
   guesses: GuessEntry[];
   isPlaying: boolean;
   elapsedSec: number;
+  playFromCheckpoint: boolean;
   errorMessage: string | null;
   onSelectStep: (stepIdx: number) => void;
   onTogglePlay: () => void;
+  onToggleCheckpoint: () => void;
   onSkip: () => void;
   onGiveUp: () => void;
   onRetry: () => void;
@@ -34,9 +37,11 @@ export function AudioPlayerCard({
   guesses,
   isPlaying,
   elapsedSec,
+  playFromCheckpoint,
   errorMessage,
   onSelectStep,
   onTogglePlay,
+  onToggleCheckpoint,
   onSkip,
   onGiveUp,
   onRetry,
@@ -47,6 +52,9 @@ export function AudioPlayerCard({
   const activeCapSec = isRoundOver
     ? MAX_PREVIEW_SECONDS
     : ATTEMPT_DURATIONS[activeStep];
+  const checkpointStartSec = isRoundOver
+    ? 0
+    : getSnippetStartOffset(activeStep, playFromCheckpoint);
 
   const fraction = activeCapSec > 0 ? Math.min(1, elapsedSec / activeCapSec) : 0;
   const currentFillPct = Math.min(activeStopPct, Math.max(0, fraction * activeStopPct));
@@ -177,7 +185,9 @@ export function AudioPlayerCard({
                   ? 'LOADING PREVIEW...'
                   : isRoundOver
                     ? '30 SECONDS FULL PREVIEW'
-                    : formatDurationUpper(ATTEMPT_DURATIONS[activeStep])}
+                    : checkpointStartSec > 0
+                      ? `${checkpointStartSec}S → ${ATTEMPT_DURATIONS[activeStep]}S`
+                      : formatDurationUpper(ATTEMPT_DURATIONS[activeStep])}
               </span>
             </div>
             <div className="w-0 h-0 border-l-[5px] border-l-transparent border-r-[5px] border-r-transparent border-t-[5px] border-t-cyanNeon-400/40" />
@@ -298,6 +308,33 @@ export function AudioPlayerCard({
               className="text-slate-300 group-hover:translate-x-0.5 transition-transform"
               aria-hidden="true"
             />
+          </button>
+
+          {/* Start From Toggle (0s vs Checkpoint) */}
+          <button
+            type="button"
+            aria-pressed={playFromCheckpoint}
+            disabled={isRoundOver || phase === 'loading'}
+            onClick={onToggleCheckpoint}
+            title={
+              playFromCheckpoint
+                ? 'Currently playing only from previous checkpoint. Click to play from 0s.'
+                : 'Currently playing from 0s. Click to jump straight to new checkpoint audio.'
+            }
+            className={`px-3.5 sm:px-4 py-3 rounded-2xl border font-semibold text-xs sm:text-sm flex items-center gap-2 shadow-lg transition-all cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed ${
+              playFromCheckpoint
+                ? 'bg-cyanNeon-500/15 border-cyanNeon-400/50 text-cyanNeon-200 hover:bg-cyanNeon-500/25'
+                : 'bg-[#151A25] hover:bg-[#1B2230] border-white/10 text-slate-300 hover:text-white'
+            }`}
+          >
+            <FastForward size={14} aria-hidden="true" />
+            <span>
+              {playFromCheckpoint
+                ? checkpointStartSec > 0
+                  ? `From ${checkpointStartSec}s`
+                  : 'Checkpoint'
+                : 'From 0s'}
+            </span>
           </button>
 
           {/* Give Up Button */}

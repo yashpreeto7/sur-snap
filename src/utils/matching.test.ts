@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { matchesMetadataQuery } from '../services/itunes.ts';
+import { getSnippetStartOffset } from '../types/game.ts';
 import { dedupeTracksByTitleAndArtist, evaluateGuess, isSameTrack } from './matching.ts';
 
 test('evaluateGuess matches exact track ID', () => {
@@ -80,4 +81,13 @@ test('matchesMetadataQuery blocks lyric-only hits while keeping title/artist mat
     albumName: 'Dil Se',
   };
   assert.equal(matchesMetadataQuery(chaiyya, 'chaiya chaiya'), true);
+});
+
+test('getSnippetStartOffset returns 0s or previous checkpoint duration', () => {
+  assert.equal(getSnippetStartOffset(0, false), 0);
+  assert.equal(getSnippetStartOffset(4, false), 0);
+  assert.equal(getSnippetStartOffset(0, true), 0);
+  assert.equal(getSnippetStartOffset(1, true), 0.1);
+  assert.equal(getSnippetStartOffset(4, true), 7);
+  assert.equal(getSnippetStartOffset(5, true), 15);
 });

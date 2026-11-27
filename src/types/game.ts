@@ -1,6 +1,15 @@
 export const ATTEMPT_DURATIONS = [0.1, 1, 3, 7, 15, 30] as const;
 export const MAX_PREVIEW_SECONDS = 30;
 
+/**
+ * Returns playback start offset (0s from start, or previous unlocked step
+ * duration when checkpoint mode is active).
+ */
+export function getSnippetStartOffset(stepIdx: number, fromCheckpoint: boolean): number {
+  if (!fromCheckpoint || stepIdx <= 0) return 0;
+  return ATTEMPT_DURATIONS[Math.min(stepIdx - 1, ATTEMPT_DURATIONS.length - 1)] ?? 0;
+}
+
 export type CategoryId =
   | 'all-india'
   | 'old-is-gold'

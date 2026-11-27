@@ -32,19 +32,19 @@ const MODE_OPTIONS: Array<{
   {
     id: 'classic-sync',
     label: 'Classic Sync',
-    summary: 'Shared 0.1s -> 30s steps on a live timer. Faster solves score more.',
+    summary: 'Shared 0.1s -> 30s steps (60s safety limit, Vote Skip anytime). Faster solves score more.',
     icon: Radio,
   },
   {
     id: 'speed-race',
     label: 'Speed Race',
-    summary: 'Same hidden track, 45s clock, play & skip at your own pace.',
+    summary: 'Same hidden track, 60s clock, play & skip at your own pace.',
     icon: Zap,
   },
   {
     id: 'buzz-in',
     label: 'Buzz-In',
-    summary: 'Hit Buzz first to answer! Miss costs -250 pts until the next snippet; Vote Skip anytime.',
+    summary: 'Hit Buzz first for 40s to answer! Miss costs -250 pts (can go negative); Vote Skip anytime.',
     icon: Sparkles,
   },
 ];
