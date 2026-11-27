@@ -313,3 +313,44 @@ test('Buzz-in collective vote skip advances step when all active players vote sk
 
   manager.destroyRoom(room.code);
 });
+
+test('Custom stepTimerSec (Vote Only / 30s) and buzzTimeSec presets apply on create & lobby update', async () => {
+  const { manager } = createHarness(createStubResolver(980), () => 75_000);
+
+  const room = manager.createRoom('p1', 'Host', {
+    mode: 'buzz-in',
+    packId: 'all-india',
+    packName: 'All India Mix',
+    roundCount: 1,
+    stepTimerSec: 0,
+    buzzTimeSec: 20,
+  });
+  assert.ok(room);
+  assert.equal(room.stepTimerSec, 0);
+  assert.equal(room.buzzTimeSec, 20);
+
+  // Lobby update adjusts buzzTimeSec to 15
+  manager.updateSettings('p1', {
+    mode: 'buzz-in',
+    packId: 'all-india',
+    packName: 'All India Mix',
+    roundCount: 1,
+    stepTimerSec: 0,
+    buzzTimeSec: 15,
+  });
+
+  await manager.startMatch('p1');
+  manager.markRoundReady('p1', 0);
+
+  const playing = manager.getPublicRoomState(room.code);
+  assert.equal(playing?.phase, 'playing');
+  assert.equal(playing?.phaseEndsAt, null); // Vote Only has no auto-skip timer
+  assert.equal(playing?.buzzTimeSec, 15);
+
+  manager.buzzIn('p1', 0);
+  const buzzed = manager.getPublicRoomState(room.code);
+  assert.equal(buzzed?.phase, 'buzz-window');
+  assert.equal(buzzed?.phaseEndsAt, 75_000 + 15_000);
+
+  manager.destroyRoom(room.code);
+});

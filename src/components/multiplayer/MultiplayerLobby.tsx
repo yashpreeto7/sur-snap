@@ -2,10 +2,12 @@ import { useId, useRef, useState } from 'react';
 import { Headphones, PlusCircle, Radio, Sparkles, Users, Zap } from 'lucide-react';
 import { CATEGORIES } from '../../data/catalog';
 import type { CustomPlaylist } from '../../types/game';
-import type {
-  RoomMode,
-  RoomSettingsInput,
-  RoomTrackInput,
+import {
+  BUZZ_TIME_PRESETS,
+  STEP_TIMER_PRESETS,
+  type RoomMode,
+  type RoomSettingsInput,
+  type RoomTrackInput,
 } from '../../types/multiplayer';
 
 interface MultiplayerLobbyProps {
@@ -94,6 +96,8 @@ export function MultiplayerLobby({
   const [mode, setMode] = useState<RoomMode>('classic-sync');
   const [packId, setPackId] = useState<string>('all-india');
   const [roundCount, setRoundCount] = useState<number>(10);
+  const [stepTimerSec, setStepTimerSec] = useState<number>(60);
+  const [buzzTimeSec, setBuzzTimeSec] = useState<number>(40);
 
   const validateNickname = (value: string): boolean => {
     const clean = value.trim();
@@ -125,6 +129,8 @@ export function MultiplayerLobby({
         packId,
         packName,
         roundCount,
+        stepTimerSec,
+        buzzTimeSec,
       },
       customTracks,
     );
@@ -362,6 +368,79 @@ export function MultiplayerLobby({
                 })}
               </div>
             </fieldset>
+          </div>
+
+          {/* Next Skip / Round Timer & Buzz Time Settings */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-start">
+            <fieldset className="flex flex-col gap-1.5">
+              <legend className="text-xs font-semibold text-slate-200 mb-1">
+                {mode === 'speed-race' ? 'Round Timer' : 'Auto-Skip Timer'}
+              </legend>
+              <div className="grid grid-cols-4 gap-2">
+                {STEP_TIMER_PRESETS.map((sec) => {
+                  const checked = stepTimerSec === sec;
+                  const radioId = `mp-step-timer-${sec}`;
+                  return (
+                    <label
+                      key={sec}
+                      htmlFor={radioId}
+                      className={`min-h-[42px] px-1.5 rounded-xl border flex items-center justify-center text-[11px] font-mono font-bold cursor-pointer transition focus-within:outline-2 focus-within:outline-cyanNeon-400 focus-within:outline-offset-2 ${
+                        checked
+                          ? 'bg-cyanNeon-500/20 border-cyanNeon-400 text-cyanNeon-200'
+                          : 'bg-[#090B11] border-white/[0.1] text-slate-400 hover:text-white'
+                      }`}
+                    >
+                      <input
+                        id={radioId}
+                        type="radio"
+                        name="stepTimerSec"
+                        value={sec}
+                        checked={checked}
+                        onChange={() => setStepTimerSec(sec)}
+                        className="visually-hidden"
+                      />
+                      <span>{sec === 0 ? 'Vote ∞' : `${sec}s`}</span>
+                    </label>
+                  );
+                })}
+              </div>
+            </fieldset>
+
+            {mode === 'buzz-in' && (
+              <fieldset className="flex flex-col gap-1.5">
+                <legend className="text-xs font-semibold text-slate-200 mb-1">
+                  Buzz Guess Time
+                </legend>
+                <div className="grid grid-cols-5 gap-1.5">
+                  {BUZZ_TIME_PRESETS.map((sec) => {
+                    const checked = buzzTimeSec === sec;
+                    const radioId = `mp-buzz-time-${sec}`;
+                    return (
+                      <label
+                        key={sec}
+                        htmlFor={radioId}
+                        className={`min-h-[42px] rounded-xl border flex items-center justify-center text-[11px] font-mono font-bold cursor-pointer transition focus-within:outline-2 focus-within:outline-cyanNeon-400 focus-within:outline-offset-2 ${
+                          checked
+                            ? 'bg-amber-400/20 border-amber-400 text-amber-200'
+                            : 'bg-[#090B11] border-white/[0.1] text-slate-400 hover:text-white'
+                        }`}
+                      >
+                        <input
+                          id={radioId}
+                          type="radio"
+                          name="buzzTimeSec"
+                          value={sec}
+                          checked={checked}
+                          onChange={() => setBuzzTimeSec(sec)}
+                          className="visually-hidden"
+                        />
+                        <span>{sec}s</span>
+                      </label>
+                    );
+                  })}
+                </div>
+              </fieldset>
+            )}
           </div>
 
           <button

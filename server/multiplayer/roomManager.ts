@@ -1,8 +1,10 @@
 import { randomBytes } from 'node:crypto';
 import { ATTEMPT_DURATIONS, type GuessStatus } from '../../src/types/game.ts';
 import {
+  BUZZ_TIME_PRESETS,
   MAX_ROOM_PLAYERS,
   MULTIPLAYER_STEP_POINTS,
+  STEP_TIMER_PRESETS,
   type GuessSubmissionCandidate,
   type PlayerRoundStatus,
   type PublicRoomPlayer,
@@ -52,6 +54,8 @@ export interface InternalRoom {
   packId: string;
   packName: string;
   roundCount: number;
+  stepTimerSec: number;
+  buzzTimeSec: number;
   totalRounds: number;
   currentRound: number;
   phase: RoomPhase;
@@ -91,6 +95,20 @@ function normalizeMode(raw: string): RoomMode {
   return 'classic-sync';
 }
 
+function normalizeStepTimerSec(raw?: number): number {
+  if (typeof raw === 'number' && STEP_TIMER_PRESETS.includes(raw as (typeof STEP_TIMER_PRESETS)[number])) {
+    return raw;
+  }
+  return 60;
+}
+
+function normalizeBuzzTimeSec(raw?: number): number {
+  if (typeof raw === 'number' && BUZZ_TIME_PRESETS.includes(raw as (typeof BUZZ_TIME_PRESETS)[number])) {
+    return raw;
+  }
+  return 40;
+}
+
 function formatCode(raw: string): string {
   return raw.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 6);
 }
@@ -119,6 +137,8 @@ function buildPublicState(room: InternalRoom, now: number): PublicRoomState {
     packId: room.packId,
     packName: room.packName,
     roundCount: room.roundCount,
+    stepTimerSec: room.stepTimerSec,
+    buzzTimeSec: room.buzzTimeSec,
     currentRound: room.currentRound,
     totalRounds: room.totalRounds,
     phase: room.phase,
@@ -270,19 +290,24 @@ export class RoomManager {
         ? settings.packName.trim().slice(0, 80)
         : 'All India Mix';
 
+    const stepTimerSec = normalizeStepTimerSec(settings.stepTimerSec);
+    const buzzTimeSec = normalizeBuzzTimeSec(settings.buzzTimeSec);
+
     const room: InternalRoom = {
       code,
       mode: normalizeMode(settings.mode),
       packId,
       packName,
       roundCount: clampRoundCount(settings.roundCount),
+      stepTimerSec,
+      buzzTimeSec,
       totalRounds: clampRoundCount(settings.roundCount),
       currentRound: 0,
       phase: 'lobby',
       stepIndex: 0,
       phaseEndsAt: null,
       buzzedPlayerId: null,
-      remainingStepMs: SYNC_STEP_DURATION_MS,
+      remainingStepMs: stepTimerSec * 1000,
       roundGeneration: 0,
       customTracks: sanitizedCustom,
       usedTrackKeys: new Set<string>(),
@@ -443,6 +468,12 @@ export class RoomManager {
         ? settings.packName.trim().slice(0, 80)
         : room.packName;
     room.roundCount = clampRoundCount(settings.roundCount);
+    if (settings.stepTimerSec !== undefined) {
+      room.stepTimerSec = normalizeStepTimerSec(settings.stepTimerSec);
+    }
+    if (settings.buzzTimeSec !== undefined) {
+      room.buzzTimeSec = normalizeBuzzTimeSec(settings.buzzTimeSec);
+    }
     if (customTracks !== undefined) {
       room.customTracks = sanitizeCustomTracks(customTracks);
     }
@@ -688,10 +719,12 @@ export class RoomManager {
 
     this.touchIdleTimer(room);
     const now = this.nowFn();
-    room.remainingStepMs = Math.max(5_000, (room.phaseEndsAt ?? now) - now);
+    room.remainingStepMs =
+      room.stepTimerSec === 0 ? 0 : Math.max(5_000, (room.phaseEndsAt ?? now) - now);
     room.buzzedPlayerId = playerId;
+    const buzzWindowMs = room.buzzTimeSec * 1000;
     room.phase = 'buzz-window';
-    room.phaseEndsAt = now + BUZZ_WINDOW_DURATION_MS;
+    room.phaseEndsAt = now + buzzWindowMs;
 
     const gen = room.roundGeneration;
     this.clearActiveTimer(room);
@@ -713,7 +746,7 @@ export class RoomManager {
         lockedOut: true,
       });
       this.resumeAfterFailedBuzz(room);
-    }, BUZZ_WINDOW_DURATION_MS);
+    }, buzzWindowMs);
 
     this.broadcastRoom(room);
   }
@@ -934,22 +967,32 @@ export class RoomManager {
     }
 
     if (room.mode === 'speed-race') {
-      room.phaseEndsAt = this.nowFn() + RACE_ROUND_DURATION_MS;
+      if (room.stepTimerSec === 0) {
+        room.phaseEndsAt = null;
+        this.broadcastRoom(room);
+        return;
+      }
+      const raceDurationMs = room.stepTimerSec * 1000;
+      room.phaseEndsAt = this.nowFn() + raceDurationMs;
       const gen = room.roundGeneration;
       room.activeTimer = setTimeout(() => {
         if (room.roundGeneration !== gen || room.phase !== 'playing') return;
         this.enterRoundReveal(room);
-      }, RACE_ROUND_DURATION_MS);
+      }, raceDurationMs);
       this.broadcastRoom(room);
       return;
     }
 
-    this.scheduleStepWindow(room, SYNC_STEP_DURATION_MS);
+    this.scheduleStepWindow(room, room.stepTimerSec === 0 ? null : room.stepTimerSec * 1000);
     this.broadcastRoom(room);
   }
 
-  private scheduleStepWindow(room: InternalRoom, durationMs: number): void {
+  private scheduleStepWindow(room: InternalRoom, durationMs: number | null): void {
     this.clearActiveTimer(room);
+    if (durationMs === null || durationMs <= 0) {
+      room.phaseEndsAt = null;
+      return;
+    }
     room.phaseEndsAt = this.nowFn() + durationMs;
     const gen = room.roundGeneration;
     const stepAtSchedule = room.stepIndex;
@@ -981,7 +1024,7 @@ export class RoomManager {
       }
     }
 
-    this.scheduleStepWindow(room, SYNC_STEP_DURATION_MS);
+    this.scheduleStepWindow(room, room.stepTimerSec === 0 ? null : room.stepTimerSec * 1000);
     this.broadcastRoom(room);
   }
 
@@ -1030,7 +1073,10 @@ export class RoomManager {
       return;
     }
 
-    this.scheduleStepWindow(room, room.remainingStepMs);
+    this.scheduleStepWindow(
+      room,
+      room.stepTimerSec === 0 ? null : room.remainingStepMs,
+    );
     this.broadcastRoom(room);
   }
 
@@ -1038,17 +1084,21 @@ export class RoomManager {
     if (room.mode === 'speed-race') {
       const idx = Math.max(0, Math.min(TOTAL_STEPS - 1, player.attemptIndex));
       const base = MULTIPLAYER_STEP_POINTS[idx];
-      const remainingSec = Math.max(0, Math.round(((room.phaseEndsAt ?? now) - now) / 1000));
+      if (!room.phaseEndsAt) return base;
+      const remainingSec = Math.max(0, Math.round((room.phaseEndsAt - now) / 1000));
       return base + Math.min(225, remainingSec * 5);
     }
 
     const idx = Math.max(0, Math.min(TOTAL_STEPS - 1, room.stepIndex));
     const base = MULTIPLAYER_STEP_POINTS[idx];
-    if (room.mode === 'buzz-in') return base;
+    if (room.mode === 'buzz-in' || room.stepTimerSec === 0 || !room.phaseEndsAt) {
+      return base;
+    }
 
+    const stepDurationMs = room.stepTimerSec * 1000;
     const remainingRatio = Math.max(
       0,
-      Math.min(1, ((room.phaseEndsAt ?? now) - now) / SYNC_STEP_DURATION_MS),
+      Math.min(1, (room.phaseEndsAt - now) / stepDurationMs),
     );
     return base + Math.round(remainingRatio * 150);
   }

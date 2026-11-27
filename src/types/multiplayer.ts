@@ -21,6 +21,8 @@ export type PlayerRoundStatus =
   | 'skipped';
 
 export const MULTIPLAYER_STEP_POINTS = [1000, 800, 650, 500, 350, 250] as const;
+export const STEP_TIMER_PRESETS = [30, 60, 90, 0] as const; // 0 = Vote Only (no auto-skip)
+export const BUZZ_TIME_PRESETS = [15, 20, 25, 30, 40] as const;
 
 export const MAX_ROOM_CUSTOM_TRACKS = 1500;
 export const MAX_ROOM_PLAYERS = 12;
@@ -39,6 +41,8 @@ export interface RoomSettingsInput {
   packId: string;
   packName: string;
   roundCount: number;
+  stepTimerSec?: number;
+  buzzTimeSec?: number;
 }
 
 export interface PublicRoomPlayer {
@@ -69,6 +73,8 @@ export interface PublicRoomState {
   packId: string;
   packName: string;
   roundCount: number;
+  stepTimerSec: number;
+  buzzTimeSec: number;
   currentRound: number;
   totalRounds: number;
   phase: RoomPhase;

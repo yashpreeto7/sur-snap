@@ -27,7 +27,9 @@ import {
   type SearchSuggestion,
 } from '../../types/game';
 import {
+  BUZZ_TIME_PRESETS,
   MULTIPLAYER_STEP_POINTS,
+  STEP_TIMER_PRESETS,
   type PublicRoomPlayer,
   type PublicRoomState,
   type RoomMode,
@@ -417,6 +419,8 @@ export function MultiplayerRoomView({
         packId: nextPackId,
         packName: custom?.name ?? builtIn?.name ?? room.packName,
         roundCount: room.roundCount,
+        stepTimerSec: room.stepTimerSec,
+        buzzTimeSec: room.buzzTimeSec,
       },
       customTracks,
     );
@@ -530,7 +534,7 @@ export function MultiplayerRoomView({
               </div>
 
               {isHost ? (
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 rounded-xl bg-[#090B11] border border-white/[0.08] p-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 rounded-xl bg-[#090B11] border border-white/[0.08] p-4">
                   <div className="flex flex-col gap-1.5">
                     <label htmlFor="lobby-mode" className="text-[11px] font-semibold text-slate-300">
                       Mode
@@ -544,6 +548,8 @@ export function MultiplayerRoomView({
                           packId: room.packId,
                           packName: room.packName,
                           roundCount: room.roundCount,
+                          stepTimerSec: room.stepTimerSec,
+                          buzzTimeSec: room.buzzTimeSec,
                         })
                       }
                       className="px-3 py-2 rounded-lg bg-[#131722] border border-white/10 text-xs text-white"
@@ -590,6 +596,8 @@ export function MultiplayerRoomView({
                           packId: room.packId,
                           packName: room.packName,
                           roundCount: Number(e.target.value),
+                          stepTimerSec: room.stepTimerSec,
+                          buzzTimeSec: room.buzzTimeSec,
                         })
                       }
                       className="px-3 py-2 rounded-lg bg-[#131722] border border-white/10 text-xs text-white"
@@ -599,6 +607,62 @@ export function MultiplayerRoomView({
                       <option value={15}>15 Rounds</option>
                     </select>
                   </div>
+
+                  <div className="flex flex-col gap-1.5">
+                    <label htmlFor="lobby-step-timer" className="text-[11px] font-semibold text-slate-300">
+                      {room.mode === 'speed-race' ? 'Round Timer' : 'Skip Timer'}
+                    </label>
+                    <select
+                      id="lobby-step-timer"
+                      value={room.stepTimerSec}
+                      onChange={(e) =>
+                        onUpdateSettings({
+                          mode: room.mode,
+                          packId: room.packId,
+                          packName: room.packName,
+                          roundCount: room.roundCount,
+                          stepTimerSec: Number(e.target.value),
+                          buzzTimeSec: room.buzzTimeSec,
+                        })
+                      }
+                      className="px-3 py-2 rounded-lg bg-[#131722] border border-white/10 text-xs text-white"
+                    >
+                      {STEP_TIMER_PRESETS.map((sec) => (
+                        <option key={sec} value={sec}>
+                          {sec === 0 ? 'Vote Only (∞)' : `${sec}s`}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  {room.mode === 'buzz-in' && (
+                    <div className="flex flex-col gap-1.5">
+                      <label htmlFor="lobby-buzz-time" className="text-[11px] font-semibold text-slate-300">
+                        Buzz Time
+                      </label>
+                      <select
+                        id="lobby-buzz-time"
+                        value={room.buzzTimeSec}
+                        onChange={(e) =>
+                          onUpdateSettings({
+                            mode: room.mode,
+                            packId: room.packId,
+                            packName: room.packName,
+                            roundCount: room.roundCount,
+                            stepTimerSec: room.stepTimerSec,
+                            buzzTimeSec: Number(e.target.value),
+                          })
+                        }
+                        className="px-3 py-2 rounded-lg bg-[#131722] border border-white/10 text-xs text-white"
+                      >
+                        {BUZZ_TIME_PRESETS.map((sec) => (
+                          <option key={sec} value={sec}>
+                            {sec}s
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+                  )}
                 </div>
               ) : (
                 <div className="rounded-xl bg-[#090B11] border border-white/[0.08] p-4 flex flex-wrap gap-4 text-xs text-slate-300">
@@ -614,6 +678,18 @@ export function MultiplayerRoomView({
                     <span className="text-slate-500">Rounds:</span>{' '}
                     <strong className="text-white">{room.roundCount}</strong>
                   </div>
+                  <div>
+                    <span className="text-slate-500">Timer:</span>{' '}
+                    <strong className="text-white">
+                      {room.stepTimerSec === 0 ? 'Vote Only (∞)' : `${room.stepTimerSec}s`}
+                    </strong>
+                  </div>
+                  {room.mode === 'buzz-in' && (
+                    <div>
+                      <span className="text-slate-500">Buzz Time:</span>{' '}
+                      <strong className="text-white">{room.buzzTimeSec}s</strong>
+                    </div>
+                  )}
                 </div>
               )}
 
@@ -761,7 +837,13 @@ export function MultiplayerRoomView({
                               : room.stepIndex
                           ]}{' '}
                           base pts ·{' '}
-                          {room.mode === 'speed-race' ? '60s race' : '60s limit · Vote Skip anytime'}
+                          {room.stepTimerSec === 0
+                            ? room.mode === 'speed-race'
+                              ? 'Unlimited · finish 6 steps'
+                              : 'Vote Only · no auto-skip'
+                            : room.mode === 'speed-race'
+                              ? `${room.stepTimerSec}s race`
+                              : `${room.stepTimerSec}s limit · Vote Skip anytime`}
                         </div>
                       </div>
                     </div>
@@ -881,7 +963,7 @@ export function MultiplayerRoomView({
                 >
                   <span>
                     {room.buzzedPlayerId === myPlayerId
-                      ? 'You buzzed in! Submit your guess within 40s.'
+                      ? `You buzzed in! Submit your guess within ${room.buzzTimeSec}s.`
                       : `${buzzedPlayerName} buzzed in first — waiting on their guess...`}
                   </span>
                 </div>
