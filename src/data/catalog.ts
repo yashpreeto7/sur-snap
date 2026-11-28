@@ -8024,6 +8024,1500 @@ export const TRACK_CATALOG: CatalogTrack[] = [
     "albumName": "PentHouse Tapes, Vol. 1",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/42/ec/11/42ec11fc-ad29-e186-ad9d-c93180f6f2e9/820200195487.jpg/300x300bb.jpg",
     "category": "dhh-indie"
+  },
+  {
+    "id": 1889868065,
+    "title": "Moves",
+    "trackName": "Moves",
+    "artistName": "Shubh",
+    "albumName": "Chapter IV - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6f/c0/58/6fc0580d-5cfc-0358-87f7-d7fe6c4bd001/820200882387.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1875907951,
+    "title": "5-7",
+    "trackName": "5-7",
+    "artistName": "Karan Aujla & MXRCI",
+    "albumName": "5-7 - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d0/8e/79/d08e797b-06b0-83bb-77a7-d836caf28d9f/5063904877791_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 6838298913,
+    "title": "Luxury",
+    "trackName": "Luxury",
+    "artistName": "Cheema Y & Gur Sidhu",
+    "albumName": "Area 51",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/99/12/e1991268-dae1-c79f-a096-1f0465964e6f/711641361428.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1825950069,
+    "title": "Daku",
+    "trackName": "Daku",
+    "artistName": "Chani Nattan, Inderpal Moga & Mad Mix",
+    "albumName": "Daku - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6d/0c/0a/6d0c0a1b-b50a-8320-f3fa-67eb450e54fc/ticket.sluflcmn.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1808015769,
+    "title": "Supreme",
+    "trackName": "Supreme",
+    "artistName": "Shubh",
+    "albumName": "Supreme - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cf/0d/bc/cf0dbcec-1bdf-72c8-06d6-da6e21700756/199350368158.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1643971697,
+    "title": "Obsessed",
+    "trackName": "Obsessed",
+    "artistName": "Riar Saab & Abhijay Sharma",
+    "albumName": "Obsessed - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3d/59/36/3d59363b-7ba6-77b3-0d4c-0bd7d5509868/197186944850.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1810338823,
+    "title": "STFU",
+    "trackName": "STFU",
+    "artistName": "AP Dhillon & Shinda Kahlon",
+    "albumName": "OKAY STFU - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/88/82/df/8882df0f-4f18-28ee-5e1a-e8abc7c5251e/25UMGIM59439.rgb.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1894792753,
+    "title": "Morni",
+    "trackName": "Morni",
+    "artistName": "Diljit Dosanjh, Chani Nattan & Tru-Skool",
+    "albumName": "The Call of Panjab - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/86/86/97868694-9413-a543-514a-a6374469ff97/859736427250_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1792088910,
+    "title": "Lock",
+    "trackName": "Lock",
+    "artistName": "Sidhu Moose Wala & The Kidd",
+    "albumName": "Lock - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e0/70/1d/e0701d08-9867-649e-8ea5-9dedfe4ce47f/5063654395101_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1800234377,
+    "title": "Putt Jatt Da",
+    "trackName": "Putt Jatt Da",
+    "artistName": "Simiran Kaur Dhadli & Desi Trap Music",
+    "albumName": "Putt Jatt Da - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/31/07/33/31073304-21e5-c72d-1fa0-85e727d10c55/196872954999.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1721323017,
+    "title": "King Shit",
+    "trackName": "King Shit",
+    "artistName": "Shubh",
+    "albumName": "Leo - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/05/b6/ed/05b6ed4c-ada8-01e2-965b-03b58801b836/197190670639.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1819847184,
+    "title": "0008",
+    "trackName": "0008",
+    "artistName": "Sidhu Moose Wala, Jenny Johal & The Kidd",
+    "albumName": "Moose Print - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a3/91/3c/a3913c59-68e0-00d4-d33f-6933e6e52361/5063655949785_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 6769093937,
+    "title": "Rebel",
+    "trackName": "Rebel",
+    "artistName": "Cheema Y & Gur Sidhu",
+    "albumName": "Bermuda Triangle",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/fa/df/71fadf2f-5ead-cca4-157e-91d324e39e2d/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1687649546,
+    "title": "Still Rollin",
+    "trackName": "Still Rollin",
+    "artistName": "Shubh",
+    "albumName": "Still Rollin",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/dc/46/a9/dc46a9c9-794e-2d7a-1afb-97eb4ae0fff6/197188915704.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1760672989,
+    "title": "Old Money",
+    "trackName": "Old Money",
+    "artistName": "AP Dhillon",
+    "albumName": "Old Money - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/fb/61/5afb613a-c9ca-625d-da7f-8d4b501f8eab/24UMGIM84219.rgb.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1819847373,
+    "title": "Take Notes",
+    "trackName": "Take Notes",
+    "artistName": "Sidhu Moose Wala & Jay B",
+    "albumName": "Moose Print - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a3/91/3c/a3913c59-68e0-00d4-d33f-6933e6e52361/5063655949785_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1874611142,
+    "title": "Nazare",
+    "trackName": "Nazare",
+    "artistName": "Gur Sidhu & Cheema Y",
+    "albumName": "Bonafide",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ce/a7/5f/cea75f60-bf9d-cd88-b0c0-96de99dcdea6/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1794103746,
+    "title": "Death Row",
+    "trackName": "Death Row",
+    "artistName": "Ninja, J.Hind & Deep Jandu",
+    "albumName": "Death Row - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/94/18/17/941817f1-25b7-1365-0980-d77440c53e93/197338777183.png/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1801914852,
+    "title": "Bars",
+    "trackName": "Bars",
+    "artistName": "Shubh",
+    "albumName": "Sicario",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/88/b4/da/88b4dacc-09a7-e57b-b861-31ec394bdf97/5021732610713.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1691843415,
+    "title": "True Stories",
+    "trackName": "True Stories",
+    "artistName": "AP Dhillon & Shinda Kahlon",
+    "albumName": "True Stories - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4f/ac/d0/4facd049-ce90-a9ff-4857-f29fa38d1d5d/197189125010.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 6814002664,
+    "title": "Aujla Szn",
+    "trackName": "Aujla Szn",
+    "artistName": "Karan Aujla & MXRCI",
+    "albumName": "AUJLA SZN 1 - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f7/6d/78/f76d78c5-cc9c-f2d6-8603-ba690eaa5c7d/5064089826918_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1728064932,
+    "title": "Glorious",
+    "trackName": "Glorious",
+    "artistName": "Arjan Dhillon",
+    "albumName": "Chobar",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ad/f0/4b/adf04b18-7408-9d09-b8cb-a076e2d8924d/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1866866873,
+    "title": "Whats Poppin",
+    "trackName": "Whats Poppin",
+    "artistName": "Ninja & Deep Jandu",
+    "albumName": "Whats Poppin - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e5/ce/7f/e5ce7f2a-25ef-a9c6-2f8c-45c31549ddc0/8721465399806.png/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1744561483,
+    "title": "MVP",
+    "trackName": "MVP",
+    "artistName": "Shubh",
+    "albumName": "MVP - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d0/8d/62/d08d629e-ef07-0e9a-0ea7-ed5d4f984202/5021732370952.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1823175327,
+    "title": "HIGH EARNINGS",
+    "trackName": "HIGH EARNINGS",
+    "artistName": "Tarsem Jassar & Wazir Patar",
+    "albumName": "4 Shots - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/17/08/9f17086e-b73b-13a9-9301-e9fa77de8cfc/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1859550748,
+    "title": "52 Bars",
+    "trackName": "52 Bars",
+    "artistName": "Karan Aujla & Ikky",
+    "albumName": "Four You - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/bc/64/fcbc6417-8a88-7b5e-4490-8f53e537ffb0/859770181552_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1728065243,
+    "title": "Hot Shit",
+    "trackName": "Hot Shit",
+    "artistName": "Arjan Dhillon",
+    "albumName": "Chobar",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ad/f0/4b/adf04b18-7408-9d09-b8cb-a076e2d8924d/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 791117993,
+    "title": "Zulfa (Reprise) [feat. Dr. Zeus]",
+    "trackName": "Zulfa (Reprise) [feat. Dr. Zeus]",
+    "artistName": "Jaz Dhami",
+    "albumName": "Zulfa (Reprise) [feat. Dr. Zeus] - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/25/3d/bf/253dbfd2-3b05-24aa-9340-fd51e1e5f3a5/zulfar_abc.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1635085036,
+    "title": "Elevated",
+    "trackName": "Elevated",
+    "artistName": "Shubh",
+    "albumName": "Elevated - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/93/af/11/93af1152-3af9-b028-a74e-302eb639b37f/196511464742.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 6787140604,
+    "title": "Drive Thru",
+    "trackName": "Drive Thru",
+    "artistName": "Parmish Verma, Wazir Patar, Devilo & Guri Lahoria",
+    "albumName": "Victory Lap",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/3b/d4/a93bd4a7-2127-92c9-2462-8fb6f6222927/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1763280533,
+    "title": "Attach",
+    "trackName": "Attach",
+    "artistName": "Sidhu Moose Wala, Steel Banglez & Fredo",
+    "albumName": "Attach - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/63/51/9d/63519d0c-0e1a-3aa8-154a-9d86a54ac729/198846068114.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1822125853,
+    "title": "Hall of Fame",
+    "trackName": "Hall of Fame",
+    "artistName": "Jerry & SoundsbyJeremy",
+    "albumName": "The College Dropout",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/18/ea/46/18ea4665-6798-0ed3-d4ad-abd3c88a811c/25UMGIM86427.rgb.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1641674741,
+    "title": "Baller",
+    "trackName": "Baller",
+    "artistName": "Shubh & Ikky",
+    "albumName": "Baller - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e9/bd/93/e9bd9316-75a6-bc15-aebe-c737037bedf0/196925634489.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1765206509,
+    "title": "315",
+    "trackName": "315 (feat. Shinda Kahlon & Jazzy B)",
+    "artistName": "AP Dhillon",
+    "albumName": "The Brownprint",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/7a/63/c67a6326-d344-71ad-f08b-deef1935ac8b/24UMGIM89733.rgb.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1745046634,
+    "title": "Goin' Off",
+    "trackName": "Goin' Off",
+    "artistName": "Karan Aujla & MXRCI",
+    "albumName": "Goin' Off - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c8/d8/1f/c8d81f88-1343-ed67-53a1-7be3d29e0992/5063483578003_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1730492390,
+    "title": "Patiala Flow",
+    "trackName": "Patiala Flow",
+    "artistName": "Parmish Verma & Laddi Chahal",
+    "albumName": "Y Hate ? - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ef/fc/cb/effccbd4-3a81-e1af-9ae4-2be5feb9c5b1/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1860506619,
+    "title": "War Anthem",
+    "trackName": "War Anthem",
+    "artistName": "Ninja, Alfaaz, Wazir Patar, Roop Bhullar & Gag Studioz",
+    "albumName": "War Anthem - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/02/d6/eb/02d6eb56-8131-e8d9-8ab4-481fa5073bfa/8721465066616.png/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1801915051,
+    "title": "Aura",
+    "trackName": "Aura",
+    "artistName": "Shubh",
+    "albumName": "Sicario",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/88/b4/da/88b4dacc-09a7-e57b-b861-31ec394bdf97/5021732610713.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1826785706,
+    "title": "Drippy",
+    "trackName": "Drippy",
+    "artistName": "Sidhu Moose Wala, MXRCI & AR Paisley",
+    "albumName": "Drippy - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2d/2a/24/2d2a2461-632f-7a1c-b128-385d6e1d3bcf/840336457457_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1773799678,
+    "title": "Sifar Safar",
+    "trackName": "Sifar Safar",
+    "artistName": "Karan Aujla",
+    "albumName": "Sifar Safar - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/a1/5f/b5a15f57-7184-47a6-564e-272d515b4810/5063616203642_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 6787140587,
+    "title": "Gucci Scarf",
+    "trackName": "Gucci Scarf",
+    "artistName": "Parmish Verma, Starboy X & Kulbir Jhinjer",
+    "albumName": "Victory Lap",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/3b/d4/a93bd4a7-2127-92c9-2462-8fb6f6222927/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 6800083071,
+    "title": "666",
+    "trackName": "666",
+    "artistName": "Jerry & SoundsbyJeremy",
+    "albumName": "666 - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/c6/42/7dc64278-95f0-93e4-e869-e6d99ad707a8/5059552773806.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1635085697,
+    "title": "We Rollin",
+    "trackName": "We Rollin",
+    "artistName": "Shubh",
+    "albumName": "We Rollin - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ae/e6/1b/aee61b76-2916-7a57-b269-7a74066f1e47/196400716495.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1754386756,
+    "title": "Muhammad Ali",
+    "trackName": "Muhammad Ali",
+    "artistName": "Diljit Dosanjh & NLE Choppa",
+    "albumName": "Muhammad Ali - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/32/7f/49/327f49d8-35a0-fc29-51fb-ea686e76913c/5021732393029.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1819847188,
+    "title": "Neal",
+    "trackName": "Neal",
+    "artistName": "Sidhu Moose Wala & MXRCI",
+    "albumName": "Moose Print - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a3/91/3c/a3913c59-68e0-00d4-d33f-6933e6e52361/5063655949785_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1859550762,
+    "title": "YEAH NAAH",
+    "trackName": "YEAH NAAH",
+    "artistName": "Karan Aujla & Ikky",
+    "albumName": "Four You - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/bc/64/fcbc6417-8a88-7b5e-4490-8f53e537ffb0/859770181552_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1765205891,
+    "title": "Brownprint",
+    "trackName": "Brownprint (feat. Shinda Kahlon)",
+    "artistName": "AP Dhillon",
+    "albumName": "The Brownprint",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/7a/63/c67a6326-d344-71ad-f08b-deef1935ac8b/24UMGIM89733.rgb.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1801914844,
+    "title": "Buckle Up",
+    "trackName": "Buckle Up",
+    "artistName": "Shubh",
+    "albumName": "Sicario",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/88/b4/da/88b4dacc-09a7-e57b-b861-31ec394bdf97/5021732610713.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1813831188,
+    "title": "Bond of Majha",
+    "trackName": "Bond of Majha",
+    "artistName": "Roop Bhullar, Amrit Randhawa & Desi Trap Music",
+    "albumName": "Bond of Majha - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/88/32/50/8832500c-53a4-405a-00c4-1a38dc7d4835/5034644680743.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1750868090,
+    "title": "On Top 2",
+    "trackName": "On Top 2",
+    "artistName": "Karan Aujla & YEAH PROOF",
+    "albumName": "On Top 2 - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fb/d2/2d/fbd22dc2-df8b-2bc8-e84f-a1b74d5bf8ae/5063483864168_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 6804711494,
+    "title": "Majha To Malwa",
+    "trackName": "Majha To Malwa",
+    "artistName": "Wazir Patar & Vijay Brar",
+    "albumName": "BLACK AND WHITE",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/73/6a/71/736a7169-98e3-c7a0-f4f9-ce464e9a417a/1200214943523.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1738232577,
+    "title": "Bandana",
+    "trackName": "Bandana",
+    "artistName": "Shubh",
+    "albumName": "Bandana - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f0/79/1d/f0791dcd-5415-61b1-cd67-94660c46e189/5021732271709.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1894792758,
+    "title": "Aroma",
+    "trackName": "Aroma",
+    "artistName": "Diljit Dosanjh, Raj Ranjodh & Tru-Skool",
+    "albumName": "The Call of Panjab - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/86/86/97868694-9413-a543-514a-a6374469ff97/859736427250_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1662490415,
+    "title": "ASSAULT",
+    "trackName": "ASSAULT",
+    "artistName": "Jassa Dhillon & prodGK",
+    "albumName": "VIBIN",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/18/66/82/186682e6-be68-dd4c-302a-cafeb29d64e8/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 6814002657,
+    "title": "Rap Killa",
+    "trackName": "Rap Killa (feat. Azaad 4L)",
+    "artistName": "Karan Aujla & MXRCI",
+    "albumName": "AUJLA SZN 1 - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f7/6d/78/f76d78c5-cc9c-f2d6-8603-ba690eaa5c7d/5064089826918_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1864131117,
+    "title": "License",
+    "trackName": "License (feat. Sikander Kahlon)",
+    "artistName": "Singhsta",
+    "albumName": "License (feat. Sikander Kahlon) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0b/aa/8e/0baa8eac-05fe-b5a3-9910-75293e87349d/artwork.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1823175421,
+    "title": "2 WAYS",
+    "trackName": "2 WAYS",
+    "artistName": "Tarsem Jassar & Wazir Patar",
+    "albumName": "4 Shots - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/17/08/9f17086e-b73b-13a9-9301-e9fa77de8cfc/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1721323253,
+    "title": "Safety Off",
+    "trackName": "Safety Off",
+    "artistName": "Shubh",
+    "albumName": "Leo - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/05/b6/ed/05b6ed4c-ada8-01e2-965b-03b58801b836/197190670639.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 6764301000,
+    "title": "Top Fella",
+    "trackName": "Top Fella",
+    "artistName": "Karan Aujla & MXRCI",
+    "albumName": "Top Fella - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5e/a0/99/5ea09980-2f57-46e8-9c66-a4c6986615aa/5063960832499_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1687649869,
+    "title": "OG",
+    "trackName": "OG",
+    "artistName": "Shubh",
+    "albumName": "Still Rollin",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/dc/46/a9/dc46a9c9-794e-2d7a-1afb-97eb4ae0fff6/197188915704.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1730005531,
+    "title": "Hisaab",
+    "trackName": "Hisaab",
+    "artistName": "DIVINE & Karan Aujla",
+    "albumName": "Street Dreams",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/53/fc/12/53fc12dd-e441-88b0-b539-b5e4728bb5c9/198391098505.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 6804711496,
+    "title": "Dhadhi Nation",
+    "trackName": "Dhadhi Nation",
+    "artistName": "Wazir Patar & Sikander Kahlon",
+    "albumName": "BLACK AND WHITE",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/73/6a/71/736a7169-98e3-c7a0-f4f9-ce464e9a417a/1200214943523.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1831013463,
+    "title": "AMG",
+    "trackName": "AMG",
+    "artistName": "Wazir Patar & Hukam",
+    "albumName": "WZR TANK - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/00/8b/56008b91-3335-87f1-a0c2-3df8579a2491/5021732947178.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1720697311,
+    "title": "Laung Laachi Title Track",
+    "trackName": "Laung Laachi Title Track (From \"Laung Laachi\")",
+    "artistName": "Mannat Noor",
+    "albumName": "A Kay X Mannat Noor - The Ultimate Hits",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ce/11/46/ce114647-fcfe-079f-4767-9f3316411fd4/8903431974969_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1188187053,
+    "title": "3 Peg",
+    "trackName": "3 Peg",
+    "artistName": "Sharry Maan & Mista Baaz",
+    "albumName": "3 Peg - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/86/59/26/86592664-f38b-f5f9-dbe3-5317ee0a0819/8903431631213_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1530894030,
+    "title": "Sharara",
+    "trackName": "Sharara",
+    "artistName": "Shivjot",
+    "albumName": "Sharara - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d1/5c/8b/d15c8b41-8ddb-acf6-0a9a-c6828d0a8631/8903431785718_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1535797113,
+    "title": "Time Chakda",
+    "trackName": "Time Chakda",
+    "artistName": "Nimrat Khaira",
+    "albumName": "Time Chakda - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/aa/e5/37/aae537c7-9ed1-2596-8733-98dd0a13f5fa/8903431789983_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1533646188,
+    "title": "Mann Jaa Ve",
+    "trackName": "Mann Jaa Ve",
+    "artistName": "Kay Vee Singh",
+    "albumName": "Mann Jaa Ve - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/12/a7/ee/12a7ee24-b878-869f-47d1-08f10088caf7/8903431783950_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1242803201,
+    "title": "Hostel",
+    "trackName": "Hostel",
+    "artistName": "Sharry Maan & Mista Baaz",
+    "albumName": "Hostel - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/c1/ac/2ec1acea-d05b-7e2c-d5a4-e1e5ddaf6235/8903431643919_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1490740781,
+    "title": "Kamaal",
+    "trackName": "Kamaal",
+    "artistName": "Badshah & Uchana Amit",
+    "albumName": "Kamaal - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fb/ec/e6/fbece671-6e0a-5806-33eb-7713f73566dd/194548001213_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1340321302,
+    "title": "Gaadi",
+    "trackName": "Gaadi",
+    "artistName": "Pardhaan & Bohemia",
+    "albumName": "Gaadi - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/31/86/d4/3186d4a8-0d25-d189-e198-7a2f9a4cc0fe/8903431665959_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1498724969,
+    "title": "Dil Vich Thaan",
+    "trackName": "Dil Vich Thaan",
+    "artistName": "Prabh Gill",
+    "albumName": "Dil Vich Thaan - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c0/70/4f/c0704f15-9be2-2bfe-8d0a-22436ae05caa/Dil-Vich-Thaan---Inlay.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1552698009,
+    "title": "Top Tucker",
+    "trackName": "Top Tucker (feat. Rashmika Mandanna)",
+    "artistName": "Badshah, Uchana Amit, Yuvan Shankar Raja & Jonita Gandhi",
+    "albumName": "Top Tucker (feat. Rashmika Mandanna) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/79/02/f3/7902f368-9951-126a-5290-52507ea8f7ae/194548007970_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1645286682,
+    "title": "Tattoo",
+    "trackName": "Tattoo",
+    "artistName": "Wazir Patar",
+    "albumName": "Keep It Gangsta - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/17/06/16/17061669-31f0-60a7-2c75-aee2e42baa62/22UM1IM04394.rgb.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1414828136,
+    "title": "Badal",
+    "trackName": "Badal",
+    "artistName": "Amrinder Gill",
+    "albumName": "Heeriye Fakeeriye",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5c/97/7f/5c977f8c-5d8b-75aa-4607-7f091c79f4e5/8902633269323.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1492120001,
+    "title": "Shagufta Dili",
+    "trackName": "Shagufta Dili",
+    "artistName": "Satinder Sartaaj",
+    "albumName": "Shagufta Dili - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/4e/b1/2c/4eb12c30-0048-96b9-a1a8-05e6a9947d83/Shagufta-Audio-Cover-3000_-_Copy.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1495647200,
+    "title": "Stranger",
+    "trackName": "Stranger",
+    "artistName": "Diljit Dosanjh",
+    "albumName": "Stranger - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/2d/16/97/2d1697da-8b9b-8f13-4086-ed0b78d5e9e0/Stranger-Audio-Cover_iTunes.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1518190101,
+    "title": "Duniya",
+    "trackName": "Duniya",
+    "artistName": "Kulbir Jhinjer",
+    "albumName": "Duniya - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/f5/bd/c3/f5bdc3e6-7cc8-3b63-70b7-14c1c57764ea/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1597571093,
+    "title": "Ni Jana",
+    "trackName": "Ni Jana (feat. Radhika Madan)",
+    "artistName": "Jasleen Royal & Tm bax",
+    "albumName": "Ni Jana (feat. Radhika Madan) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0c/27/cc/0c27cc6b-b75c-6e90-51d8-00a893a78541/Ni-Jana-Final-Inlay.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1483457012,
+    "title": "Kadi Kadi",
+    "trackName": "Kadi Kadi",
+    "artistName": "Bohemia",
+    "albumName": "Kadi Kadi - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/34/bd/d5/34bdd520-2edd-d518-732f-4bc5217e2d1c/Kadi-Kadi---INLAY-FINAL_3000.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1738903441,
+    "title": "Mutiyaar",
+    "trackName": "Mutiyaar",
+    "artistName": "Gur Sidhu, Jasmeen Akhtar & Kaptaan",
+    "albumName": "Mutiyaar - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0c/b3/c8/0cb3c8ca-bdd4-8305-973d-86d6ff1786fc/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1781681658,
+    "title": "Attitude",
+    "trackName": "Attitude",
+    "artistName": "Harf Cheema & Jasmeen Akhtar",
+    "albumName": "Future Folk - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/df/c9/5bdfc9cd-2286-2d64-4941-ccf1b9b4adf6/5034644304694.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1198715567,
+    "title": "Thumka",
+    "trackName": "Thumka",
+    "artistName": "Geeta Zaildar & Yashita",
+    "albumName": "Pinky Moge Wali (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/a6/64/49a66444-c20a-fb68-6df5-9c62b26b3df5/8902894350853_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1500724859,
+    "title": "Gal Sunle",
+    "trackName": "Gal Sunle",
+    "artistName": "Param Singh & Kamal Kahlon",
+    "albumName": "Gal Sunle - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/5d/44/f4/5d44f4e2-15c7-e378-0cb1-278c8531be0d/Gal-Sunle---Inlay.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1348729621,
+    "title": "Sorry",
+    "trackName": "Sorry",
+    "artistName": "Diljit Dosanjh",
+    "albumName": "Con.Fi.Den.Tial",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/45/83/cf/4583cf4c-8bb4-dac1-d52c-395e96b82c11/8903431668929_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1588900613,
+    "title": "Sakhiyaan",
+    "trackName": "Sakhiyaan (feat. Surbhi Jyoti)",
+    "artistName": "Simar Sethi",
+    "albumName": "Sakhiyaan (feat. Surbhi Jyoti) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c6/b6/b4/c6b6b465-7b30-ae76-a34a-c049dadc1bd5/Sakhiyaan-Inlay.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1698147080,
+    "title": "Challa",
+    "trackName": "Challa",
+    "artistName": "Gurdas Maan, Diljit Dosanjh & Ikky",
+    "albumName": "Challa - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/a3/78/13a378e9-d6a7-fbba-a06a-963bb3515621/5054197761508.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1453974364,
+    "title": "Habit",
+    "trackName": "Habit (feat. Parmish Verma)",
+    "artistName": "Laddi Chahal",
+    "albumName": "Habit (feat. Parmish Verma) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0e/14/4b/0e144b0f-8118-2aae-d034-05a01a1ebb99/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1602371584,
+    "title": "Shreaam Pagal",
+    "trackName": "Shreaam Pagal",
+    "artistName": "Sunidhi Chauhan",
+    "albumName": "Shreaam Pagal - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/86/3d/6d/863d6d02-5c72-d163-721c-beb40d6ef3cf/For-Itunes.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1683490471,
+    "title": "Jutti",
+    "trackName": "Jutti (feat. Mxrci)",
+    "artistName": "Jordan Sandhu",
+    "albumName": "Never Before - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/05/4e/31/054e31f4-821b-0a0c-1ab1-5326c20ade97/8902633343801.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1844592449,
+    "title": "Sham Di Laali",
+    "trackName": "Sham Di Laali",
+    "artistName": "Wazir Patar, Basant Kur & Navvi",
+    "albumName": "My Name Is Street",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4a/95/fe/4a95fe25-806e-1c7c-8e5b-def01460429f/5026854095776.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 919652510,
+    "title": "Aao Na",
+    "trackName": "Aao Na",
+    "artistName": "Vishal Dadlani",
+    "albumName": "Haider (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/7d/1e/7a/7d1e7ad3-5b09-b8f7-6931-46b64aecb8c5/888831858911.tif/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1827274139,
+    "title": "Mera",
+    "trackName": "Mera",
+    "artistName": "Talwiinder, NDS & Kidjaywest",
+    "albumName": "Misfit",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/91/cb/3e91cb9e-ca44-6c18-1472-398e67cd1163/198846898629_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1161129477,
+    "title": "Kabza",
+    "trackName": "Kabza",
+    "artistName": "Babbu Maan",
+    "albumName": "Saaun Di Jhadi",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/3f/66/38/3f663820-bb6d-c6e7-acd0-862b06eeb8dd/8903431533128_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1289768847,
+    "title": "Tera Yaar Bolda",
+    "trackName": "Tera Yaar Bolda",
+    "artistName": "Surjit Bindrakhia",
+    "albumName": "Wangg Hogi Tangg",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/e6/dc/6c/e6dc6cc9-cfd1-029f-fa36-d082973cfc00/8902894218962_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1159325155,
+    "title": "Apna Punjab Hove",
+    "trackName": "Apna Punjab Hove",
+    "artistName": "Gurdas Maan",
+    "albumName": "Yaar Mera Pyar",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/ee/63/dd/ee63dd3c-5505-b778-cc4a-fbf56153a6e3/8902894613491_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1162446605,
+    "title": "Smile",
+    "trackName": "Smile",
+    "artistName": "Diljit Dosanjh",
+    "albumName": "Smile",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/2d/76/5b/2d765b9d-e059-5575-84d8-f4bbfc4be2fc/8902894625524_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 604814532,
+    "title": "Ho Jayegi Balle Balle",
+    "trackName": "Ho Jayegi Balle Balle",
+    "artistName": "Daler Mehndi",
+    "albumName": "Ho Jayegi Balle Balle",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/5a/98/945a9854-16b0-2303-b4f8-dbd71e1232ef/886443869561.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1358327163,
+    "title": "Na Na Na Re",
+    "trackName": "Na Na Na Re",
+    "artistName": "Daler Mehndi & Sudesh Bhonsle",
+    "albumName": "Mrityudaata (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/00/bb/b4/00bbb4d1-fda4-b763-b273-02206a916230/8902894605397_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1158835807,
+    "title": "Jatt Di Pasand",
+    "trackName": "Jatt Di Pasand",
+    "artistName": "Surjit Bindrakhia",
+    "albumName": "Billiaan Akhiyaan",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/ac/be/e9/acbee987-8e96-e8f2-af16-5a717413c64b/8902894217248_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1161129475,
+    "title": "Saaun Di Jhadi",
+    "trackName": "Saaun Di Jhadi",
+    "artistName": "Babbu Maan",
+    "albumName": "Saaun Di Jhadi",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/3f/66/38/3f663820-bb6d-c6e7-acd0-862b06eeb8dd/8903431533128_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 686387504,
+    "title": "Pind Pehra Lagda",
+    "trackName": "Pind Pehra Lagda",
+    "artistName": "Babbu Maan",
+    "albumName": "Tu Meri Miss India",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e1/8f/7ee18f8e-1d56-bdc2-74c2-72cc3bd557d2/888003013780.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1161887098,
+    "title": "Oye Hoye",
+    "trackName": "Oye Hoye",
+    "artistName": "Harbhajan Mann",
+    "albumName": "Oye-Hoye",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/fb/e8/80/fbe8803b-e2b7-1040-c857-9115364f2253/8902894618380_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1873263634,
+    "title": "Rang",
+    "trackName": "Rang",
+    "artistName": "Hustinder, Dean Warring & MXRCI",
+    "albumName": "Him & Her - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ee/07/6f/ee076fcd-1f05-1314-01ce-a0399adffbe8/26UMGIM13286.rgb.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1407234273,
+    "title": "Masti",
+    "trackName": "Masti",
+    "artistName": "Gurdas Maan",
+    "albumName": "Duniya Mela Do Din Da",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fc/24/66/fc246658-9aa4-654b-8406-8732d7aff6a2/191773324636.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1348996908,
+    "title": "Dil Chori",
+    "trackName": "Dil Chori",
+    "artistName": "Yo Yo Honey Singh, Simar Kaur & Ishers",
+    "albumName": "Sonu Ke Titu Ki Sweety (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/81/a5/b0/81a5b084-89f7-7ed8-372e-aefd67504922/8902894360074_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1120807841,
+    "title": "Kudiyan Shaher Diyan",
+    "trackName": "Kudiyan Shaher Diyan",
+    "artistName": "Daler Mehndi & Alka Yagnik",
+    "albumName": "Arjun Pandit (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music60/v4/49/bd/df/49bddf04-2f5e-82fb-e177-ecadcef4c902/8902894113113_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1161919504,
+    "title": "Phulkari",
+    "trackName": "Phulkari",
+    "artistName": "Gippy Grewal",
+    "albumName": "Phulkari (Mele Mitran De)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/3c/9b/51/3c9b51fc-2712-97f5-1dd2-6754d0029ec4/8902894625692_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1166844374,
+    "title": "Dupatta",
+    "trackName": "Dupatta",
+    "artistName": "Surjit Bindrakhia",
+    "albumName": "Dupatta",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music19/v4/14/d1/ff/14d1ff77-4904-eb61-eff9-7c91d28dd228/8902894629607_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1212020461,
+    "title": "Dum Dum (Reprise) Diljit Dosanjh Version",
+    "trackName": "Dum Dum (Reprise) Diljit Dosanjh Version",
+    "artistName": "Shashwat Sachdev & Diljit Dosanjh",
+    "albumName": "Phillauri (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d4/82/90/d48290d4-ee9e-207c-2d78-6b0ab05cee4b/8902894358873_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1582408760,
+    "title": "Seeti Maar Ke",
+    "trackName": "Seeti Maar Ke",
+    "artistName": "Geeta Zaildar & Miss Pooja",
+    "albumName": "Seeti Maar Ke - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3f/4a/08/3f4a0817-39d4-ad45-d7eb-6c7d843e0ff8/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1667217713,
+    "title": "California Love",
+    "trackName": "California Love",
+    "artistName": "Cheema Y & Gur Sidhu",
+    "albumName": "ANYWAY",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/0c/7b/78/0c7b7857-e443-ecdb-fa86-b3ec43968863/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1700735404,
+    "title": "One Love",
+    "trackName": "One Love",
+    "artistName": "Shubh",
+    "albumName": "One Love - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/48/4f/3c/484f3c19-fdab-1fa8-fdb4-c7de79852d12/197189603969.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1733868773,
+    "title": "Mi Amor",
+    "trackName": "Mi Amor",
+    "artistName": "40K, Sharn, THE Paul & Bohemia",
+    "albumName": "Mi Amor - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/20/50/f8/2050f8b5-0ac0-36b7-8ae5-de7849d6468c/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1692545933,
+    "title": "Check It Out",
+    "trackName": "Check It Out",
+    "artistName": "Parmish Verma & Paradox",
+    "albumName": "Check It Out - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3a/c0/a0/3ac0a0e9-86bd-dc63-ee81-64139d31d92e/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1714131825,
+    "title": "Jatt Vailly",
+    "trackName": "Jatt Vailly",
+    "artistName": "Diljit Dosanjh",
+    "albumName": "Ghost",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/94/80/be/9480bec1-6ca2-5bae-a7da-d0e7c45633ce/859779847831_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1697533816,
+    "title": "Try Me",
+    "trackName": "Try Me",
+    "artistName": "Karan Aujla & Ikky",
+    "albumName": "Making Memories",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/08/bc/d308bc6a-20e1-6532-d933-35d1b429210e/5054197755538.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1706453773,
+    "title": "Case",
+    "trackName": "Case",
+    "artistName": "Diljit Dosanjh",
+    "albumName": "Ghost",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ec/9a/1f/ec9a1fb9-dc98-cd4f-d4c9-01eed5e67b19/859778016276_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1687649894,
+    "title": "Dior",
+    "trackName": "Dior",
+    "artistName": "Shubh",
+    "albumName": "Still Rollin",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/dc/46/a9/dc46a9c9-794e-2d7a-1afb-97eb4ae0fff6/197188915704.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1697533665,
+    "title": "Jee Ni Lagda",
+    "trackName": "Jee Ni Lagda",
+    "artistName": "Karan Aujla & Ikky",
+    "albumName": "Making Memories",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/08/bc/d308bc6a-20e1-6532-d933-35d1b429210e/5054197755538.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1575407624,
+    "title": "Ma Belle",
+    "trackName": "Ma Belle",
+    "artistName": "AP Dhillon & Amari",
+    "albumName": "Ma Belle - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4d/3a/93/4d3a9329-653b-941c-7957-ee9fac6b24e8/859748895740_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1662951346,
+    "title": "Rubicon Drill (LoFi Version)",
+    "trackName": "Rubicon Drill (LoFi Version)",
+    "artistName": "Laddi Chahal, Parmish Verma & Gurlej Akhtar",
+    "albumName": "Rubicon Drill (LoFi Version) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/63/9a/6d/639a6d54-e115-5455-320a-7ee7f8e35479/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1703891601,
+    "title": "Palpita",
+    "trackName": "Palpita",
+    "artistName": "Camilo & Diljit Dosanjh",
+    "albumName": "Palpita - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f9/37/c8/f937c837-bb23-5e26-8889-5556f3cb2210/196871390866.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 806210364,
+    "title": "Mera Deewanapan",
+    "trackName": "Mera Deewanapan",
+    "artistName": "Dr Zeus & Amrinder Gill",
+    "albumName": "Judaa 2",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/eb/d4/43ebd4da-efb7-744a-e048-c5a951707c1e/859711927829_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 998906442,
+    "title": "Yadaan",
+    "trackName": "Yadaan",
+    "artistName": "Harbhajan Mann, Ishmeet Narula & Shipra Goyal",
+    "albumName": "Gadaar - The Traitor (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/16/a4/3a/16a43a94-bc3f-ade6-8128-49fbd78be29e/Gadaar_The_Traitor_-_Full_Songs.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1161129480,
+    "title": "Mehfil Mitraan Di",
+    "trackName": "Mehfil Mitraan Di",
+    "artistName": "Babbu Maan",
+    "albumName": "Saaun Di Jhadi",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/3f/66/38/3f663820-bb6d-c6e7-acd0-862b06eeb8dd/8903431533128_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1167695173,
+    "title": "Chattri",
+    "trackName": "Chattri",
+    "artistName": "Geeta Zaildar & Aman Hayer",
+    "albumName": "Chattri - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/0b/29/a5/0b29a55b-3404-fda0-1065-7833bc282925/8903431623508_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1426394861,
+    "title": "Heartbeat",
+    "trackName": "Heartbeat",
+    "artistName": "Geeta Zaildar",
+    "albumName": "Close To Me (Nerre-Nerre)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/3b/69/68/3b69687b-9a93-5bdb-6745-ada6981db9a3/8902633271722.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1426394879,
+    "title": "Ranjhe",
+    "trackName": "Ranjhe",
+    "artistName": "Geeta Zaildar",
+    "albumName": "Close To Me (Nerre-Nerre)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/3b/69/68/3b69687b-9a93-5bdb-6745-ada6981db9a3/8902633271722.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1845064385,
+    "title": "Chak Chak Ke",
+    "trackName": "Chak Chak Ke",
+    "artistName": "Geeta Zaildar & Aman Hayer",
+    "albumName": "Chak Chak Ke - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/25/73/b5257335-41e0-68f0-2aab-ef4403c9e0a2/1941570298871.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1421142068,
+    "title": "Daang",
+    "trackName": "Daang",
+    "artistName": "Geeta Zaildar",
+    "albumName": "Daang - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/36/47/af/3647afa6-953f-f69a-737c-2566dae84c13/8902633267879.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1158764128,
+    "title": "Plot",
+    "trackName": "Plot",
+    "artistName": "Geeta Zaildar & Prabh Near",
+    "albumName": "Plot - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/51/3f/f9/513ff9aa-f0c8-312a-0442-f0f2cd1c5648/8903431609427_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1158284427,
+    "title": "Punjabi",
+    "trackName": "Punjabi",
+    "artistName": "Diljit Dosanjh",
+    "albumName": "The Next Level",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/40/22/19/402219ac-7b3d-08c1-2ba5-18c966ebe143/8902894683616_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1818246866,
+    "title": "Vehli Janta",
+    "trackName": "Vehli Janta",
+    "artistName": "Kulbir Jhinjer",
+    "albumName": "Vehli Janta",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/7c/9d/357c9dfd-443f-e172-7b04-3d0c7b7b452c/743207.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1068170329,
+    "title": "Gal Hor Honi Si",
+    "trackName": "Gal Hor Honi Si",
+    "artistName": "Kulbir Jhinjer",
+    "albumName": "Rakhwan Kota",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/8d/64/518d6414-4b0c-5618-8ce4-93467d95a75a/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1574493219,
+    "title": "302 Lagugi",
+    "trackName": "302 Lagugi (feat. Manjinder Gulshan)",
+    "artistName": "Balkar Ankhila",
+    "albumName": "Love You Jatta",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/60/fa/f2/60faf2c6-93c5-1152-ebf4-1dcfdfce8b51/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1730166056,
+    "title": "Suit",
+    "trackName": "Suit",
+    "artistName": "Hero & Jasmeen Akhtar",
+    "albumName": "Suit - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d9/a6/b8/d9a6b839-90f9-d6ea-95dd-422bf5b53bbd/8905285131116.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1499353370,
+    "title": "Phullan Wali Vel",
+    "trackName": "Phullan Wali Vel",
+    "artistName": "Balkar Ankhila",
+    "albumName": "Happy Valentine's Day - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/19/3e/2e193e82-a4c7-819e-8d54-b7229c71e2f0/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1650346936,
+    "title": "Yaar Gandase Warga",
+    "trackName": "Yaar Gandase Warga",
+    "artistName": "Balkar Ankhila & Manjinder Gulshan",
+    "albumName": "Sat Sri Akaal",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ef/78/81/ef78813c-1b5e-d18c-17b9-c2f4df1c4668/8905778253554.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1836885755,
+    "title": "Kandh Aule Pardes",
+    "trackName": "Kandh Aule Pardes",
+    "artistName": "Balkar Ankhila & Manjinder Gulshan",
+    "albumName": "Hoor Pari",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/14/e5/b3/14e5b37f-5ece-a9e4-833d-edddbb74b17b/199538520866.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 6782209723,
+    "title": "Coffee",
+    "trackName": "Coffee",
+    "artistName": "Amrinder Gill, Jasmeen Akhtar & Raj Ranjodh",
+    "albumName": "Coffee - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1f/f6/6f/1ff66f43-12b8-3eda-4cf5-3051d6262b42/22a1d83c-0577-4a18-a23b-690c66ef21ef.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 6787140850,
+    "title": "Behja",
+    "trackName": "Behja",
+    "artistName": "Parmish Verma, Starboy X & MC SQUARE",
+    "albumName": "Victory Lap",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/3b/d4/a93bd4a7-2127-92c9-2462-8fb6f6222927/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 6787140586,
+    "title": "Dekhi Ja",
+    "trackName": "Dekhi Ja",
+    "artistName": "Parmish Verma, Kiran Bajwa & Sickboi",
+    "albumName": "Victory Lap",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/3b/d4/a93bd4a7-2127-92c9-2462-8fb6f6222927/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 6787955226,
+    "title": "Sohniye",
+    "trackName": "Sohniye",
+    "artistName": "Shubh",
+    "albumName": "Sohniye - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f8/b4/20/f8b42045-823f-7b77-5a1f-7772aca05527/820233965804.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1815253226,
+    "title": "Banda Bamb",
+    "trackName": "Banda Bamb",
+    "artistName": "Jordan Sandhu, Gur Sidhu & Kaptaan",
+    "albumName": "FYI (For Your Information) - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/79/a8/f0/79a8f077-d821-49ba-5474-4b3a38e0939c/5021732817723.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1887564899,
+    "title": "2 Number",
+    "trackName": "2 Number",
+    "artistName": "Jasmeen Akhtar & HAQ",
+    "albumName": "2 Number - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/73/2a/87/732a8778-1312-92bb-6fe3-ecbdec19e13e/8721466315584.png/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1829591986,
+    "title": "Boyfriend",
+    "trackName": "Boyfriend",
+    "artistName": "Karan Aujla & Ikky",
+    "albumName": "P-POP CULTURE",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/06/bd/e1/06bde161-335b-87fa-650a-f0d04bd9f55d/5021732889621.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1844842242,
+    "title": "Tutor",
+    "trackName": "Tutor",
+    "artistName": "Cheema Y & Gur Sidhu",
+    "albumName": "The Simpsons",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ea/47/75/ea47751c-bc49-356b-045b-9e602f498621/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1720291560,
+    "title": "The Beast",
+    "trackName": "The Beast",
+    "artistName": "Cheema Y & Gur Sidhu",
+    "albumName": "Dripster - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/14/65/97/14659756-cd2c-ac5c-af3e-d3752eee018c/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1796165824,
+    "title": "Police",
+    "trackName": "Police",
+    "artistName": "Cheema Y, Gur Sidhu & Jasmeen Akhtar",
+    "albumName": "Young G.O.A.T",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/8c/3b/008c3b31-94b5-8a76-9c0e-52fb6cd35d80/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1796165815,
+    "title": "Young G.O.A.T",
+    "trackName": "Young G.O.A.T",
+    "artistName": "Cheema Y & Gur Sidhu",
+    "albumName": "Young G.O.A.T",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/8c/3b/008c3b31-94b5-8a76-9c0e-52fb6cd35d80/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1844842252,
+    "title": "Farzi",
+    "trackName": "Farzi",
+    "artistName": "Cheema Y & Gur Sidhu",
+    "albumName": "The Simpsons",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ea/47/75/ea47751c-bc49-356b-045b-9e602f498621/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 6769094197,
+    "title": "Jackpot",
+    "trackName": "Jackpot",
+    "artistName": "Cheema Y & Gur Sidhu",
+    "albumName": "Bermuda Triangle",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/fa/df/71fadf2f-5ead-cca4-157e-91d324e39e2d/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 6819228160,
+    "title": "Said & Done",
+    "trackName": "Said & Done",
+    "artistName": "Arjan Dhillon & Qarn Mallhi",
+    "albumName": "Said & Done - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b6/61/48/b661488b-a492-1dae-ea9c-a77459cea03a/cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 6829129551,
+    "title": "Shady AF",
+    "trackName": "Shady AF",
+    "artistName": "Jass Goraya & Prem Dhillon",
+    "albumName": "The Takeover - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/de/13/7ede13f6-81ad-4fb1-f403-d29f22c7e222/5064158559730_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1874128053,
+    "title": "Thinking of You",
+    "trackName": "Thinking of You",
+    "artistName": "AP Dhillon",
+    "albumName": "Thinking of You - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/6c/0b/016c0b7d-46c3-5c63-a124-278e42e2dc30/26UMGIM14087.rgb.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1796419829,
+    "title": "Water",
+    "trackName": "Water",
+    "artistName": "Diljit Dosanjh",
+    "albumName": "Water - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/03/fd/2f/03fd2f6a-9c07-de64-a4b3-7d27662c9ecc/199282225925_cover.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 6770745507,
+    "title": "Kath Lagda",
+    "trackName": "Kath Lagda",
+    "artistName": "Navaan Sandhu, Dhanda Nyoliwala, RXTRO & Sanya Dandona",
+    "albumName": "Bipolar",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dc/ae/b7/dcaeb77a-0d81-2ca6-941a-f6a9ac7b1197/26UMGIM64188.rgb.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1826597856,
+    "title": "Thodi Si Daaru",
+    "trackName": "Thodi Si Daaru",
+    "artistName": "AP Dhillon & Shreya Ghoshal",
+    "albumName": "Thodi Si Daaru - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/78/99/aa/7899aaf6-391d-715b-3b50-5e0f3d2b4fb3/25UMGIM91523.rgb.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 6770745772,
+    "title": "Headliner",
+    "trackName": "Headliner",
+    "artistName": "Navaan Sandhu & Haakam",
+    "albumName": "Bipolar",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dc/ae/b7/dcaeb77a-0d81-2ca6-941a-f6a9ac7b1197/26UMGIM64188.rgb.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1882965642,
+    "title": "Ranjha",
+    "trackName": "Ranjha",
+    "artistName": "Diljit Dosanjh, Sia & David Guetta",
+    "albumName": "Ranjha - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7f/1b/93/7f1b933b-e8f8-fa07-6f20-70ad4d7e232a/5026854851488.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 6771755378,
+    "title": "One Call Away",
+    "trackName": "One Call Away",
+    "artistName": "Arjan Dhillon, Jazzy B & MXRCI",
+    "albumName": "Enigma",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4e/ee/c1/4eeec1af-3c5a-320d-40b2-00b9f04cc51b/8905285314991.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1889868057,
+    "title": "Ace",
+    "trackName": "Ace",
+    "artistName": "Shubh",
+    "albumName": "Chapter IV - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6f/c0/58/6fc0580d-5cfc-0358-87f7-d7fe6c4bd001/820200882387.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 6771755374,
+    "title": "Enigma",
+    "trackName": "Enigma",
+    "artistName": "Arjan Dhillon & MXRCI",
+    "albumName": "Enigma",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4e/ee/c1/4eeec1af-3c5a-320d-40b2-00b9f04cc51b/8905285314991.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 6788752812,
+    "title": "Narak",
+    "trackName": "Narak (From \"Ishqnama\")",
+    "artistName": "B. Praak, Jaani & Jyotica Tangri",
+    "albumName": "Narak (From \"Ishqnama\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/95/3f/f5/953ff535-b0dd-b870-7346-d9362e3f0c39/8901854117451.jpg/300x300bb.jpg",
+    "category": "punjabi"
+  },
+  {
+    "id": 1791575217,
+    "title": "Bande 4",
+    "trackName": "Bande 4",
+    "artistName": "Dr Zeus, Watan Sahi & Jasmeen Akhtar",
+    "albumName": "Bande 4 - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0a/08/c3/0a08c35b-a97d-635b-b354-021b98b548ef/8721253572435.png/300x300bb.jpg",
+    "category": "punjabi"
   }
 ];
 
