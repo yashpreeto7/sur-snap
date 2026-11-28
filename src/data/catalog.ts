@@ -3983,6 +3983,4047 @@ export const TRACK_CATALOG: CatalogTrack[] = [
     "albumName": "Makasam - Single",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/24/f3/61/24f3617c-7ecd-95bb-2387-14cbbf332e9f/cover.jpg/300x300bb.jpg",
     "category": "dhh-indie"
+  },
+  {
+    "id": 6825203336,
+    "title": "BUZZ",
+    "trackName": "BUZZ",
+    "artistName": "Seedhe Maut & KR$NA",
+    "albumName": "BUZZ - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/46/c9/ca46c9f1-32c6-d520-5378-5240ee20e8f5/711641076612.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6832975466,
+    "title": "Mujhe Nahi Chahiye",
+    "trackName": "Mujhe Nahi Chahiye",
+    "artistName": "Seedhe Maut & KR$NA",
+    "albumName": "Don't Try This At Home - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/7a/25/267a2572-0db1-bd70-e522-5a99eb937d6c/711641210054.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6832975478,
+    "title": "Please",
+    "trackName": "Please",
+    "artistName": "KR$NA & Seedhe Maut",
+    "albumName": "Don't Try This At Home - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/7a/25/267a2572-0db1-bd70-e522-5a99eb937d6c/711641210054.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6832975482,
+    "title": "Wait For A While",
+    "trackName": "Wait For A While",
+    "artistName": "Seedhe Maut & KR$NA",
+    "albumName": "Don't Try This At Home - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/7a/25/267a2572-0db1-bd70-e522-5a99eb937d6c/711641210054.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6832975485,
+    "title": "Fillet Mignion",
+    "trackName": "Fillet Mignion",
+    "artistName": "KR$NA, Seedhe Maut & Raftaar",
+    "albumName": "Don't Try This At Home - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/7a/25/267a2572-0db1-bd70-e522-5a99eb937d6c/711641210054.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1703240868,
+    "title": "Luka Chippi",
+    "trackName": "Luka Chippi",
+    "artistName": "Seedhe Maut & Bandzo3rd",
+    "albumName": "Lunch Break",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/97/00/d4/9700d4a5-393c-2441-60af-ba2d923a38e3/8445162961745.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1703241345,
+    "title": "Khatta Flow",
+    "trackName": "Khatta Flow",
+    "artistName": "Seedhe Maut & KR$NA",
+    "albumName": "Lunch Break",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/97/00/d4/9700d4a5-393c-2441-60af-ba2d923a38e3/8445162961745.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6776950845,
+    "title": "Hola Amigo",
+    "trackName": "Hola Amigo",
+    "artistName": "KR$NA, Seedhe Maut & Umair",
+    "albumName": "FAR FROM OVER - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c6/f2/96/c6f29642-396f-7bdf-f16d-5fd17d3b13bd/3617226757273.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1671891401,
+    "title": "TRAP PRAA",
+    "trackName": "TRAP PRAA",
+    "artistName": "Raftaar & Prabh Deep",
+    "albumName": "PRAA - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/17/2c/01/172c013c-5dc4-19a1-9348-5c94bbf692f9/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1804709383,
+    "title": "Namastute",
+    "trackName": "Namastute",
+    "artistName": "Seedhe Maut",
+    "albumName": "Namastute - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/3c/10/8c3c1016-be7e-666c-225d-00b671fb38e0/199066150108.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1592662506,
+    "title": "No Cap",
+    "trackName": "No Cap",
+    "artistName": "KR$NA",
+    "albumName": "No Cap - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/37/cd/83/37cd83d5-92ca-4bb6-1d6e-f6a8c9cfe0bc/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6776950763,
+    "title": "Prarthana",
+    "trackName": "Prarthana",
+    "artistName": "KR$NA",
+    "albumName": "FAR FROM OVER - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c6/f2/96/c6f29642-396f-7bdf-f16d-5fd17d3b13bd/3617226757273.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1703238430,
+    "title": "11K",
+    "trackName": "11K",
+    "artistName": "Seedhe Maut",
+    "albumName": "Lunch Break",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/97/00/d4/9700d4a5-393c-2441-60af-ba2d923a38e3/8445162961745.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1684708143,
+    "title": "Hona Hi Tha",
+    "trackName": "Hona Hi Tha (feat. Encore ABJ & dilliboy)",
+    "artistName": "Yungsta, Sez on the Beat & Raga",
+    "albumName": "MEEN",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c2/c3/8a/c2c38a2f-cf43-1d61-4306-989520d0afe2/197188776039.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6807406167,
+    "title": "Galat Karam",
+    "trackName": "Galat Karam",
+    "artistName": "Panther & Raga",
+    "albumName": "Flying Towards The City",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/41/1d/f1/411df198-1c2f-6755-7b9b-9eb99c812f9f/197999868138.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1703240477,
+    "title": "Swah!",
+    "trackName": "Swah!",
+    "artistName": "Seedhe Maut & Badshah",
+    "albumName": "Lunch Break",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/97/00/d4/9700d4a5-393c-2441-60af-ba2d923a38e3/8445162961745.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1716611387,
+    "title": "Woh Raat",
+    "trackName": "Woh Raat",
+    "artistName": "Raftaar & KR$NA",
+    "albumName": "Woh Raat - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e1/78/24/e17824eb-92c2-84fb-133d-bf147c5e1709/197190456752.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6777991908,
+    "title": "Kaha Tak",
+    "trackName": "Kaha Tak",
+    "artistName": "KR$NA, Jokhay & Umair",
+    "albumName": "Time Will Tell - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/6c/88/d96c887f-e51d-339d-f1a5-5afb773a34c9/3617057085538.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1633775092,
+    "title": "Machayenge 4",
+    "trackName": "Machayenge 4",
+    "artistName": "KR$NA",
+    "albumName": "Machayenge 4 - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fd/58/bb/fd58bbed-cff6-0a22-73fa-bd110622dd25/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1703241338,
+    "title": "Joint in the Booth",
+    "trackName": "Joint in the Booth",
+    "artistName": "Seedhe Maut",
+    "albumName": "Lunch Break",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/97/00/d4/9700d4a5-393c-2441-60af-ba2d923a38e3/8445162961745.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6776950519,
+    "title": "Still Standing",
+    "trackName": "Still Standing",
+    "artistName": "KR$NA",
+    "albumName": "FAR FROM OVER - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c6/f2/96/c6f29642-396f-7bdf-f16d-5fd17d3b13bd/3617226757273.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1523718706,
+    "title": "101",
+    "trackName": "101",
+    "artistName": "Seedhe Maut",
+    "albumName": "The Indian Hip-Hop Compilation Vol. 2",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6e/3f/c4/6e3fc43e-303d-9f01-ea5b-e3ad421a3381/193436225243_01_img001.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1719944595,
+    "title": "No Mercy (Bonus Track)",
+    "trackName": "No Mercy (Bonus Track)",
+    "artistName": "Deep Kalsi, Raftaar, KR$NA & Karma",
+    "albumName": "Tunnel Vision",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f3/63/e7/f363e73b-a1b4-b22a-0641-3d04de6dff3b/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1542201785,
+    "title": "3:59 AM",
+    "trackName": "3:59 AM",
+    "artistName": "DIVINE",
+    "albumName": "Punya Paap",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/14/8d/39/148d39c0-62bc-a764-d674-5527600885c2/20UM1IM09596.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1804726937,
+    "title": "Batti",
+    "trackName": "Batti (feat. Ab 17)",
+    "artistName": "Seedhe Maut & Sez on the Beat",
+    "albumName": "Nayaab",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b8/41/71/b84171ff-de77-3505-af3d-41a5b8d37fc4/199066166178.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6777991913,
+    "title": "Been a While",
+    "trackName": "Been a While",
+    "artistName": "KR$NA, Talha Anjum & Umair",
+    "albumName": "Time Will Tell - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/6c/88/d96c887f-e51d-339d-f1a5-5afb773a34c9/3617057085538.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1549669967,
+    "title": "Untitled",
+    "trackName": "Untitled",
+    "artistName": "KR$NA",
+    "albumName": "Untitled - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/de/aa/40/deaa40b0-085f-6018-e2ed-ff478b656fc6/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6777991910,
+    "title": "NGL",
+    "trackName": "NGL",
+    "artistName": "KR$NA, Talhah Yunus, Umair & Rovalio",
+    "albumName": "Time Will Tell - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/6c/88/d96c887f-e51d-339d-f1a5-5afb773a34c9/3617057085538.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1653648061,
+    "title": "Baazigar",
+    "trackName": "Baazigar",
+    "artistName": "DIVINE & Armani White",
+    "albumName": "Gunehgar",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/db/ce/8b/dbce8ba7-aa54-219e-3983-e56ed7852d71/197187441679.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6776947317,
+    "title": "Fall Off (Interlude)",
+    "trackName": "Fall Off (Interlude)",
+    "artistName": "KR$NA",
+    "albumName": "Still Here",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/71/db/f071db1e-833f-b162-2700-44185b7b3c07/3616553919019.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1804727479,
+    "title": "MMM",
+    "trackName": "MMM",
+    "artistName": "Seedhe Maut & Sez on the Beat",
+    "albumName": "MMM - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ff/42/f1/ff42f1a1-f5fd-3e4e-8d5e-7b979ec7d316/199066650783.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6776936896,
+    "title": "Blowing Up",
+    "trackName": "Blowing Up",
+    "artistName": "KR$NA",
+    "albumName": "Blowing Up - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3f/36/ff/3f36ffd2-edba-4abf-3e9c-09c12e62c290/3616845033232.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1549668513,
+    "title": "Seedha Makeover",
+    "trackName": "Seedha Makeover",
+    "artistName": "KR$NA",
+    "albumName": "Seedha Makeover - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ea/b5/14/eab514ab-c212-3732-627c-9a38c7c8ba41/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1548518649,
+    "title": "Baap Se",
+    "trackName": "Baap Se",
+    "artistName": "Fotty Seven & KR$NA",
+    "albumName": "Asli Independent - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4e/1e/3f/4e1e3f55-d3e3-19a3-9f23-ef96b11dc920/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1554748412,
+    "title": "Maharani",
+    "trackName": "Maharani",
+    "artistName": "KR$NA",
+    "albumName": "Maharani - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c6/f3/24/c6f324b3-8d38-744c-6715-3b0f133f4aba/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1703238914,
+    "title": "Dikkat",
+    "trackName": "Dikkat",
+    "artistName": "Seedhe Maut & Hurricane",
+    "albumName": "Lunch Break",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/97/00/d4/9700d4a5-393c-2441-60af-ba2d923a38e3/8445162961745.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1726564847,
+    "title": "OK Report",
+    "trackName": "OK Report",
+    "artistName": "Fotty Seven",
+    "albumName": "OK Report - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/bc/23/97/bc23970f-0842-0463-cdcc-0a59fef2caf3/24UMGIM04781.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6776950847,
+    "title": "Some Of Us",
+    "trackName": "Some Of Us",
+    "artistName": "KR$NA & AR Paisley",
+    "albumName": "FAR FROM OVER - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c6/f2/96/c6f29642-396f-7bdf-f16d-5fd17d3b13bd/3617226757273.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1654767389,
+    "title": "JASHAN-E-HIP-HOP",
+    "trackName": "JASHAN-E-HIP-HOP",
+    "artistName": "Raftaar",
+    "albumName": "HARD DRIVE Vol. 1",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cf/9f/07/cf9f07b0-9bab-97f4-af62-9d05c622bedd/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1703239169,
+    "title": "Fanne Khan",
+    "trackName": "Fanne Khan",
+    "artistName": "Seedhe Maut & Yungsta",
+    "albumName": "Lunch Break",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/97/00/d4/9700d4a5-393c-2441-60af-ba2d923a38e3/8445162961745.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6807406603,
+    "title": "Parinda",
+    "trackName": "Parinda",
+    "artistName": "Panther, Priyanka Meher & Nikhil - Swapnil",
+    "albumName": "Flying Towards The City",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/41/1d/f1/411df198-1c2f-6755-7b9b-9eb99c812f9f/197999868138.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1703239162,
+    "title": "Kya Challa",
+    "trackName": "Kya Challa",
+    "artistName": "Seedhe Maut",
+    "albumName": "Lunch Break",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/97/00/d4/9700d4a5-393c-2441-60af-ba2d923a38e3/8445162961745.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1804711448,
+    "title": "नalla Freestyle",
+    "trackName": "नalla Freestyle",
+    "artistName": "Seedhe Maut & DJ SA",
+    "albumName": "नalla Freestyle - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/93/98/c3/9398c3aa-23ff-8b44-0307-39d0f99affa4/199066158227.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1712272660,
+    "title": "Mere Bina",
+    "trackName": "Mere Bina",
+    "artistName": "KSHMR, The PropheC & Talha Anjum",
+    "albumName": "KARAM",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ea/ec/d4/eaecd402-2611-49b6-a508-c112600fdd35/197190192025.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1542201879,
+    "title": "Satya",
+    "trackName": "Satya",
+    "artistName": "DIVINE",
+    "albumName": "Punya Paap",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/14/8d/39/148d39c0-62bc-a764-d674-5527600885c2/20UM1IM09596.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1685804265,
+    "title": "Haath Varthi",
+    "trackName": "Haath Varthi",
+    "artistName": "MC Stan, KSHMR & Phenom",
+    "albumName": "Haath Varthi - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a6/6e/f0/a66ef0b7-54a4-937e-3636-31a5a96bd97c/197188790547.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1703238658,
+    "title": "Brand New",
+    "trackName": "Brand New",
+    "artistName": "Seedhe Maut",
+    "albumName": "Lunch Break",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/97/00/d4/9700d4a5-393c-2441-60af-ba2d923a38e3/8445162961745.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1703239547,
+    "title": "Champions",
+    "trackName": "Champions",
+    "artistName": "Seedhe Maut & Rawal",
+    "albumName": "Lunch Break",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/97/00/d4/9700d4a5-393c-2441-60af-ba2d923a38e3/8445162961745.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1734627715,
+    "title": "Numb",
+    "trackName": "Numb",
+    "artistName": "MC Stan",
+    "albumName": "Numb - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/38/80/4e/38804ec7-48be-c6c9-21be-b69951aa40d4/24UMGIM25857.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1654767385,
+    "title": "RAASHAH",
+    "trackName": "RAASHAH",
+    "artistName": "Raftaar",
+    "albumName": "HARD DRIVE Vol. 1",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cf/9f/07/cf9f07b0-9bab-97f4-af62-9d05c622bedd/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1549668913,
+    "title": "Freeverse Feast",
+    "trackName": "Freeverse Feast",
+    "artistName": "KR$NA",
+    "albumName": "Freeverse Feast - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4c/ef/c2/4cefc23c-ccb1-6b03-83fc-1fd482d923eb/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1723503575,
+    "title": "W",
+    "trackName": "W",
+    "artistName": "Emiway Bantai",
+    "albumName": "W - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9b/8c/11/9b8c11cc-cc74-590c-ae1f-f6d06ba311eb/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1703240998,
+    "title": "I Don't Miss That Life",
+    "trackName": "I Don't Miss That Life",
+    "artistName": "Seedhe Maut",
+    "albumName": "Lunch Break",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/97/00/d4/9700d4a5-393c-2441-60af-ba2d923a38e3/8445162961745.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6776937010,
+    "title": "Lil Bunty",
+    "trackName": "Lil Bunty",
+    "artistName": "KR$NA",
+    "albumName": "Lil Bunty - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/88/fb/a988fb71-187e-4fcd-fa86-437df56ed8ef/3616847350719.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1804733890,
+    "title": "Nawazuddin",
+    "trackName": "Nawazuddin",
+    "artistName": "Seedhe Maut",
+    "albumName": "न",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/01/86/13/018613ab-76b9-4442-b32d-53d9da2bc117/199066660614.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1643480857,
+    "title": "Gunehgar",
+    "trackName": "Gunehgar",
+    "artistName": "DIVINE",
+    "albumName": "Gunehgar - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ca/e8/fd/cae8fdb6-342e-3b7c-550c-7600310925a8/196925726276.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1548245886,
+    "title": "Tadipaar",
+    "trackName": "Tadipaar",
+    "artistName": "MC Stan",
+    "albumName": "Tadipaar",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ae/17/54/ae1754a7-f8ec-02d3-9540-e3e8b2fcf8eb/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1703240287,
+    "title": "Asal G",
+    "trackName": "Asal G",
+    "artistName": "Seedhe Maut, Talal Qureshi & Faris Shafi",
+    "albumName": "Lunch Break",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/97/00/d4/9700d4a5-393c-2441-60af-ba2d923a38e3/8445162961745.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1558426262,
+    "title": "Snake",
+    "trackName": "Snake",
+    "artistName": "MC Stan",
+    "albumName": "Snake - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/17/41/cd/1741cdfb-9143-05fa-6f25-641f7c52fb33/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1629032365,
+    "title": "Shana Bann",
+    "trackName": "Shana Bann",
+    "artistName": "MC Stan",
+    "albumName": "Shana Bann - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/03/78/11/0378113e-e7af-aeb6-440c-d87cc786c155/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1610310012,
+    "title": "Basti Ka Hasti",
+    "trackName": "Basti Ka Hasti",
+    "artistName": "MC Stan",
+    "albumName": "Insaan",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d0/d0/dc/d0d0dcad-ecb2-f927-9d86-3ddd941c8783/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1548245821,
+    "title": "Amin",
+    "trackName": "Amin",
+    "artistName": "MC Stan",
+    "albumName": "Tadipaar",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ae/17/54/ae1754a7-f8ec-02d3-9540-e3e8b2fcf8eb/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1712272222,
+    "title": "Zero After Zero",
+    "trackName": "Zero After Zero",
+    "artistName": "KSHMR, KR$NA & Talay Riley",
+    "albumName": "KARAM",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ea/ec/d4/eaecd402-2611-49b6-a508-c112600fdd35/197190192025.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1610323563,
+    "title": "Banjo",
+    "trackName": "Banjo",
+    "artistName": "Fotty Seven",
+    "albumName": "Banjo - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/d9/42/8fd9426f-8780-fc04-c47a-0336b0792013/22UMGIM16785.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6776947321,
+    "title": "Saza-E-Maut",
+    "trackName": "Saza-E-Maut",
+    "artistName": "KR$NA & Raftaar",
+    "albumName": "Still Here",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/71/db/f071db1e-833f-b162-2700-44185b7b3c07/3616553919019.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1703241008,
+    "title": "Akatsuki",
+    "trackName": "Akatsuki",
+    "artistName": "Seedhe Maut & Raga",
+    "albumName": "Lunch Break",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/97/00/d4/9700d4a5-393c-2441-60af-ba2d923a38e3/8445162961745.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1612784044,
+    "title": "Nishu",
+    "trackName": "Nishu",
+    "artistName": "Ikka",
+    "albumName": "Nishu - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/85/2a/a7/852aa77a-6e69-247e-e036-046b04dcfe07/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1712272947,
+    "title": "Khoya Sab",
+    "trackName": "Khoya Sab",
+    "artistName": "KSHMR, Yungsta & Lisa Mishra",
+    "albumName": "KARAM",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ea/ec/d4/eaecd402-2611-49b6-a508-c112600fdd35/197190192025.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1605719014,
+    "title": "Sab Jaanta Hai",
+    "trackName": "Sab Jaanta Hai",
+    "artistName": "Ikka",
+    "albumName": "Sab Jaanta Hai - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ab/da/8d/abda8d13-d73b-d3c7-4545-fa0e24fb3416/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1548245796,
+    "title": "Hosh Mai Aa",
+    "trackName": "Hosh Mai Aa",
+    "artistName": "MC Stan",
+    "albumName": "Tadipaar",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ae/17/54/ae1754a7-f8ec-02d3-9540-e3e8b2fcf8eb/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1654767115,
+    "title": "F16",
+    "trackName": "F16",
+    "artistName": "Raftaar",
+    "albumName": "HARD DRIVE Vol. 1",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cf/9f/07/cf9f07b0-9bab-97f4-af62-9d05c622bedd/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1827890567,
+    "title": "Khana Badosh",
+    "trackName": "Khana Badosh (feat. JJ47, Nabeel Akbar & Talha Anjum)",
+    "artistName": "Jokhay",
+    "albumName": "Khana Badosh (feat. JJ47, Nabeel Akbar & Talha Anjum) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0c/19/64/0c1964fc-343d-b108-592f-b52397ba9fd8/199538345711.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6776947308,
+    "title": "Villain",
+    "trackName": "Villain",
+    "artistName": "KR$NA, Karma & Ikka",
+    "albumName": "Still Here",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/71/db/f071db1e-833f-b162-2700-44185b7b3c07/3616553919019.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1827890768,
+    "title": "Bandish",
+    "trackName": "Bandish (feat. Shareh, Talha Anjum & Talhah Yunus)",
+    "artistName": "Jokhay",
+    "albumName": "Khana Badosh",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cf/63/51/cf6351a8-2ca7-eeb0-f30d-7382318aeb43/199538295542.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1712272240,
+    "title": "Upar Hi Upar",
+    "trackName": "Upar Hi Upar",
+    "artistName": "KSHMR, Yashraj & Rawal",
+    "albumName": "KARAM",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ea/ec/d4/eaecd402-2611-49b6-a508-c112600fdd35/197190192025.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1712271818,
+    "title": "Dream",
+    "trackName": "Dream",
+    "artistName": "KSHMR, Ikka & Karra",
+    "albumName": "KARAM",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ea/ec/d4/eaecd402-2611-49b6-a508-c112600fdd35/197190192025.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1829402664,
+    "title": "Manzar Kashi",
+    "trackName": "Manzar Kashi (feat. Talhah Yunus & JJ47)",
+    "artistName": "Jokhay",
+    "albumName": "Manzar Kashi (feat. Talhah Yunus & JJ47) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ea/b1/28/eab12833-d38b-ac47-a65c-0eeb7011b5d9/199538338706.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1549639276,
+    "title": "Dum Hai",
+    "trackName": "Dum Hai",
+    "artistName": "KR$NA",
+    "albumName": "Dum Hai - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9f/10/86/9f10865e-f3af-89b5-72b7-9a5086b8068f/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1610309817,
+    "title": "Bitch",
+    "trackName": "Bitch",
+    "artistName": "MC Stan",
+    "albumName": "Insaan",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d0/d0/dc/d0d0dcad-ecb2-f927-9d86-3ddd941c8783/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1610310030,
+    "title": "One Day Uh Gonna Pay",
+    "trackName": "One Day Uh Gonna Pay",
+    "artistName": "MC Stan",
+    "albumName": "Insaan",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d0/d0/dc/d0d0dcad-ecb2-f927-9d86-3ddd941c8783/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6776934111,
+    "title": "The Key - Freestyle",
+    "trackName": "The Key - Freestyle",
+    "artistName": "KR$NA",
+    "albumName": "The Key - Freestyle - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f9/1738f9fe-35a6-23e9-f61a-b5f340f87a90/3616550229951.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1703241331,
+    "title": "W",
+    "trackName": "W",
+    "artistName": "Seedhe Maut",
+    "albumName": "Lunch Break",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/97/00/d4/9700d4a5-393c-2441-60af-ba2d923a38e3/8445162961745.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1747977999,
+    "title": "GOAT SHIT",
+    "trackName": "GOAT SHIT",
+    "artistName": "King & Karma",
+    "albumName": "GOAT SHIT - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/75/5c/36755cf6-c100-dce7-47e7-d5ce20235044/5021732392183.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1762198511,
+    "title": "Raat Ki Rani",
+    "trackName": "Raat Ki Rani",
+    "artistName": "Seedhe Maut",
+    "albumName": "SHAKTI - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/54/3b/c5543b7a-68df-43c7-af19-de5bb20480ce/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1760151713,
+    "title": "F*CK WHAT THEY SAY",
+    "trackName": "F*CK WHAT THEY SAY",
+    "artistName": "King & MC Stan",
+    "albumName": "MONOPOLY MOVES",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ea/ad/f5/eaadf55a-e673-632a-942f-0e21258556d4/5021732457165.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1777837223,
+    "title": "SHUTDOWN",
+    "trackName": "SHUTDOWN",
+    "artistName": "Seedhe Maut",
+    "albumName": "SHUTDOWN - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1b/22/fe/1b22fe77-3a1a-22b8-3e6d-69db6a8e7139/8447053238790.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1781602488,
+    "title": "Dafli Wale - The Hustle Flip",
+    "trackName": "Dafli Wale - The Hustle Flip",
+    "artistName": "Naam Sujal, Lata Mangeshkar & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4, Episode. 11",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/28/ff/0128ffa6-3a77-41d3-4781-fdc49dabb0f4/199066037584.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1784665631,
+    "title": "ICE",
+    "trackName": "ICE",
+    "artistName": "Seedhe Maut",
+    "albumName": "Kshama",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/b7/56/e7b75644-d761-43f0-d688-34d8e6ab4b41/8447053264881.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1784665638,
+    "title": "Round 3",
+    "trackName": "Round 3",
+    "artistName": "Seedhe Maut",
+    "albumName": "Kshama",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/b7/56/e7b75644-d761-43f0-d688-34d8e6ab4b41/8447053264881.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1784665629,
+    "title": "RED",
+    "trackName": "RED",
+    "artistName": "Seedhe Maut & Hisab",
+    "albumName": "Kshama",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/b7/56/e7b75644-d761-43f0-d688-34d8e6ab4b41/8447053264881.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1760151720,
+    "title": "WARCRY",
+    "trackName": "WARCRY",
+    "artistName": "King & Raftaar",
+    "albumName": "MONOPOLY MOVES",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ea/ad/f5/eaadf55a-e673-632a-942f-0e21258556d4/5021732457165.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1804733898,
+    "title": "Natkhat",
+    "trackName": "Natkhat",
+    "artistName": "Seedhe Maut",
+    "albumName": "न",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/01/86/13/018613ab-76b9-4442-b32d-53d9da2bc117/199066660614.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6776937455,
+    "title": "Shut Up",
+    "trackName": "Shut Up",
+    "artistName": "KR$NA & Subspace",
+    "albumName": "For The Day One$ - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/e5/79/7fe5796b-92ff-df97-3d57-684a9957d671/3617389971172.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1762198517,
+    "title": "Naksha",
+    "trackName": "Naksha",
+    "artistName": "Seedhe Maut",
+    "albumName": "SHAKTI - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/54/3b/c5543b7a-68df-43c7-af19-de5bb20480ce/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1784666007,
+    "title": "Shakti Aur Kshama",
+    "trackName": "Shakti Aur Kshama",
+    "artistName": "Seedhe Maut",
+    "albumName": "Kshama",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/b7/56/e7b75644-d761-43f0-d688-34d8e6ab4b41/8447053264881.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1782837934,
+    "title": "PYAAR?",
+    "trackName": "PYAAR?",
+    "artistName": "Naam Sujal & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4, Episode. 14 - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/86/a4/66/86a466d4-a51e-6f30-ce92-a9d7757b71fa/199066149874.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1769893531,
+    "title": "Karta Kya Hai",
+    "trackName": "Karta Kya Hai",
+    "artistName": "Karma & Raftaar",
+    "albumName": "How Much a Rhyme Costs? - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a4/3a/f2/a43af214-21aa-799e-63b6-980f4cbf0bb1/5021732499844.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1757169914,
+    "title": "BAWE MAIN CHECK",
+    "trackName": "BAWE MAIN CHECK",
+    "artistName": "King & Raga",
+    "albumName": "PYAAR HUMARA",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4c/6c/ae/4c6caec7-ba9d-9d1c-35c1-6d85f5d1e778/5021732440662.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1779041730,
+    "title": "Vishay Khatam",
+    "trackName": "Vishay Khatam",
+    "artistName": "Naam Sujal & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4, Episode. 7",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9e/12/c6/9e12c6c4-d334-a2bf-a416-2f591c17dcb8/198846925868.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1755026625,
+    "title": "KODAK",
+    "trackName": "KODAK",
+    "artistName": "King & Seedhe Maut",
+    "albumName": "KODAK - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ca/c0/0d/cac00ded-7b8f-e051-5f63-9564ee6e15c9/5021732430649.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1777087520,
+    "title": "TT",
+    "trackName": "TT",
+    "artistName": "Seedhe Maut",
+    "albumName": "TT - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/47/86/26/478626bb-1047-c8da-e9eb-6cda58dff9b8/8447053238783.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1779553397,
+    "title": "BAAWE",
+    "trackName": "BAAWE",
+    "artistName": "Raftaar & Badshah",
+    "albumName": "Hard Drive, Vol. 2",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/d8/45/5cd845c2-18b1-d289-54d8-e245d6b9ebd0/198846953236.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1579545010,
+    "title": "I'm Done",
+    "trackName": "I'm Done",
+    "artistName": "MC Stan",
+    "albumName": "I'm Done - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e9/3f/f0/e93ff040-33b6-b08a-237a-6872180176de/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1785588749,
+    "title": "Blueprint",
+    "trackName": "Blueprint",
+    "artistName": "Naam Sujal & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4, Episode. 17",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e0/ec/b2/e0ecb2bc-c1f1-464c-4bfa-848a18041b10/199066311424.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6776950779,
+    "title": "Wanna Know",
+    "trackName": "Wanna Know",
+    "artistName": "KR$NA",
+    "albumName": "FAR FROM OVER - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c6/f2/96/c6f29642-396f-7bdf-f16d-5fd17d3b13bd/3617226757273.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1798292741,
+    "title": "Run It Up",
+    "trackName": "Run It Up",
+    "artistName": "Hanumankind",
+    "albumName": "Run It Up - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/93/e2/63/93e2634c-d70d-3075-2362-1c14cea3e34b/25UMGIM10615.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1754946760,
+    "title": "Big Dawgs",
+    "trackName": "Big Dawgs",
+    "artistName": "Hanumankind & Kalmi",
+    "albumName": "Big Dawgs - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/93/a4/ef93a4f8-625d-1146-de1b-1f287cc48e68/24UMGIM70977.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1779552948,
+    "title": "DEHSHAT HO",
+    "trackName": "DEHSHAT HO",
+    "artistName": "Raftaar & Yashraj",
+    "albumName": "Hard Drive, Vol. 2",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/d8/45/5cd845c2-18b1-d289-54d8-e245d6b9ebd0/198846953236.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1712907521,
+    "title": "STILL NUMBER 1",
+    "trackName": "STILL NUMBER 1",
+    "artistName": "Emiway Bantai",
+    "albumName": "STILL NUMBER 1 - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/36/9f/d9/369fd947-3de9-7045-eaa5-d454f279f812/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1814144675,
+    "title": "Never Enough",
+    "trackName": "Never Enough",
+    "artistName": "KR$NA & Phenom",
+    "albumName": "Yours Truly",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/bf/21/24bf21b2-7b32-4256-c9dd-67d5a70fee75/199350613517.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1812505750,
+    "title": "Pickup",
+    "trackName": "Pickup (feat. OG Lucifer)",
+    "artistName": "Seedhe Maut, Hurricane & DL91 Era",
+    "albumName": "DL91 FM",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fe/14/c3/fe14c33d-0a5d-fe17-6a20-c4ff16df98fa/199350493379.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1814144430,
+    "title": "Knock Knock",
+    "trackName": "Knock Knock",
+    "artistName": "KR$NA & Phenom",
+    "albumName": "Yours Truly",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/bf/21/24bf21b2-7b32-4256-c9dd-67d5a70fee75/199350613517.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1770242089,
+    "title": "Tujhya Aaichi Gaand",
+    "trackName": "Tujhya Aaichi Gaand",
+    "artistName": "MC Stan",
+    "albumName": "Tujhya Aaichi Gaand - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0e/38/eb/0e38eba7-7ba5-a967-e57e-3cdd8038d62e/24UM1IM04622.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1814144664,
+    "title": "Sensitive",
+    "trackName": "Sensitive",
+    "artistName": "KR$NA, Seedhe Maut & Hurricane",
+    "albumName": "Yours Truly",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/bf/21/24bf21b2-7b32-4256-c9dd-67d5a70fee75/199350613517.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1822324693,
+    "title": "3 DRAGS",
+    "trackName": "3 DRAGS",
+    "artistName": "vichaar",
+    "albumName": "VVVV - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/88/b1/fe/88b1feb4-c981-2814-a6c3-409ffb20425f/199350991783.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1814145053,
+    "title": "KKBN",
+    "trackName": "KKBN",
+    "artistName": "KR$NA & Lambo Drive",
+    "albumName": "Yours Truly",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/bf/21/24bf21b2-7b32-4256-c9dd-67d5a70fee75/199350613517.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1777751197,
+    "title": "Shit Dawg",
+    "trackName": "Shit Dawg",
+    "artistName": "Naam Sujal & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4, Episode. 6",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4d/a9/c2/4da9c21b-c03e-4782-62b4-57567b056bcb/198846831589.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1814145258,
+    "title": "Talk My Shit/Guarantee",
+    "trackName": "Talk My Shit/Guarantee",
+    "artistName": "KR$NA, Yashraj & NEVERSOBER",
+    "albumName": "Yours Truly",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/bf/21/24bf21b2-7b32-4256-c9dd-67d5a70fee75/199350613517.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1777772377,
+    "title": "Protocol",
+    "trackName": "Protocol",
+    "artistName": "Naam Sujal & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/90/05/3e900509-9996-e31f-873d-6bf2e53c15b0/198846746302.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1777772145,
+    "title": "Chowk Pe",
+    "trackName": "Chowk Pe",
+    "artistName": "99side & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/90/05/3e900509-9996-e31f-873d-6bf2e53c15b0/198846746302.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1541314613,
+    "title": "Numberkari",
+    "trackName": "Numberkari",
+    "artistName": "MC Stan",
+    "albumName": "Numberkari - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/56/64/0f/56640f30-a8e6-f248-fc17-230776b5e4b5/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1779041734,
+    "title": "Curry Verse",
+    "trackName": "Curry Verse",
+    "artistName": "Lashcurry & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4, Episode. 7",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9e/12/c6/9e12c6c4-d334-a2bf-a416-2f591c17dcb8/198846925868.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1777751459,
+    "title": "Ulte Karam",
+    "trackName": "Ulte Karam",
+    "artistName": "Lashcurry & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4, Episode. 5",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/32/4d/a3324d2d-2e50-fd72-048b-8e4d7e80471a/198846835044.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6776937459,
+    "title": "Stay Away",
+    "trackName": "Stay Away",
+    "artistName": "KR$NA",
+    "albumName": "For The Day One$ - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/e5/79/7fe5796b-92ff-df97-3d57-684a9957d671/3617389971172.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1597377051,
+    "title": "Goat Dekho",
+    "trackName": "Goat Dekho",
+    "artistName": "Raftaar",
+    "albumName": "Goat Dekho - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ef/ab/fa/efabfafa-3d5d-0df3-1b50-b0df3e6b7d40/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1292155382,
+    "title": "City Slums",
+    "trackName": "City Slums (feat. DIVINE)",
+    "artistName": "Raja Kumari",
+    "albumName": "City Slums (feat. DIVINE) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/d2/f9/22d2f960-e1f4-1a06-d66c-b192079e97c2/886446783673.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1542201894,
+    "title": "Punya Paap",
+    "trackName": "Punya Paap",
+    "artistName": "DIVINE",
+    "albumName": "Punya Paap",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/14/8d/39/148d39c0-62bc-a764-d674-5527600885c2/20UM1IM09596.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1530291419,
+    "title": "Lowkey",
+    "trackName": "Lowkey",
+    "artistName": "MC Stan",
+    "albumName": "Lowkey - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/1c/ee/391cee1e-669f-ac7c-09de-c32d4eb0629f/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1690845274,
+    "title": "King Of Indian Hip Hop",
+    "trackName": "King Of Indian Hip Hop",
+    "artistName": "Emiway Bantai",
+    "albumName": "King Of The Streets",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/75/ec/21/75ec21c6-afbb-2adf-c340-0fe410a527b7/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1748752925,
+    "title": "911 Porsche",
+    "trackName": "911 Porsche",
+    "artistName": "MC Stan",
+    "albumName": "911 Porsche - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0f/24/ca/0f24ca63-773b-f852-4464-39fd5f7f0238/24UMGIM59610.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1530289537,
+    "title": "Astaghfirullah",
+    "trackName": "Astaghfirullah",
+    "artistName": "MC Stan",
+    "albumName": "Astaghfirullah - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ab/56/99/ab5699bc-832a-fe0c-1d2f-26050c2a18c9/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1205945425,
+    "title": "Farak",
+    "trackName": "Farak",
+    "artistName": "DIVINE",
+    "albumName": "Farak - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f8/81/da/f881dad1-ba69-9d86-df85-1acf6aa84f81/886446380506.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1781901220,
+    "title": "Gojira",
+    "trackName": "Gojira",
+    "artistName": "Ikka",
+    "albumName": "Blood Is Better Than Tears - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/30/4c/9f304c61-1a4e-d5d1-32c9-7146c70a8103/8903431031624_cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1862404041,
+    "title": "rocket",
+    "trackName": "rocket",
+    "artistName": "Panther",
+    "albumName": "shehro ki safed sadko pe sehro ke sangeen safar - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3f/dd/73/3fdd73bb-3245-a568-6b81-02bb9a4407b6/199806764589.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1704617453,
+    "title": "Nusta Paisa",
+    "trackName": "Nusta Paisa",
+    "artistName": "MC Stan",
+    "albumName": "Nusta Paisa - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0c/1f/cc/0c1fccec-9ca4-1263-e8fd-bff1000a234e/23UM1IM00346.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1852201149,
+    "title": "Mera Naam Hai",
+    "trackName": "Mera Naam Hai",
+    "artistName": "Emiway Bantai",
+    "albumName": "FTSTTS",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/bd/68/0dbd6837-466c-55d2-e4a7-811ecbf05465/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1608865544,
+    "title": "Google Pay",
+    "trackName": "Google Pay",
+    "artistName": "Karma & Deep Kalsi",
+    "albumName": "Google Pay - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/43/73/99/4373992e-381a-66c6-fff4-03d3de1d95e8/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6776950585,
+    "title": "10 Pe 10",
+    "trackName": "10 Pe 10 (feat. French The Kid)",
+    "artistName": "KR$NA",
+    "albumName": "10 Pe 10 (feat. French The Kid) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/31/da/bd/31dabde6-81e4-bc38-32d7-eae733a3e1f7/3617053535235.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1879430266,
+    "title": "NMC Ka Dagga",
+    "trackName": "NMC Ka Dagga",
+    "artistName": "Naam Sujal & Prathamesh",
+    "albumName": "MAMAFICATION",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/6a/a5/666aa512-cd19-32c8-d29e-7269dc99f3f2/26UMGIM21470.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6776937463,
+    "title": "Role Model",
+    "trackName": "Role Model",
+    "artistName": "KR$NA, Faris Shafi & Karma",
+    "albumName": "For The Day One$ - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/e5/79/7fe5796b-92ff-df97-3d57-684a9957d671/3617389971172.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1862404035,
+    "title": "kattey",
+    "trackName": "kattey",
+    "artistName": "Panther",
+    "albumName": "shehro ki safed sadko pe sehro ke sangeen safar - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3f/dd/73/3fdd73bb-3245-a568-6b81-02bb9a4407b6/199806764589.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1774046286,
+    "title": "NAMUNA",
+    "trackName": "NAMUNA",
+    "artistName": "Seedhe Maut",
+    "albumName": "NAMUNA - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/58/b9/ed58b984-9466-3e51-18c2-399987ee1791/8447053228302.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1774080750,
+    "title": "SRK",
+    "trackName": "SRK",
+    "artistName": "Seedhe Maut",
+    "albumName": "SRK - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b7/3a/8b/b73a8bab-d4e2-f663-f1a2-d02cd29d9cb7/8447053228319.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1569008547,
+    "title": "Rehmani Keeda",
+    "trackName": "Rehmani Keeda",
+    "artistName": "MC Stan",
+    "albumName": "Rehmani Keeda - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fd/11/8d/fd118d75-f120-8d2e-5ea5-f4a28e6db392/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1857701655,
+    "title": "Glass Half Full",
+    "trackName": "Glass Half Full",
+    "artistName": "Talha Anjum, Umair, JJ47 & Talhah Yunus",
+    "albumName": "Open Letter",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e9/e4/61/e9e4619a-96ce-b214-7a82-71428f409dbf/198846672137_cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1610310035,
+    "title": "Insaaniyat",
+    "trackName": "Insaaniyat",
+    "artistName": "MC Stan",
+    "albumName": "Insaan",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d0/d0/dc/d0d0dcad-ecb2-f927-9d86-3ddd941c8783/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6776937457,
+    "title": "What's Up",
+    "trackName": "What's Up",
+    "artistName": "KR$NA, Lisa Mishra & Rizzy Rico",
+    "albumName": "For The Day One$ - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/e5/79/7fe5796b-92ff-df97-3d57-684a9957d671/3617389971172.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6776936955,
+    "title": "Living Legend",
+    "trackName": "Living Legend (feat. Rashmeet Kaur)",
+    "artistName": "KR$NA",
+    "albumName": "Living Legend (feat. Rashmeet Kaur) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/75/c7/c0/75c7c0e5-fbd5-d5fd-edbb-512dbb71f278/3616551234398.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1804729826,
+    "title": "Dehshat",
+    "trackName": "Dehshat",
+    "artistName": "Seedhe Maut & Sez on the Beat",
+    "albumName": "Bayaan",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/a2/1b/6ea21b60-3155-9aac-fdd8-0579af266a1c/199066651063.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1879430399,
+    "title": "It's About Time",
+    "trackName": "It's About Time",
+    "artistName": "Naam Sujal, Siyaahi & Dhanji",
+    "albumName": "MAMAFICATION",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/6a/a5/666aa512-cd19-32c8-d29e-7269dc99f3f2/26UMGIM21470.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1814144421,
+    "title": "Nothing to Prove",
+    "trackName": "Nothing to Prove",
+    "artistName": "KR$NA & Phenom",
+    "albumName": "Yours Truly",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/bf/21/24bf21b2-7b32-4256-c9dd-67d5a70fee75/199350613517.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1548512223,
+    "title": "Say My Name",
+    "trackName": "Say My Name",
+    "artistName": "KR$NA",
+    "albumName": "Say My Name - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/70/30/27/70302736-4d6f-3472-7115-550d51150857/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1894160447,
+    "title": "MAIN LAGTA KAUN?",
+    "trackName": "MAIN LAGTA KAUN?",
+    "artistName": "Prathamesh & Teja",
+    "albumName": "MAIN LAGTA KAUN? - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/6a/1c/436a1c5a-588d-45ca-4b3a-4e68f7672726/26UMGIM46350.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1666776436,
+    "title": "Company",
+    "trackName": "Company",
+    "artistName": "Emiway Bantai",
+    "albumName": "Company - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/1b/a0/4f/1ba04fa8-01ba-fff3-4ac2-0c4fda33f345/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1792174623,
+    "title": "Badshah",
+    "trackName": "Badshah",
+    "artistName": "Emiway Bantai & Abhijeet",
+    "albumName": "Badshah - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9a/e9/08/9ae90813-dd6e-0bff-90ae-69aec1d93f78/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1692925121,
+    "title": "Bhussi",
+    "trackName": "Bhussi",
+    "artistName": "KSHMR, Seedhe Maut & Karan Kanchan",
+    "albumName": "Bhussi - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/e1/f0/1de1f0aa-8781-6714-2964-7a57d494e64c/197189044496.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6789021666,
+    "title": "Legacy Anthem",
+    "trackName": "Legacy Anthem",
+    "artistName": "KR$NA, Raftaar & DRJ Sohail",
+    "albumName": "Legacy Anthem - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/13/6e/b6/136eb671-3d02-9387-0081-72c927d7b697/820233997508.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1848856377,
+    "title": "CHANDELIERS",
+    "trackName": "CHANDELIERS",
+    "artistName": "Siyaahi & UZIII",
+    "albumName": "SULTANATE",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1f/be/2c/1fbe2cbe-8a02-6801-0ac6-bc242fbad93d/199806118412.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6763153453,
+    "title": "Boom Shaka",
+    "trackName": "Boom Shaka",
+    "artistName": "KR$NA & Dhanda Nyoliwala",
+    "albumName": "Boom Shaka - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e5/11/de/e511de2e-f27b-a0f1-3f7f-441ef4709a25/820233167307.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1844602615,
+    "title": "CUT THAT BITCH OFF",
+    "trackName": "CUT THAT BITCH OFF",
+    "artistName": "Naam Sujal & ARTEMIS",
+    "albumName": "CUT THAT BITCH OFF - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/54/3b/a6/543ba67e-9681-b9b9-eb86-129757a6644f/25UM1IM55246.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6810966811,
+    "title": "Pay Off",
+    "trackName": "Pay Off",
+    "artistName": "ANSHIOUS, Prathamesh & Kanch",
+    "albumName": "Legacy Chapter 3, Vol. 8 - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/6e/51/ef6e51d6-212e-2a5b-144b-30efc1c5ca11/885288560916.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6803082326,
+    "title": "Utha Patak",
+    "trackName": "Utha Patak",
+    "artistName": "Prathamesh & Kod.E",
+    "albumName": "Utha Patak - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/c6/f2/fac6f2d9-bc9b-abe8-459a-93adb5acdc2e/885288347524.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6805762920,
+    "title": "Slang Badsha",
+    "trackName": "Slang Badsha",
+    "artistName": "Prathamesh & Kod.E",
+    "albumName": "Legacy Chapter 3, Vol. 4 - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/06/eb/a6/06eba68a-20e0-9df0-218f-4b00a6aeba2d/885288462029.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6796583636,
+    "title": "Jua Zindagi",
+    "trackName": "Jua Zindagi",
+    "artistName": "Prathamesh & Kod.E",
+    "albumName": "Legacy Chapter 2, Vol. 1",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/87/48/2a8748d7-67e3-4c2d-f7b4-79d4750b7eb5/885288172119.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6801120178,
+    "title": "Sicario",
+    "trackName": "Sicario",
+    "artistName": "Chief & Refix",
+    "albumName": "Legacy Chapter 2, Vol. 4 - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e6/de/b9/e6deb9fb-2645-1ad1-ad17-d8a3ae659164/885288285321.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6806323565,
+    "title": "BAJESH VISHAY (Red Bull 64 Bars)",
+    "trackName": "BAJESH VISHAY (Red Bull 64 Bars)",
+    "artistName": "Naam Sujal & Hisab",
+    "albumName": "BAJESH VISHAY (Red Bull 64 Bars) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/98/8f/69988f73-3b9d-534e-83a2-19fa5225bfcc/26UM1IM11684.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6808516548,
+    "title": "mijaz",
+    "trackName": "mijaz",
+    "artistName": "Panther",
+    "albumName": "charag - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6a/4b/78/6a4b781d-d2ba-9d04-da4d-6647ff7af46a/196874722268.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6837402682,
+    "title": "Dola Re",
+    "trackName": "Dola Re",
+    "artistName": "Parimal Shais, Naam Sujal, Dhp & Ismail Darbar",
+    "albumName": "CURRY CHATTI BEATS (SEASON 2) - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3b/84/9a/3b849adc-cddf-bdcd-ce28-1b92846a3a6a/26UM1IM50408.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6813144121,
+    "title": "Known Guy",
+    "trackName": "Known Guy",
+    "artistName": "Prathamesh & Refix",
+    "albumName": "Legacy Chapter 3, Vol. 9",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a5/72/a3/a572a36d-c6bf-d647-b3a2-d3ff60ac9011/885288614060.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6819835871,
+    "title": "101",
+    "trackName": "101",
+    "artistName": "Karma & Naam Sujal",
+    "albumName": "MAD DAWG 101",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/50/c3/89/50c38956-3945-250b-2161-55721122e2f3/885288687163.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6819835878,
+    "title": "PR SHXT",
+    "trackName": "PR SHXT",
+    "artistName": "Karma",
+    "albumName": "MAD DAWG 101",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/50/c3/89/50c38956-3945-250b-2161-55721122e2f3/885288687163.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6819836220,
+    "title": "HARDXST",
+    "trackName": "HARDXST",
+    "artistName": "Karma",
+    "albumName": "MAD DAWG 101",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/50/c3/89/50c38956-3945-250b-2161-55721122e2f3/885288687163.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6819835987,
+    "title": "AM SO DOON",
+    "trackName": "AM SO DOON",
+    "artistName": "Karma, vichaar & GHILDIYAL",
+    "albumName": "MAD DAWG 101",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/50/c3/89/50c38956-3945-250b-2161-55721122e2f3/885288687163.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1703240266,
+    "title": "Lunch Break",
+    "trackName": "Lunch Break",
+    "artistName": "Seedhe Maut",
+    "albumName": "Lunch Break",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/97/00/d4/9700d4a5-393c-2441-60af-ba2d923a38e3/8445162961745.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1812505042,
+    "title": "MP3",
+    "trackName": "MP3",
+    "artistName": "Seedhe Maut, Hurricane & DL91 Era",
+    "albumName": "DL91 FM",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fe/14/c3/fe14c33d-0a5d-fe17-6a20-c4ff16df98fa/199350493379.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1777087364,
+    "title": "Kaanch Ke Ghar",
+    "trackName": "Kaanch Ke Ghar",
+    "artistName": "Seedhe Maut",
+    "albumName": "Kaanch Ke Ghar - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e6/fc/f5/e6fcf59b-9f16-c889-951d-236dfa61c1c2/8447053238813.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1814145440,
+    "title": "Vibrate",
+    "trackName": "Vibrate",
+    "artistName": "KR$NA, Badshah & Phenom",
+    "albumName": "Yours Truly",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/bf/21/24bf21b2-7b32-4256-c9dd-67d5a70fee75/199350613517.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1812507876,
+    "title": "Cha Chi",
+    "trackName": "Cha Chi (feat. Calm, Ab 17, Bhaskar & OG Lucifer)",
+    "artistName": "Seedhe Maut, Hurricane & DL91 Era",
+    "albumName": "DL91 FM",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fe/14/c3/fe14c33d-0a5d-fe17-6a20-c4ff16df98fa/199350493379.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1809085396,
+    "title": "Podcast",
+    "trackName": "Podcast",
+    "artistName": "Bali & ENZO",
+    "albumName": "Kala Khatta - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fe/c4/91/fec491f0-f87d-209c-a15b-282bce85bcbe/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1798410763,
+    "title": "Shameless",
+    "trackName": "Shameless",
+    "artistName": "Bali & Enzo",
+    "albumName": "Shameless - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/20/4a/0c/204a0c4a-85db-75d4-d7e3-72315af88b42/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1812504902,
+    "title": "Capital Rap",
+    "trackName": "Capital Rap (feat. Lil Bhavi)",
+    "artistName": "Seedhe Maut, Hurricane & DL91 Era",
+    "albumName": "DL91 FM",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fe/14/c3/fe14c33d-0a5d-fe17-6a20-c4ff16df98fa/199350493379.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1809085620,
+    "title": "Sad Gaana",
+    "trackName": "Sad Gaana",
+    "artistName": "Bali & AN1K8T",
+    "albumName": "Kala Khatta - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fe/c4/91/fec491f0-f87d-209c-a15b-282bce85bcbe/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1827975875,
+    "title": "Dubai Company",
+    "trackName": "Dubai Company",
+    "artistName": "Emiway Bantai",
+    "albumName": "Dubai Company - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/04/04/f3/0404f314-aaa4-23e9-351f-b3afb65845a6/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1804726601,
+    "title": "Maina",
+    "trackName": "Maina",
+    "artistName": "Seedhe Maut & Sez on the Beat",
+    "albumName": "Nayaab",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b8/41/71/b84171ff-de77-3505-af3d-41a5b8d37fc4/199066166178.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1812505632,
+    "title": "Madira",
+    "trackName": "Madira",
+    "artistName": "Seedhe Maut, Hurricane & DL91 Era",
+    "albumName": "DL91 FM",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fe/14/c3/fe14c33d-0a5d-fe17-6a20-c4ff16df98fa/199350493379.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1808602672,
+    "title": "Farebi",
+    "trackName": "Farebi",
+    "artistName": "Chaar Diwaari & Raftaar",
+    "albumName": "Farebi - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/59/5f/46/595f463b-6a56-c00e-8479-849da888e656/25UMGIM57295.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1812506683,
+    "title": "Guldasta",
+    "trackName": "Guldasta",
+    "artistName": "Seedhe Maut, Hurricane & DL91 Era",
+    "albumName": "DL91 FM",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fe/14/c3/fe14c33d-0a5d-fe17-6a20-c4ff16df98fa/199350493379.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1785227270,
+    "title": "SANATAN",
+    "trackName": "SANATAN",
+    "artistName": "Yashraj & NEVERSOBER",
+    "albumName": "SANATAN - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b5/12/ff/b512ffbf-019b-ac1d-cc2b-08679d25904c/24UM1IM40964.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1778044106,
+    "title": "Bure Din",
+    "trackName": "Bure Din (feat. Mick Jenkins)",
+    "artistName": "Seedhe Maut",
+    "albumName": "Bure Din (feat. Mick Jenkins) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/81/0c/07810ccd-24b4-44d3-86a4-70b66512c867/8447053241349.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1812505730,
+    "title": "El Matador",
+    "trackName": "El Matador (feat. Ghaatak)",
+    "artistName": "Seedhe Maut, Hurricane & DL91 Era",
+    "albumName": "DL91 FM",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fe/14/c3/fe14c33d-0a5d-fe17-6a20-c4ff16df98fa/199350493379.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1812506985,
+    "title": "Video Games",
+    "trackName": "Video Games",
+    "artistName": "Seedhe Maut, Hurricane & DL91 Era",
+    "albumName": "DL91 FM",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fe/14/c3/fe14c33d-0a5d-fe17-6a20-c4ff16df98fa/199350493379.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1842317422,
+    "title": "MUDDA",
+    "trackName": "MUDDA",
+    "artistName": "YUNG SAMMY, Seedhe Maut & Wamp",
+    "albumName": "MUDDA - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a7/bc/d2/a7bcd285-3324-b27c-4461-3e68c9a1dc3f/198704756849_Cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1834854038,
+    "title": "TOP FLOOR SHiii",
+    "trackName": "TOP FLOOR SHiii",
+    "artistName": "Yashraj & Calm",
+    "albumName": "TOP FLOOR SHiii - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a7/05/c3/a705c30a-8214-2eba-89a7-8ebc7e5920cf/25UM1IM23029.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1812506146,
+    "title": "DL91 FM",
+    "trackName": "DL91 FM (feat. OG Lucifer & Ghaatak)",
+    "artistName": "Seedhe Maut, Hurricane & DL91 Era",
+    "albumName": "DL91 FM",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fe/14/c3/fe14c33d-0a5d-fe17-6a20-c4ff16df98fa/199350493379.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1804727448,
+    "title": "Kranti",
+    "trackName": "Kranti",
+    "artistName": "Seedhe Maut & Sez on the Beat",
+    "albumName": "Kranti - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/f9/11/69f911c9-c0dc-2e03-6e81-8a7179b597a8/199066647325.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1727150868,
+    "title": "Shaayar",
+    "trackName": "Shaayar",
+    "artistName": "Bharat Chauhan & Seedhe Maut",
+    "albumName": "Shaayar - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/02/47/31/024731b0-c7ff-571d-481e-f326e9f24b7b/197190997569.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1812501209,
+    "title": "Pancake",
+    "trackName": "Pancake",
+    "artistName": "Seedhe Maut, Hurricane & DL91 Era",
+    "albumName": "Pancake - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d4/e4/dc/d4e4dce1-6cb6-7199-e10c-3046fc98d938/199350545917.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1734089062,
+    "title": "Moohfatt",
+    "trackName": "Moohfatt",
+    "artistName": "Rawal",
+    "albumName": "Moohfatt - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/fc/c4/5e/fcc45ef4-6d95-fea2-6b95-fca97f3fe873/859784992892_cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1812505060,
+    "title": "Maar Kaat",
+    "trackName": "Maar Kaat (feat. Lil Bhavi)",
+    "artistName": "Seedhe Maut, Hurricane & DL91 Era",
+    "albumName": "DL91 FM",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fe/14/c3/fe14c33d-0a5d-fe17-6a20-c4ff16df98fa/199350493379.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1804733887,
+    "title": "Nazarbhattu Freestyle",
+    "trackName": "Nazarbhattu Freestyle",
+    "artistName": "Seedhe Maut",
+    "albumName": "न",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/01/86/13/018613ab-76b9-4442-b32d-53d9da2bc117/199066660614.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1853803900,
+    "title": "You & I",
+    "trackName": "You & I",
+    "artistName": "DIVINE",
+    "albumName": "You & I - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/88/62/78/8862787b-546a-392f-338b-79db3d2d1c15/25UM1IM88639.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1862107933,
+    "title": "Boom",
+    "trackName": "Boom",
+    "artistName": "DIVINE",
+    "albumName": "Walking on Water",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/87/21/7e872100-3c31-cab0-cd03-7fa4e00bec4c/25UM2IM03238.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1862107929,
+    "title": "Dr. DIVINE",
+    "trackName": "Dr. DIVINE",
+    "artistName": "DIVINE",
+    "albumName": "Walking on Water",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/87/21/7e872100-3c31-cab0-cd03-7fa4e00bec4c/25UM2IM03238.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1804727455,
+    "title": "Teen Dost",
+    "trackName": "Teen Dost",
+    "artistName": "Seedhe Maut & Sez on the Beat",
+    "albumName": "Nayaab",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b8/41/71/b84171ff-de77-3505-af3d-41a5b8d37fc4/199066166178.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1814145676,
+    "title": "Yours Truly",
+    "trackName": "Yours Truly",
+    "artistName": "KR$NA",
+    "albumName": "Yours Truly",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/bf/21/24bf21b2-7b32-4256-c9dd-67d5a70fee75/199350613517.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1804726919,
+    "title": "Kohra",
+    "trackName": "Kohra",
+    "artistName": "Seedhe Maut & Sez on the Beat",
+    "albumName": "Nayaab",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b8/41/71/b84171ff-de77-3505-af3d-41a5b8d37fc4/199066166178.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1703239572,
+    "title": "Naam Kaam Sheher",
+    "trackName": "Naam Kaam Sheher",
+    "artistName": "Seedhe Maut, Qaab & Rebel 7",
+    "albumName": "Lunch Break",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/97/00/d4/9700d4a5-393c-2441-60af-ba2d923a38e3/8445162961745.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1804729822,
+    "title": "Meri Baggi",
+    "trackName": "Meri Baggi",
+    "artistName": "Seedhe Maut & Sez on the Beat",
+    "albumName": "Bayaan",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/a2/1b/6ea21b60-3155-9aac-fdd8-0579af266a1c/199066651063.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1812453201,
+    "title": "Bhundfaad",
+    "trackName": "Bhundfaad",
+    "artistName": "Rawal & Seedhe Maut",
+    "albumName": "Sherdil",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/10/fd/4110fd27-8e5b-b303-2d89-c060459208b7/859705595898_cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1664767854,
+    "title": "Go To Sleep",
+    "trackName": "Go To Sleep",
+    "artistName": "Hanumankind & Parimal Shais",
+    "albumName": "Go To Sleep - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/39/b6/bd/39b6bdf1-f090-35a2-c1cb-d08d593d5c3c/23UMGIM02112.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1581189360,
+    "title": "Damnson",
+    "trackName": "Damnson",
+    "artistName": "Hanumankind",
+    "albumName": "Damnson - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ee/f9/e7/eef9e783-441f-9f3c-dfec-4fdbadaf5f06/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1705764592,
+    "title": "Ayyayyo",
+    "trackName": "Ayyayyo",
+    "artistName": "Parimal Shais, MC Couper, ThirumaLi & Hanumankind",
+    "albumName": "Ayyayyo - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/23/9d/93/239d933c-e774-f405-d218-0ebeaa4be00e/23UM1IM04274.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1874306467,
+    "title": "Flush",
+    "trackName": "Flush",
+    "artistName": "jaiyash, OG Lucifer, Hurricane & RiJ",
+    "albumName": "Flush - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/a6/f3/cfa6f3b3-37a7-8baa-1db3-9829ce9d0cc1/977042.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1875344287,
+    "title": "BUN MASKA",
+    "trackName": "BUN MASKA",
+    "artistName": "Calm, DL91 Era & Seedhe Maut",
+    "albumName": "PentHouse Tapes, Vol. 1",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/42/ec/11/42ec11fc-ad29-e186-ad9d-c93180f6f2e9/820200195487.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1875344507,
+    "title": "PISHA",
+    "trackName": "PISHA",
+    "artistName": "Calm, DL91 Era, Seedhe Maut, Ab 17 & OG Lucifer",
+    "albumName": "PentHouse Tapes, Vol. 1",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/42/ec/11/42ec11fc-ad29-e186-ad9d-c93180f6f2e9/820200195487.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1875344499,
+    "title": "ROOTS",
+    "trackName": "ROOTS",
+    "artistName": "Calm, DL91 Era, Lil Bhavi, Hurricane & Seedhe Maut",
+    "albumName": "PentHouse Tapes, Vol. 1",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/42/ec/11/42ec11fc-ad29-e186-ad9d-c93180f6f2e9/820200195487.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6804706221,
+    "title": "IG Model",
+    "trackName": "IG Model",
+    "artistName": "Husxain & Refix",
+    "albumName": "IG Model - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/24/d4/e2/24d4e287-01d9-6fbc-edf6-9928bdf2e5f8/885288362985.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6813072839,
+    "title": "Bombay",
+    "trackName": "Bombay",
+    "artistName": "Husxain, 48Volt & Refix",
+    "albumName": "Bombay - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e5/40/58/e5405828-948d-205a-632c-7797d93a4f08/885288609998.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6802645160,
+    "title": "Dass Kaun",
+    "trackName": "Dass Kaun",
+    "artistName": "Manisten & Refix",
+    "albumName": "Legacy Chapter 3, Vol. 1 - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/82/02/e9/8202e945-f31a-66eb-a31e-d5e7683b4f69/885288318715.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6801133232,
+    "title": "All Over The Place",
+    "trackName": "All Over The Place",
+    "artistName": "Vanither & Refix",
+    "albumName": "All Over The Place - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/a1/42/45a14248-cc7e-d74d-ad81-f0b217a863b5/885288321449.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6801120175,
+    "title": "Pataka",
+    "trackName": "Pataka",
+    "artistName": "Rap ID & Refix",
+    "albumName": "Legacy Chapter 2, Vol. 4 - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e6/de/b9/e6deb9fb-2645-1ad1-ad17-d8a3ae659164/885288285321.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6797770272,
+    "title": "Role Model",
+    "trackName": "Role Model",
+    "artistName": "Vanither & Refix",
+    "albumName": "Legacy Chapter 2, Vol. 2",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bf/30/88/bf3088fb-5016-5500-0a4f-31deefdbbdad/885288185270.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6797770455,
+    "title": "Tori",
+    "trackName": "Tori",
+    "artistName": "VISHI & Refix",
+    "albumName": "Legacy Chapter 2, Vol. 2",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bf/30/88/bf3088fb-5016-5500-0a4f-31deefdbbdad/885288185270.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6789022807,
+    "title": "Skin In the Game",
+    "trackName": "Skin In the Game",
+    "artistName": "Prathamesh & Kod.E",
+    "albumName": "Legacy Chapter 1, Vol. 1 - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/3b/34/9d3b3420-fcf5-7fb1-74cf-dcb0a640cc0c/885288004519.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6793376954,
+    "title": "Amdavadi Pakhandi",
+    "trackName": "Amdavadi Pakhandi",
+    "artistName": "VISHI & Refix",
+    "albumName": "Amdavadi Pakhandi - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/42/fa/5042fadd-ce75-fe99-92cf-fb9547ed9e03/885288071184.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6789025140,
+    "title": "Thaat",
+    "trackName": "Thaat",
+    "artistName": "Babbar & Refix",
+    "albumName": "Legacy Chapter 1, Vol. 2",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e7/c9/98/e7c998d6-3c1f-ca46-1a1e-ec546a6e45cf/820233998291.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6793377076,
+    "title": "Bael Buddhi",
+    "trackName": "Bael Buddhi",
+    "artistName": "KHUDRAAZ & Refix",
+    "albumName": "Bael Buddhi - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/4a/4a/934a4abc-5f85-d714-3ddc-5061a3520f00/885288062779.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6800195720,
+    "title": "Prathamesh vs Vanither",
+    "trackName": "Prathamesh vs Vanither",
+    "artistName": "Prathamesh, Vanither & Kod.E",
+    "albumName": "Legacy Chapter 2, Vol. 3 - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/f1/86/e0f18686-4b36-eecb-c054-2166f5214d23/885288244281.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6809698075,
+    "title": "Mora Saajan",
+    "trackName": "Mora Saajan",
+    "artistName": "Arya & Refix",
+    "albumName": "Legacy Chapter 3, Vol. 7 - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/10/4d/e0/104de09d-1788-c955-2df4-12e3cf8a0093/885288567182.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6809698069,
+    "title": "Hell Tight",
+    "trackName": "Hell Tight",
+    "artistName": "Kirdaar, Arya & Refix",
+    "albumName": "Legacy Chapter 3, Vol. 7 - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/10/4d/e0/104de09d-1788-c955-2df4-12e3cf8a0093/885288567182.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6808526161,
+    "title": "Permit",
+    "trackName": "Permit",
+    "artistName": "Prathamesh & Kod.E",
+    "albumName": "Legacy Chapter 3, Vol. 6 - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/d1/70/15d17051-20ad-ea0f-2c39-90145a6bffcd/885288494594.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1709082673,
+    "title": "Rolla",
+    "trackName": "Rolla",
+    "artistName": "Dakait, Sez on the Beat & Raga",
+    "albumName": "Dev Nagri Aur Main",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/94/47/57/944757a9-36c9-7a7c-00e2-a73fadaf4116/197190063394.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1620030128,
+    "title": "KAUN HAI ?",
+    "trackName": "KAUN HAI ?",
+    "artistName": "GAUSH & Flowbo",
+    "albumName": "KAUN HAI ? - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6e/38/de/6e38def2-05a8-e0bc-18e8-afa758a9878d/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1859689460,
+    "title": "Toxic",
+    "trackName": "Toxic",
+    "artistName": "Shareh, Hasan Raheem & Umair",
+    "albumName": "The Dream",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/d0/25/5ad0258b-cb1d-c6c9-c16f-30364339e1fb/199806132692_cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6810969274,
+    "title": "Do Sawaal",
+    "trackName": "Do Sawaal",
+    "artistName": "Prathamesh & Kanch",
+    "albumName": "Do Sawaal - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ee/12/d5/ee12d50f-8f6b-d319-9bbd-5df08456de4f/885288569230.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6810969535,
+    "title": "6:10",
+    "trackName": "6:10",
+    "artistName": "Kirdaar & Refix",
+    "albumName": "6:10 - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/19/29/14/1929144c-082a-e941-8b0c-a36e3a45ef5e/885288569384.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1576304683,
+    "title": "Fate",
+    "trackName": "Fate",
+    "artistName": "Karma",
+    "albumName": "Fate - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/16/15/8c/16158cfe-16de-5954-8913-542a52e29329/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6813144418,
+    "title": "Keher Dahti",
+    "trackName": "Keher Dahti",
+    "artistName": "Kirdaar, Refix & 48Volt",
+    "albumName": "Legacy Chapter 3, Vol. 9",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a5/72/a3/a572a36d-c6bf-d647-b3a2-d3ff60ac9011/885288614060.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6813143311,
+    "title": "Thaat (Finale Mix)",
+    "trackName": "Thaat (Finale Mix)",
+    "artistName": "Chief, Babbar & Refix",
+    "albumName": "Thaat (Finale Mix) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e3/d7/b3/e3d7b37a-fb38-f0d9-9417-89d09b36478a/885288614503.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1786852192,
+    "title": "drop The Beat",
+    "trackName": "drop The Beat",
+    "artistName": "99side, Dharmik, pho, vichaar, K!LLSWITCH, Ghaint Jxtt, Siyaahi, Little Bhatia, Naam Sujal, Ajitesh, Danish, Devil The Rhymer, Sense, Rajjo, Mad Trip & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4, Episode. 20 - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b4/54/ca/b454ca87-02bc-915a-c276-2c84d22e86d6/199066367162.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1659402796,
+    "title": "Jhoot",
+    "trackName": "Jhoot",
+    "artistName": "Void, Muhfaad & Exult Yowl",
+    "albumName": "Jhoot - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/2b/0a/a2/2b0aa25c-827f-e2eb-f038-db97c077ede7/4958.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1734370062,
+    "title": "Piya",
+    "trackName": "Piya",
+    "artistName": "Archit Tak & Deep Kalsi",
+    "albumName": "Boon & Bane - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b1/7d/b6/b17db6f5-6a44-22e2-dd74-3cace58eedcc/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1854209129,
+    "title": "Let Go",
+    "trackName": "Let Go",
+    "artistName": "Talha Anjum & Umair",
+    "albumName": "My Terrible Mind",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/02/f7/d5/02f7d5f4-4c57-6776-b903-39b6780f1616/656465403278_cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1738091374,
+    "title": "Don't",
+    "trackName": "Don't",
+    "artistName": "DIVINE",
+    "albumName": "Don't - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/c2/98/5bc298e4-66a3-7f7a-8810-46a77ff8df61/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1535754468,
+    "title": "Level Up",
+    "trackName": "Level Up (feat. Divine & Kaater)",
+    "artistName": "Ikka",
+    "albumName": "Level Up (feat. Divine & Kaater) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c7/72/d7/c772d7da-e73d-f39a-aae6-bf6a93708e1d/20UMGIM90946.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1610309580,
+    "title": "Insaan",
+    "trackName": "Insaan",
+    "artistName": "MC Stan",
+    "albumName": "Insaan",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d0/d0/dc/d0d0dcad-ecb2-f927-9d86-3ddd941c8783/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1567144783,
+    "title": "Zaalim",
+    "trackName": "Zaalim (feat. N3!L)",
+    "artistName": "Siyaahi & ACHARYA",
+    "albumName": "Zaalim (feat. N3!L) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c3/1c/31/c31c315b-f22e-cb66-34e7-fd2331117fd7/672985900899.png/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1880668353,
+    "title": "TAMASHA",
+    "trackName": "TAMASHA",
+    "artistName": "vichaar",
+    "albumName": "VVVV VOL. 2",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/05/b3/6d05b3ff-8ad4-e1a6-0963-6ba7752b0dc3/820200518088.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6830205524,
+    "title": "Shak",
+    "trackName": "Shak",
+    "artistName": "Talhah Yunus, Jokhay & Umair",
+    "albumName": "Jadugar",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bf/b0/71/bfb071c0-255a-b6e1-f5f9-538f7f7ec224/artwork.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1336646071,
+    "title": "Dhoom",
+    "trackName": "Dhoom",
+    "artistName": "KSHMR",
+    "albumName": "The Lion Across The Field EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/37/b3/9a/37b39aec-1cd1-c4aa-bce0-3e3b54660d53/8712944513431.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1812453573,
+    "title": "Zeher",
+    "trackName": "Zeher",
+    "artistName": "Rawal & Ab 17",
+    "albumName": "Sherdil",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/10/fd/4110fd27-8e5b-b303-2d89-c060459208b7/859705595898_cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1784414916,
+    "title": "Dhak Dhak",
+    "trackName": "Dhak Dhak",
+    "artistName": "Aanchal Tyagi, Raga, Rusha & Blizza & Abhijeet Srivastava",
+    "albumName": "Dhak Dhak - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3e/2b/f1/3e2bf1ec-838d-0b9e-b3e4-9f74941e1722/24UM1IM36717.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6811646643,
+    "title": "Alag",
+    "trackName": "Alag (feat. MoiezParkar)",
+    "artistName": "Feidhe",
+    "albumName": "Alag (feat. MoiezParkar) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/4a/e6/f34ae6ae-f241-031f-47f7-faa40921f16c/artwork.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1601187663,
+    "title": "Raja",
+    "trackName": "Raja",
+    "artistName": "Hellac & Emiway Bantai",
+    "albumName": "Raja - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/65/7e/df/657edfe9-b827-ff14-a8de-eceb472c79cb/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1161353168,
+    "title": "Khat",
+    "trackName": "Khat (feat. Ikka)",
+    "artistName": "Guru Randhawa & Intense",
+    "albumName": "Khat (feat. Ikka) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/7f/8b/7d/7f8b7d32-7660-6826-13f4-5dcae3065cec/8903431608420_cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1708552466,
+    "title": "SCENE",
+    "trackName": "SCENE",
+    "artistName": "jaxk & Refix",
+    "albumName": "Pulingo",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3a/c1/da/3ac1dadc-5f67-c0ac-7023-b1c50d5e2977/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1806623287,
+    "title": "Sapne",
+    "trackName": "Sapne",
+    "artistName": "Lashcurry & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4, Episode. 19 - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0a/25/6c/0a256c21-b3df-f465-ab73-0ea5dcdd6d3b/199350238307.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1779042107,
+    "title": "Kalakaari Vishwasniya",
+    "trackName": "Kalakaari Vishwasniya",
+    "artistName": "vichaar & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4, Episode. 8",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/53/81/01/538101d7-b4ac-0d4c-286e-ad5f8d5b8d22/198846907840.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1786852097,
+    "title": "Mehnat",
+    "trackName": "Mehnat",
+    "artistName": "vichaar & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4, Episode. 20 - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b4/54/ca/b454ca87-02bc-915a-c276-2c84d22e86d6/199066367162.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1782880592,
+    "title": "Bataa De Tu",
+    "trackName": "Bataa De Tu",
+    "artistName": "99side & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4, Episode. 13 - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/89/50/528950c0-a4b9-1b5a-26be-b2aa988b3c25/199066143933.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1782837946,
+    "title": "Dillagi",
+    "trackName": "Dillagi",
+    "artistName": "Siyaahi & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4, Episode. 14 - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/86/a4/66/86a466d4-a51e-6f30-ce92-a9d7757b71fa/199066149874.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1777772143,
+    "title": "Khalbatta",
+    "trackName": "Khalbatta",
+    "artistName": "Dharmik & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/90/05/3e900509-9996-e31f-873d-6bf2e53c15b0/198846746302.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1777751201,
+    "title": "Kothi Bangle Wali",
+    "trackName": "Kothi Bangle Wali",
+    "artistName": "Mad Trip & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4, Episode. 6",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4d/a9/c2/4da9c21b-c03e-4782-62b4-57567b056bcb/198846831589.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1784179595,
+    "title": "Dana Dana",
+    "trackName": "Dana Dana",
+    "artistName": "Dharmik, Sense & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4, Episode. 15 - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6a/34/f0/6a34f002-fd07-afd4-4871-ede6fcc85aee/199066199237.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1777772385,
+    "title": "Jaadu",
+    "trackName": "Jaadu",
+    "artistName": "pho & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/90/05/3e900509-9996-e31f-873d-6bf2e53c15b0/198846746302.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1777751207,
+    "title": "Main Kalam Tu Kitab",
+    "trackName": "Main Kalam Tu Kitab",
+    "artistName": "Dharmik & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4, Episode. 6",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4d/a9/c2/4da9c21b-c03e-4782-62b4-57567b056bcb/198846831589.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1782880581,
+    "title": "Angad",
+    "trackName": "Angad",
+    "artistName": "Little Bhatia & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4, Episode. 13 - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/89/50/528950c0-a4b9-1b5a-26be-b2aa988b3c25/199066143933.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1785588514,
+    "title": "No Pockets",
+    "trackName": "No Pockets",
+    "artistName": "vichaar & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4, Episode. 17",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e0/ec/b2/e0ecb2bc-c1f1-464c-4bfa-848a18041b10/199066311424.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1785588516,
+    "title": "Aarzoo",
+    "trackName": "Aarzoo",
+    "artistName": "pho & Aditya Pushkarna",
+    "albumName": "MTV Hustle 4, Episode. 17",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e0/ec/b2/e0ecb2bc-c1f1-464c-4bfa-848a18041b10/199066311424.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1680453668,
+    "title": "Jaadugar",
+    "trackName": "Jaadugar",
+    "artistName": "Paradox",
+    "albumName": "Mtv Hustle 2.0",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/04/b2/79/04b279ee-8fd8-0dd8-a50e-0e4cc54b187d/8903246794578_cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1680453744,
+    "title": "Rihaayi",
+    "trackName": "Rihaayi",
+    "artistName": "Paradox",
+    "albumName": "Mtv Hustle 2.0",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/04/b2/79/04b279ee-8fd8-0dd8-a50e-0e4cc54b187d/8903246794578_cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1555508834,
+    "title": "Game",
+    "trackName": "Game (feat. Karma)",
+    "artistName": "Deep Kalsi",
+    "albumName": "No Days Off - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f9/87/b0/f987b08d-1722-335a-acc4-d666c042d0e4/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6830205522,
+    "title": "Phool",
+    "trackName": "Phool",
+    "artistName": "Talhah Yunus & Jokhay",
+    "albumName": "Jadugar",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bf/b0/71/bfb071c0-255a-b6e1-f5f9-538f7f7ec224/artwork.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1880542127,
+    "title": "Bhaag",
+    "trackName": "Bhaag",
+    "artistName": "SPRYK & Bharg",
+    "albumName": "Bhaag - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/cd/f2/17cdf24a-3790-66c2-b04a-a134870fbdd9/8721215504818.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1684585059,
+    "title": "Tod Fod",
+    "trackName": "Tod Fod",
+    "artistName": "Bandzo3rd & Panther",
+    "albumName": "Tod Fod - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ee/71/4d/ee714d4d-0820-b412-41fa-75cbb843af3a/artwork.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6819009728,
+    "title": "Aprampaar",
+    "trackName": "Aprampaar",
+    "artistName": "Siyaahi & Aditya Pushkarna",
+    "albumName": "Hustle 5 - Episode 18",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/c9/a8/fac9a8ab-0af9-e9c0-fb38-c0fbadaa144d/8902358472206_cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1762198508,
+    "title": "Soyi Nahi",
+    "trackName": "Soyi Nahi",
+    "artistName": "Seedhe Maut",
+    "albumName": "SHAKTI - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/54/3b/c5543b7a-68df-43c7-af19-de5bb20480ce/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1736450031,
+    "title": "Bajenge",
+    "trackName": "Bajenge",
+    "artistName": "Badshah & Seedhe Maut",
+    "albumName": "Ek Tha Raja",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/c7/32/a9c732cc-d880-1ee4-ff22-d01593ac6341/24UMGIM22464.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1680937490,
+    "title": "Taakat",
+    "trackName": "Taakat (feat. Lil Bhavi)",
+    "artistName": "Seedhe Maut & DJ SA",
+    "albumName": "Taakat (feat. Lil Bhavi) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4c/64/77/4c647768-7c77-67a2-a49d-621ce952e335/8445162876230.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1804733466,
+    "title": "Do Guna",
+    "trackName": "Do Guna",
+    "artistName": "Seedhe Maut",
+    "albumName": "Sound of resistance, Vol. 1",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/ff/8b/bdff8b3f-6e48-ec54-5c8e-35afecb12bae/199066601273.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1804733875,
+    "title": "Naamcheen",
+    "trackName": "Naamcheen",
+    "artistName": "Seedhe Maut",
+    "albumName": "न",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/01/86/13/018613ab-76b9-4442-b32d-53d9da2bc117/199066660614.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1804725978,
+    "title": "Hoshiyaar",
+    "trackName": "Hoshiyaar",
+    "artistName": "Seedhe Maut & Sez on the Beat",
+    "albumName": "Nayaab",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b8/41/71/b84171ff-de77-3505-af3d-41a5b8d37fc4/199066166178.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1804725969,
+    "title": "Nayaab",
+    "trackName": "Nayaab",
+    "artistName": "Seedhe Maut & Sez on the Beat",
+    "albumName": "Nayaab",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b8/41/71/b84171ff-de77-3505-af3d-41a5b8d37fc4/199066166178.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1703238903,
+    "title": "Pushpak Vimaan",
+    "trackName": "Pushpak Vimaan",
+    "artistName": "Seedhe Maut & Sonnyjim",
+    "albumName": "Lunch Break",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/97/00/d4/9700d4a5-393c-2441-60af-ba2d923a38e3/8445162961745.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1804728650,
+    "title": "Class-Sikh Maut, Vol. II",
+    "trackName": "Class-Sikh Maut, Vol. II",
+    "artistName": "Prabh Deep, Seedhe Maut & Sez on the Beat",
+    "albumName": "Class-Sikh Maut, Vol. II - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/ee/68/ffee6825-0606-c005-244c-0b14fb93fe8f/199066647196.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1448549039,
+    "title": "Shaktimaan",
+    "trackName": "Shaktimaan",
+    "artistName": "Seedhe Maut & Sez on the Beat",
+    "albumName": "The Indian Hip-Hop Compilation Volume 1",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2a/bc/70/2abc7067-f2fe-cd1f-6fb4-7d8939b60d11/193436075336_01_img001.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1804728557,
+    "title": "Ball",
+    "trackName": "Ball",
+    "artistName": "Seedhe Maut",
+    "albumName": "Ball - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/af/87/d9af87c8-07c1-c7eb-b619-bed374f98ed0/199066647592.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1672584156,
+    "title": "Holi Re Rasiya",
+    "trackName": "Holi Re Rasiya (feat. Ravi Kishan)",
+    "artistName": "Mahan, Maithili Thakur & Seedhe Maut",
+    "albumName": "Holi Re Rasiya (feat. Ravi Kishan) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/37/2d/8e/372d8e0c-28d9-7209-fa72-4365287c6627/23UMGIM17517.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1557452715,
+    "title": "Sadak",
+    "trackName": "Sadak",
+    "artistName": "Emiway Bantai",
+    "albumName": "Sadak - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/35/e8/be/35e8be64-2bab-b366-3216-8b74bd46ce82/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6763770220,
+    "title": "JAANE JAA",
+    "trackName": "JAANE JAA",
+    "artistName": "Emiway Bantai",
+    "albumName": "JAANE JAA - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/71/9d/ea719dca-b7b0-22e4-4a48-88fa185c7f58/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1886991072,
+    "title": "Seedha Mai Kal Jackson",
+    "trackName": "Seedha Mai Kal Jackson",
+    "artistName": "Emiway Bantai",
+    "albumName": "Seedha Mai Kal Jackson - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/0b/36/660b3678-ff86-fe82-bad4-031453d7f3d1/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1873924638,
+    "title": "LAZANUS",
+    "trackName": "LAZANUS",
+    "artistName": "Emiway Bantai",
+    "albumName": "LAZANUS - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6f/bc/ee/6fbcee6b-4468-1a8a-b9fc-93f772807ea3/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1871528292,
+    "title": "Follow Karo",
+    "trackName": "Follow Karo",
+    "artistName": "Emiway Bantai",
+    "albumName": "Follow Karo - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/79/0d/d9/790dd9c7-2ca5-b68d-582a-8ac032f829fe/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1867832767,
+    "title": "-10/20",
+    "trackName": "-10/20",
+    "artistName": "Emiway Bantai",
+    "albumName": "-10/20 - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1c/fd/8c/1cfd8cd9-bc4f-cbed-a497-df1710da2ca9/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1864827230,
+    "title": "Big Stepper",
+    "trackName": "Big Stepper",
+    "artistName": "Emiway Bantai",
+    "albumName": "Big Stepper - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/63/57/b3/6357b3a0-69e3-b171-aeb2-e932170a7d7d/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1862199493,
+    "title": "Bhule Nahi",
+    "trackName": "Bhule Nahi",
+    "artistName": "Emiway Bantai",
+    "albumName": "Bhule Nahi - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8d/6d/ca/8d6dca67-416d-b87d-7ed4-95ff49cac5dd/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1851166903,
+    "title": "Hawa",
+    "trackName": "Hawa",
+    "artistName": "Emiway Bantai",
+    "albumName": "Hawa - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/10/ab/3410ab8c-2250-87cc-f6e0-158398640566/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1852201141,
+    "title": "Mat Kar Lala",
+    "trackName": "Mat Kar Lala",
+    "artistName": "Emiway Bantai",
+    "albumName": "FTSTTS",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/bd/68/0dbd6837-466c-55d2-e4a7-811ecbf05465/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1844706759,
+    "title": "Sorat",
+    "trackName": "Sorat",
+    "artistName": "Emiway Bantai",
+    "albumName": "Sorat - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2f/77/b0/2f77b08c-b37a-6c95-2c26-4882470e9bf0/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1852201486,
+    "title": "Woh Banaya",
+    "trackName": "Woh Banaya",
+    "artistName": "Emiway Bantai",
+    "albumName": "FTSTTS",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/bd/68/0dbd6837-466c-55d2-e4a7-811ecbf05465/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1841721984,
+    "title": "Log Kya Kahenge",
+    "trackName": "Log Kya Kahenge",
+    "artistName": "Emiway Bantai",
+    "albumName": "Log Kya Kahenge - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/38/89/0e/38890e01-725f-5617-4926-4e24f9ef81b2/199538957266.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1840476083,
+    "title": "Those Dayz",
+    "trackName": "Those Dayz",
+    "artistName": "Emiway Bantai",
+    "albumName": "Those Dayz - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/9c/c4/5e9cc4c1-e140-fb65-860a-e8f209d9edfb/199538908718.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1820896455,
+    "title": "Paisa Paisa",
+    "trackName": "Paisa Paisa",
+    "artistName": "Emiway Bantai",
+    "albumName": "Paisa Paisa - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/68/6d/7e686db3-4636-eb0f-7b93-1b6274b63957/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1816527075,
+    "title": "Tribute To Sidhu Moosewala",
+    "trackName": "Tribute To Sidhu Moosewala",
+    "artistName": "Emiway Bantai & Sidhu Moose Wala",
+    "albumName": "Tribute To Sidhu Moosewala - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/cc/3c/a9cc3c59-74b2-debc-ff58-56d46dbba03d/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1826827013,
+    "title": "Josh Mei",
+    "trackName": "Josh Mei",
+    "artistName": "Emiway Bantai & Young Galib",
+    "albumName": "Bajis - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e6/6d/46/e66d46c6-17d2-f927-27ad-f5c363919ca3/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1784073452,
+    "title": "Safar",
+    "trackName": "Safar",
+    "artistName": "Emiway Bantai",
+    "albumName": "Northern Nights (EP)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/29/c7/49/29c749a1-d63f-4d4b-5aa9-67a81015d0bf/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1784073439,
+    "title": "Misunderstood",
+    "trackName": "Misunderstood",
+    "artistName": "Emiway Bantai",
+    "albumName": "Northern Nights (EP)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/29/c7/49/29c749a1-d63f-4d4b-5aa9-67a81015d0bf/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1782777293,
+    "title": "Mera Na Hua",
+    "trackName": "Mera Na Hua",
+    "artistName": "Emiway Bantai",
+    "albumName": "Mera Na Hua - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/2d/97/dd2d9789-02f4-b8aa-f1e9-daf257e555b5/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1778413945,
+    "title": "Zindagi Mast Hai",
+    "trackName": "Zindagi Mast Hai",
+    "artistName": "Emiway Bantai",
+    "albumName": "Zindagi Mast Hai - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/df/b6/a3/dfb6a306-4947-f1f7-202d-6c1a868c4d55/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1731146680,
+    "title": "Main Hawa Mein Hu",
+    "trackName": "Main Hawa Mein Hu",
+    "artistName": "Maninder Buttar & Emiway Bantai",
+    "albumName": "Main Hawa Mein Hu - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6d/c2/4c/6dc24c81-cad0-862f-b77a-197c4b7a8aa9/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1764888324,
+    "title": "ROKO 2MG",
+    "trackName": "ROKO 2MG",
+    "artistName": "Emiway Bantai",
+    "albumName": "ROKO 2MG - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8a/ee/64/8aee6423-fd21-59d6-d05e-3ecfe3c5ec58/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1756884063,
+    "title": "GANI BHAI",
+    "trackName": "GANI BHAI",
+    "artistName": "Emiway Bantai",
+    "albumName": "sPEAK - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fa/98/b0/fa98b01a-0ef4-0c90-daf2-60f35f577d53/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1754370344,
+    "title": "Show Me",
+    "trackName": "Show Me",
+    "artistName": "Prznt, Emiway Bantai & Adrian Chafer",
+    "albumName": "Show Me - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/03/34/b9/0334b908-2fc4-1ed1-b83c-1da00beb2d5a/0.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1746682619,
+    "title": "Independent",
+    "trackName": "Independent",
+    "artistName": "Emiway Bantai",
+    "albumName": "Independent - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9a/f6/b8/9af6b893-4a9e-9efc-125e-82de75075ee7/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1739540406,
+    "title": "One Hai Re Bhai",
+    "trackName": "One Hai Re Bhai",
+    "artistName": "Emiway Bantai",
+    "albumName": "One Hai Re Bhai - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/96/a2/82/96a28218-6df6-09fa-fbd8-8b683b13cfc9/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1735908673,
+    "title": "Hasbi Rabbi",
+    "trackName": "Hasbi Rabbi",
+    "artistName": "Emiway Bantai & Young Galib",
+    "albumName": "Hasbi Rabbi - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7a/62/f6/7a62f6e2-b8d1-fe99-bf90-d4092bbc40c1/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1727687633,
+    "title": "Aksar",
+    "trackName": "Aksar (From \"Wholeheartedly\")",
+    "artistName": "Emiway Bantai & The Rish",
+    "albumName": "Aksar (From \"Wholeheartedly\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0d/b7/58/0db75872-32cb-67f5-e811-e6ba35acf7ba/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1843058828,
+    "title": "Theekh Hu Mei",
+    "trackName": "Theekh Hu Mei",
+    "artistName": "Emiway Bantai & Hellac",
+    "albumName": "Wholeheartedly",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/13/03/33/13033347-3c60-da70-c359-cf5cf3d1c739/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1843058615,
+    "title": "Boht Kuch",
+    "trackName": "Boht Kuch",
+    "artistName": "Emiway Bantai, Flowbo & Young Galib",
+    "albumName": "Wholeheartedly",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/13/03/33/13033347-3c60-da70-c359-cf5cf3d1c739/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1728930543,
+    "title": "Fake Ones",
+    "trackName": "Fake Ones (From \"Wholeheartedly\")",
+    "artistName": "Emiway Bantai, Shez & Flowbo",
+    "albumName": "Fake Ones (From \"Wholeheartedly\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8d/02/d4/8d02d40e-a2c9-2788-b064-20eaf7b232b9/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1725278249,
+    "title": "Bolna Tu Bantai",
+    "trackName": "Bolna Tu Bantai (From \"Whole Heartedly\")",
+    "artistName": "Emiway Bantai",
+    "albumName": "Bolna Tu Bantai (From \"Whole Heartedly\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ab/11/29/ab11291f-d5b9-2c68-087f-99d13b0ca6b7/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1720421381,
+    "title": "Rehem",
+    "trackName": "Rehem",
+    "artistName": "Emiway Bantai",
+    "albumName": "Rehem - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c4/f5/d0/c4f5d0c9-5804-2acf-3fbd-3b6e189a7fb6/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1716151881,
+    "title": "Good Boy",
+    "trackName": "Good Boy",
+    "artistName": "Emiway Bantai & Yo Yo Honey Singh",
+    "albumName": "Good Boy - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9e/b8/46/9eb8466e-5817-2183-a81d-b6a9ad805bd2/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1705448397,
+    "title": "Indian Hip Hop Cypher",
+    "trackName": "Indian Hip Hop Cypher",
+    "artistName": "Emiway Bantai, MEMAX, Refix & Shez",
+    "albumName": "Indian Hip Hop Cypher - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b5/8e/69/b58e69cb-1143-6725-e75a-1545f12bd1f9/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1699016406,
+    "title": "Kudi",
+    "trackName": "Kudi (feat. Swaalina)",
+    "artistName": "Emiway Bantai",
+    "albumName": "Kudi (feat. Swaalina) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7d/8a/9d/7d8a9d9b-ecd4-7fe2-9144-b43b0ae87ef6/196922568947_Cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1690844271,
+    "title": "Beta Karta Rap",
+    "trackName": "Beta Karta Rap",
+    "artistName": "Emiway Bantai",
+    "albumName": "King Of The Streets",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/75/ec/21/75ec21c6-afbb-2adf-c340-0fe410a527b7/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1686102777,
+    "title": "Kya Bolti Public",
+    "trackName": "Kya Bolti Public",
+    "artistName": "Emiway Bantai & Young Galib",
+    "albumName": "Kya Bolti Public - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3b/5c/5a/3b5c5a8b-1dc1-cc4d-c69e-dc0fb446cdc0/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1682880603,
+    "title": "Chhod Dala",
+    "trackName": "Chhod Dala",
+    "artistName": "Emiway Bantai",
+    "albumName": "Chhod Dala - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ae/2c/08/ae2c0800-5bad-b242-480b-a547241b21a4/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1675454664,
+    "title": "Scene Change",
+    "trackName": "Scene Change",
+    "artistName": "Emiway Bantai",
+    "albumName": "Scene Change - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8b/2d/c5/8b2dc530-c823-2351-25c8-07f8a0e12587/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1659032574,
+    "title": "Pyaar Hai",
+    "trackName": "Pyaar Hai",
+    "artistName": "Emiway Bantai",
+    "albumName": "Pyaar Hai - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3f/12/26/3f1226a5-e36d-447b-5af4-681869e3be31/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1652205159,
+    "title": "GUESS",
+    "trackName": "GUESS",
+    "artistName": "Emiway Bantai",
+    "albumName": "GUESS - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d9/12/5f/d9125f4f-9139-6489-bea9-516b404c99df/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1647624303,
+    "title": "Baby",
+    "trackName": "Baby (feat. Young Galib)",
+    "artistName": "Emiway Bantai",
+    "albumName": "Baby (feat. Young Galib) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/37/31/39/373139d0-7a04-b942-5b65-c9657199e9f2/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1643201903,
+    "title": "Changed",
+    "trackName": "Changed",
+    "artistName": "Emiway Bantai",
+    "albumName": "Monsoon (EP) - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/56/73/07/56730784-c330-13b3-6860-f7e634fe8253/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1643201912,
+    "title": "Yakeen",
+    "trackName": "Yakeen",
+    "artistName": "Emiway Bantai",
+    "albumName": "Monsoon (EP) - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/56/73/07/56730784-c330-13b3-6860-f7e634fe8253/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1643201238,
+    "title": "BUSY",
+    "trackName": "BUSY",
+    "artistName": "Emiway Bantai & Young Galib",
+    "albumName": "Monsoon (EP) - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/56/73/07/56730784-c330-13b3-6860-f7e634fe8253/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1643201524,
+    "title": "Bhool Jaa (Marandhiru) [feat. Young Galib, MEMAX & BEN Z]",
+    "trackName": "Bhool Jaa (Marandhiru) [feat. Young Galib, MEMAX & BEN Z]",
+    "artistName": "Emiway Bantai",
+    "albumName": "Monsoon (EP) - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/56/73/07/56730784-c330-13b3-6860-f7e634fe8253/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1629387583,
+    "title": "Jhootha",
+    "trackName": "Jhootha",
+    "artistName": "Celina Sharma & Emiway Bantai",
+    "albumName": "Jhootha - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d7/01/42/d701421c-4352-53ad-a584-84713e615bf2/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1629515252,
+    "title": "KR L$DA SIGN",
+    "trackName": "KR L$DA SIGN",
+    "artistName": "Emiway Bantai",
+    "albumName": "KR L$DA SIGN - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5b/b1/3b/5bb13b89-e1cf-bd01-fde1-1a79a2dfcb98/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1622828263,
+    "title": "Choco",
+    "trackName": "Choco",
+    "artistName": "Emiway Bantai",
+    "albumName": "8 Saal",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7d/93/51/7d935174-4562-6921-2534-942d4afd6439/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1615345469,
+    "title": "Mera",
+    "trackName": "Mera",
+    "artistName": "Emiway Bantai",
+    "albumName": "Mera - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f8/f4/5f/f8f45fc8-7b13-79ea-7852-ca241f44eec0/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1622827964,
+    "title": "8 Saal",
+    "trackName": "8 Saal",
+    "artistName": "Emiway Bantai",
+    "albumName": "8 Saal",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7d/93/51/7d935174-4562-6921-2534-942d4afd6439/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1622828260,
+    "title": "Life is good",
+    "trackName": "Life is good",
+    "artistName": "Emiway Bantai",
+    "albumName": "8 Saal",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7d/93/51/7d935174-4562-6921-2534-942d4afd6439/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1622827982,
+    "title": "Pain",
+    "trackName": "Pain",
+    "artistName": "Emiway Bantai",
+    "albumName": "8 Saal",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7d/93/51/7d935174-4562-6921-2534-942d4afd6439/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1622827984,
+    "title": "Focus",
+    "trackName": "Focus",
+    "artistName": "Emiway Bantai",
+    "albumName": "8 Saal",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7d/93/51/7d935174-4562-6921-2534-942d4afd6439/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1617425974,
+    "title": "CHUSAMBA",
+    "trackName": "CHUSAMBA",
+    "artistName": "Emiway Bantai",
+    "albumName": "CHUSAMBA - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/4e/33/ac/4e33acd7-9ced-40c7-dd72-be1309349e01/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1601030873,
+    "title": "Street Talk",
+    "trackName": "Street Talk",
+    "artistName": "Emiway Bantai",
+    "albumName": "Street Talk - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d4/63/16/d4631603-7b26-84c2-e112-417e23a38a04/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1599292480,
+    "title": "Shukriya",
+    "trackName": "Shukriya",
+    "artistName": "Emiway Bantai",
+    "albumName": "Shukriya - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/55/ba/0b/55ba0b3c-ff3c-5654-aef0-b9f87def0be0/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1598337221,
+    "title": "That's How I Feel",
+    "trackName": "That's How I Feel",
+    "artistName": "Emiway Bantai",
+    "albumName": "That's How I Feel - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/67/d9/52/67d952e4-3cb4-ee86-fe8c-45ae05e9eefb/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1584307087,
+    "title": "Kyu Jane De",
+    "trackName": "Kyu Jane De",
+    "artistName": "Emiway Bantai",
+    "albumName": "Malum Hai Na",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ea/6a/38/ea6a384b-a2f2-03f0-d3b3-9eb0d77cc9be/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1584306890,
+    "title": "Always on Top",
+    "trackName": "Always on Top",
+    "artistName": "Emiway Bantai",
+    "albumName": "Malum Hai Na",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ea/6a/38/ea6a384b-a2f2-03f0-d3b3-9eb0d77cc9be/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1584306595,
+    "title": "Chalte Firte",
+    "trackName": "Chalte Firte",
+    "artistName": "Emiway Bantai",
+    "albumName": "Malum Hai Na",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ea/6a/38/ea6a384b-a2f2-03f0-d3b3-9eb0d77cc9be/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1584307306,
+    "title": "Believe",
+    "trackName": "Believe",
+    "artistName": "Emiway Bantai",
+    "albumName": "Malum Hai Na",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ea/6a/38/ea6a384b-a2f2-03f0-d3b3-9eb0d77cc9be/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1584307303,
+    "title": "Aisa Kuch Shot Nahi Hai (Remix)",
+    "trackName": "Aisa Kuch Shot Nahi Hai (Remix)",
+    "artistName": "Emiway Bantai",
+    "albumName": "Malum Hai Na",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ea/6a/38/ea6a384b-a2f2-03f0-d3b3-9eb0d77cc9be/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1584306591,
+    "title": "Momma",
+    "trackName": "Momma",
+    "artistName": "Emiway Bantai",
+    "albumName": "Malum Hai Na",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ea/6a/38/ea6a384b-a2f2-03f0-d3b3-9eb0d77cc9be/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1760573086,
+    "title": "Bad Munda",
+    "trackName": "Bad Munda",
+    "artistName": "Jass Manak & Emiway Bantai",
+    "albumName": "Bad Munda - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/2d/c4/0d2dc427-1bf3-3285-0076-7b232bc756d1/3616558841056.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1584307103,
+    "title": "Jawab De",
+    "trackName": "Jawab De",
+    "artistName": "Emiway Bantai",
+    "albumName": "Malum Hai Na",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ea/6a/38/ea6a384b-a2f2-03f0-d3b3-9eb0d77cc9be/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1570808691,
+    "title": "Sath Mai",
+    "trackName": "Sath Mai (feat. Meme Machine & Swaalina)",
+    "artistName": "Emiway Bantai",
+    "albumName": "Sath Mai (feat. Meme Machine & Swaalina) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4c/d1/44/4cd144ac-dc2f-19a5-c6ad-ebf0cb88c0e0/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1569951603,
+    "title": "Bantai Ki Public",
+    "trackName": "Bantai Ki Public",
+    "artistName": "Emiway Bantai",
+    "albumName": "Bantai Ki Public - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/c1/36/cfc13601-e6cb-d36f-5c78-bab905dd6266/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1672404361,
+    "title": "Machayenge",
+    "trackName": "Machayenge",
+    "artistName": "Emiway Bantai",
+    "albumName": "Machayenge - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5b/db/e9/5bdbe939-92c8-df00-f942-2534813d0d06/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1562277946,
+    "title": "Jamaica to India",
+    "trackName": "Jamaica to India",
+    "artistName": "Emiway Bantai & Chris Gayle UniverseBoss",
+    "albumName": "Jamaica to India - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c2/a4/48/c2a448f2-e8f2-2800-b324-16f97e7e7aef/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1555728377,
+    "title": "NO LOVE",
+    "trackName": "NO LOVE",
+    "artistName": "Emiway Bantai & Loka",
+    "albumName": "NO LOVE - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7c/9e/1d/7c9e1dc8-b4cb-5e1f-dfa1-179ba12789bd/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1550885308,
+    "title": "What Can I Do",
+    "trackName": "What Can I Do",
+    "artistName": "Emiway Bantai",
+    "albumName": "What Can I Do - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/22/c0/8e/22c08ecb-55a3-d820-188f-78184a849186/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1542234796,
+    "title": "Ring Ring",
+    "trackName": "Ring Ring (feat. Meme Machine)",
+    "artistName": "Emiway Bantai",
+    "albumName": "Ring Ring (feat. Meme Machine) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a0/60/62/a0606250-6740-17c7-086c-25bb1cfe8d78/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1539328204,
+    "title": "Khatam Hue Waande",
+    "trackName": "Khatam Hue Waande",
+    "artistName": "Emiway Bantai",
+    "albumName": "Khatam Hue Waande - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/02/4b/91/024b91c9-45d8-4698-ef12-1c69d8db3896/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1531536819,
+    "title": "Ladka Alag Sa",
+    "trackName": "Ladka Alag Sa",
+    "artistName": "Emiway Bantai",
+    "albumName": "Ladka Alag Sa - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b4/da/f2/b4daf238-f081-a3f2-4600-4dd94b34b9cb/5059435864867.png/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1525544385,
+    "title": "Lonely",
+    "trackName": "Lonely (feat. Prznt)",
+    "artistName": "Emiway Bantai",
+    "albumName": "Lonely (feat. Prznt) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/d6/fb/18d6fb83-e4c0-300f-db55-e178bb08a304/195497022823.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1524261982,
+    "title": "Kaun Hai Ye",
+    "trackName": "Kaun Hai Ye",
+    "artistName": "Emiway Bantai",
+    "albumName": "Kaun Hai Ye - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3c/a7/4a/3ca74a34-e0e5-d191-06f5-9813bb6b33a9/889845955399.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1520017414,
+    "title": "Round One",
+    "trackName": "Round One",
+    "artistName": "Emiway Bantai",
+    "albumName": "Round One - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/61/5c/e5/615ce586-81e2-ec90-7373-77382754260f/3502356666871.png/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1513460118,
+    "title": "Firse Machayenge (Remix)",
+    "trackName": "Firse Machayenge (Remix)",
+    "artistName": "Emiway Bantai & Macklemore",
+    "albumName": "Firse Machayenge (Remix) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/c7/7a/fe/c77afe00-beb3-620e-5320-48cc3f971204/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1622527441,
+    "title": "GRIND",
+    "trackName": "GRIND",
+    "artistName": "Emiway Bantai",
+    "albumName": "Dhund Ke Dikha - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/5a/5e/3b/5a5e3bd0-a38c-f549-589f-f34895885850/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1622162355,
+    "title": "Gully Ka Kutta",
+    "trackName": "Gully Ka Kutta",
+    "artistName": "Emiway Bantai",
+    "albumName": "Gully Ka Kutta - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/22/94/1b/22941b9e-2a38-0f9e-be79-640fcc1ec03c/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1672405288,
+    "title": "Khatam Karona",
+    "trackName": "Khatam Karona",
+    "artistName": "Emiway Bantai",
+    "albumName": "Khatam Karona - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/96/d2/43/96d243c1-2bed-7c38-6fe6-aff32c71bd0c/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1557478875,
+    "title": "Asli Nakli",
+    "trackName": "Asli Nakli",
+    "artistName": "Emiway Bantai",
+    "albumName": "Asli Nakli - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/da/da/74/dada7428-2b59-48ee-3052-1d255fef3bac/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1672404124,
+    "title": "Dhua Dhua",
+    "trackName": "Dhua Dhua",
+    "artistName": "Emiway Bantai",
+    "albumName": "Dhua Dhua - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0d/e4/3b/0de43b61-c1fe-85ef-2a33-072c3df3562a/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1480409723,
+    "title": "Lean On",
+    "trackName": "Lean On",
+    "artistName": "Celina Sharma, Emiway Bantai",
+    "albumName": "Lean On - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/8c/fe/07/8cfe0784-37c9-4cf9-bd74-05a8ebb6a7eb/19UMGIM85358.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1672405524,
+    "title": "Jallad",
+    "trackName": "Jallad",
+    "artistName": "Emiway Bantai",
+    "albumName": "Jallad - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4e/30/08/4e30082c-d36a-17fe-3cc7-1a1c396c4b2b/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1557457168,
+    "title": "Boht Hard",
+    "trackName": "Boht Hard",
+    "artistName": "Emiway Bantai & Thoratt",
+    "albumName": "Boht Hard - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/bf/4c/4c/bf4c4c41-45f4-bbe0-6f40-074172cf626d/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1557478799,
+    "title": "Giraftaar",
+    "trackName": "Giraftaar",
+    "artistName": "Emiway Bantai",
+    "albumName": "Giraftaar - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/31/79/84/31798487-7490-9c18-0abe-25f1c7fe2b18/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1622527313,
+    "title": "Samajh mein aaya kya?",
+    "trackName": "Samajh mein aaya kya?",
+    "artistName": "Emiway Bantai",
+    "albumName": "Samajh mein aaya kya? - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ad/8a/8d/ad8a8d2d-8ba0-3056-2351-2a40436bec62/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1557455723,
+    "title": "Mazak Hai Kya",
+    "trackName": "Mazak Hai Kya",
+    "artistName": "Emiway Bantai",
+    "albumName": "Mazak Hai Kya - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/74/cc/f6/74ccf692-5e88-0925-3c2b-5949c2bfec62/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1557457293,
+    "title": "Abe Chodna",
+    "trackName": "Abe Chodna",
+    "artistName": "Emiway Bantai & Muhfaad",
+    "albumName": "Abe Chodna - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0d/d1/9c/0dd19cfc-a6f4-1c58-9862-3cfe554193dc/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1557479001,
+    "title": "Ebu Hatela",
+    "trackName": "Ebu Hatela (feat. Meme Machine)",
+    "artistName": "Emiway Bantai",
+    "albumName": "Ebu Hatela (feat. Meme Machine) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/51/31/97/5131971f-41fb-1317-4084-393d3325d395/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1557452495,
+    "title": "Mera Bhai Mera Bhai",
+    "trackName": "Mera Bhai Mera Bhai",
+    "artistName": "Emiway Bantai",
+    "albumName": "Mera Bhai Mera Bhai - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e0/88/b0/e088b099-bf9c-102b-5c5b-cbbec3f45a7b/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1557478903,
+    "title": "Abbu",
+    "trackName": "Abbu",
+    "artistName": "Emiway Bantai",
+    "albumName": "Abbu - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6c/a9/59/6ca95909-6a97-c0a7-d639-d1894ddc5784/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1557457161,
+    "title": "Mein",
+    "trackName": "Mein",
+    "artistName": "Emiway Bantai",
+    "albumName": "Mein - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/64/f2/19/64f21957-644f-0db5-1ce0-aaf47878e7d2/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1557452724,
+    "title": "Kala Dhan",
+    "trackName": "Kala Dhan",
+    "artistName": "Emiway Bantai",
+    "albumName": "Kala Dhan - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/5a/f0/a55af066-1593-7ada-8b22-562c10906d7e/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1557452641,
+    "title": "Naughty Boy",
+    "trackName": "Naughty Boy",
+    "artistName": "Emiway Bantai",
+    "albumName": "Naughty Boy - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4c/cf/10/4ccf109b-9366-ef9e-0490-9a183c31515c/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1557455305,
+    "title": "Fun Dekho",
+    "trackName": "Fun Dekho",
+    "artistName": "Emiway Bantai",
+    "albumName": "Fun Dekho - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a7/e7/b7/a7e7b7b9-a399-13f9-f427-36e2264e8bc0/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1557452979,
+    "title": "Tadak Padak",
+    "trackName": "Tadak Padak",
+    "artistName": "Emiway Bantai",
+    "albumName": "Tadak Padak - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/65/76/8a/65768a3b-18c3-3527-5bb8-3af2bcfc0942/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1557457037,
+    "title": "Keema",
+    "trackName": "Keema",
+    "artistName": "Emiway Bantai",
+    "albumName": "Keema - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b5/7b/e8/b57be8f1-c519-81ca-0067-ab74222766a2/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1557452582,
+    "title": "Soch",
+    "trackName": "Soch",
+    "artistName": "Emiway Bantai",
+    "albumName": "Soch - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/35/7b/fc/357bfc6e-5c1c-18ce-c481-9a26484c444f/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1557459208,
+    "title": "Mera Naam Bantai",
+    "trackName": "Mera Naam Bantai (feat. Gagan)",
+    "artistName": "Emiway Bantai",
+    "albumName": "Mera Naam Bantai (feat. Gagan) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e7/c2/47/e7c247c8-c0e7-eaba-00a6-9debafc241d2/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1557455700,
+    "title": "Maal Wali Aunty",
+    "trackName": "Maal Wali Aunty",
+    "artistName": "Emiway Bantai",
+    "albumName": "Maal Wali Aunty - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/47/51/9b/47519bd5-99c9-069b-11ed-af25c080f7b5/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1557478922,
+    "title": "Na Maine Jana",
+    "trackName": "Na Maine Jana",
+    "artistName": "Emiway Bantai",
+    "albumName": "Na Maine Jana - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/5b/14/6a/5b146a2b-5bdf-121c-9486-885d953dbd40/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1557478798,
+    "title": "Aur Bantai",
+    "trackName": "Aur Bantai",
+    "artistName": "Emiway Bantai",
+    "albumName": "Aur Bantai - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/74/2e/98/742e9819-25c2-f9e4-b573-7238e2a05fa9/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1557465760,
+    "title": "Soonn",
+    "trackName": "Soonn",
+    "artistName": "Emiway Bantai & freZZ",
+    "albumName": "Soonn - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f2/a2/6c/f2a26cc7-42a9-ffd3-baac-627ab1a2d6ba/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1557478531,
+    "title": "Bewafa Ho Dafa",
+    "trackName": "Bewafa Ho Dafa",
+    "artistName": "Emiway Bantai",
+    "albumName": "Bewafa Ho Dafa - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e8/ba/17/e8ba177b-72bd-7a91-90ad-69d4674feda5/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1588692066,
+    "title": "OG",
+    "trackName": "OG",
+    "artistName": "KR$NA",
+    "albumName": "OG - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/72/d3/de/72d3deb5-8eae-256b-8638-d1446bd5b71d/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1548512859,
+    "title": "No Losses",
+    "trackName": "No Losses",
+    "artistName": "KR$NA",
+    "albumName": "No Losses - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/50/fb/31/50fb31cc-0769-027a-0087-e466d1c03c6e/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1702607189,
+    "title": "Playground",
+    "trackName": "Playground (feat. Only For The Fans)",
+    "artistName": "Hi-Rez, KXNG Crooked & KR$NA",
+    "albumName": "Playground (feat. Only For The Fans) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/69/a9/2c/69a92c11-1392-5aa7-c78b-e6904347d7e3/85607.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1619602330,
+    "title": "ON",
+    "trackName": "ON",
+    "artistName": "Raja Kumari & KR$NA",
+    "albumName": "HBIC - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/79/fa/21/79fa21ee-7d6a-18ff-ebb2-34b9c79ce052/196626831767.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1321591603,
+    "title": "Meri Baari",
+    "trackName": "Meri Baari (feat. KR$NA)",
+    "artistName": "Kidshot",
+    "albumName": "Meri Baari (feat. KR$NA) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/8a/58/ae/8a58ae65-e500-2b93-50e4-0f1e8c4e7978/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6776947300,
+    "title": "Still Here (Intro)",
+    "trackName": "Still Here (Intro)",
+    "artistName": "KR$NA",
+    "albumName": "Still Here",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/71/db/f071db1e-833f-b162-2700-44185b7b3c07/3616553919019.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1549639460,
+    "title": "Aadat",
+    "trackName": "Aadat",
+    "artistName": "KR$NA",
+    "albumName": "Aadat - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cd/44/e1/cd44e1b6-da68-b691-1bd7-26d6ee901a3d/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6776947311,
+    "title": "Dream",
+    "trackName": "Dream",
+    "artistName": "KR$NA",
+    "albumName": "Still Here",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/71/db/f071db1e-833f-b162-2700-44185b7b3c07/3616553919019.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1529547696,
+    "title": "Jaanta Kyun",
+    "trackName": "Jaanta Kyun",
+    "artistName": "KR$NA & Deep Kalsi",
+    "albumName": "Jaanta Kyun - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ad/7d/2c/ad7d2c1f-d3f6-f14f-9ac7-613feecad2e3/8718857679394.png/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1814144682,
+    "title": "Buss Down",
+    "trackName": "Buss Down",
+    "artistName": "KR$NA, Raftaar & Phenom",
+    "albumName": "Yours Truly",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/bf/21/24bf21b2-7b32-4256-c9dd-67d5a70fee75/199350613517.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1529533988,
+    "title": "Down",
+    "trackName": "Down",
+    "artistName": "Raftaar & KR$NA",
+    "albumName": "Mr. Nair",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d5/a3/d6/d5a3d681-6e77-6960-3177-1d0f23b5d78a/840780170094.png/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6776934158,
+    "title": "Saath Ya Khilaaf",
+    "trackName": "Saath Ya Khilaaf",
+    "artistName": "KR$NA & Raftaar",
+    "albumName": "Saath Ya Khilaaf - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/99/7e/34/997e346b-11ca-6a4d-043c-b2c0316a72f3/3616551473001.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6806155170,
+    "title": "No Mercy",
+    "trackName": "No Mercy",
+    "artistName": "Deep Kalsi, Raftaar, KR$NA & Karma",
+    "albumName": "TUNNEL VISION",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d6/3c/da/d63cda6b-81e7-b00f-9cad-e87b2e6e4565/3617381108781.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 6803355410,
+    "title": "NO CHINA",
+    "trackName": "NO CHINA",
+    "artistName": "Raftaar & KR$NA",
+    "albumName": "HARD DRIVE, VOL. 1",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/7e/ab/ee7eab5b-aa9a-d2c7-5008-fce40bc3fc8e/3617053331370.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1823190173,
+    "title": "Buss Down (Mixed)",
+    "trackName": "Buss Down (Mixed)",
+    "artistName": "Raftaar, Phenom & KR$NA",
+    "albumName": "SOUNDS LIKE SHEZ, Vol. 3 (DJ Mix)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/a6/c7/3ea6c777-99b6-d67e-5bd8-cfc39eaaae29/61f38b22-f071-48a5-9c85-9c2748e8331e.png/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1188255408,
+    "title": "Haseeno Ka Deewana",
+    "trackName": "Haseeno Ka Deewana",
+    "artistName": "Raftaar & Payal Dev",
+    "albumName": "Kaabil (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/dc/1f/ce/dc1fcec6-f100-103e-bc6f-125ce64d5a16/8903431632548_cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 951006393,
+    "title": "Swag Mera Desi",
+    "trackName": "Swag Mera Desi",
+    "artistName": "Raftaar & Manj Musik",
+    "albumName": "Spoken Word - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/2f/cf/90/2fcf9081-f431-4fa4-7711-4e6d98b9123e/dj.lyppxrfg.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1194912515,
+    "title": "Go Pagal",
+    "trackName": "Go Pagal",
+    "artistName": "Raftaar & Nindy Kaur",
+    "albumName": "Jolly LLB 2 (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/e3/73/05/e3730555-ca93-b050-cfbf-6d6722212c18/8902894358736_cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1158846623,
+    "title": "Toh Dishoom",
+    "trackName": "Toh Dishoom",
+    "artistName": "Pritam, Raftaar, Shahid Mallya & Mayur Puri",
+    "albumName": "Dishoom (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f4/37/b0/f437b090-8672-79a0-44e5-dcdb72babea2/8902894358231_cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1159600837,
+    "title": "All Black",
+    "trackName": "All Black",
+    "artistName": "Raftaar & Sukh-E Muzical Doctorz",
+    "albumName": "All Black - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/f6/73/ae/f673ae3f-cac0-0acd-05e3-8bab693f5a36/8903431609014_cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1324456546,
+    "title": "Zinda Hai",
+    "trackName": "Zinda Hai",
+    "artistName": "Vishal & Shekhar, Julius Packiam, Sukhwinder Singh & Raftaar",
+    "albumName": "Tiger Zinda Hai (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/55/16/15/5516155a-733c-800c-1081-e5e982e8a603/849486091696_cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1173481973,
+    "title": "Ki Kariye Nachna Aaonda Nahin",
+    "trackName": "Ki Kariye Nachna Aaonda Nahin (From \"Tum Bin 2\")",
+    "artistName": "Harrdy Sandhu, Neha Kakkar, Raftaar & Gourov-Roshin",
+    "albumName": "Ki Kariye Nachna Aaonda Nahin (From \"Tum Bin 2\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/69/6c/6a/696c6aa3-fdaf-4c5c-f2f5-6165690220a8/8903431629869_cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1205489437,
+    "title": "Hare Krishna Hare Ram",
+    "trackName": "Hare Krishna Hare Ram",
+    "artistName": "Armaan Malik, Ritika & Raftaar",
+    "albumName": "Commando 2 (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e6/dd/46/e6dd46c8-943c-06dd-110d-4d98fda31b3d/8902894358781_cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1592956489,
+    "title": "Ghana Kasoota",
+    "trackName": "Ghana Kasoota (feat. Surbhi Jyoti)",
+    "artistName": "Raftaar & Rashmeet Kaur",
+    "albumName": "Ghana Kasoota (feat. Surbhi Jyoti) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e5/2d/5e/e52d5e9e-a1c5-fdaf-8102-58ad44d2f735/886449712588.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 985958524,
+    "title": "Stand Up - Spoken Word",
+    "trackName": "Stand Up - Spoken Word",
+    "artistName": "B.I.G Dhillon, Raftaar & Manj Musik",
+    "albumName": "Stand Up - Spoken Word - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/c5/21/2f/c5212fc1-3d10-8ee6-8d4a-42d4a83b4281/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1531116189,
+    "title": "Dhaakad",
+    "trackName": "Dhaakad",
+    "artistName": "Pritam & Raftaar",
+    "albumName": "Dangal (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bd/3d/02/bd3d02ff-4ac6-7ca0-23a4-2a9afbcb2f14/840780161771.png/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1711019967,
+    "title": "Chora Baba Ka",
+    "trackName": "Chora Baba Ka",
+    "artistName": "Raftaar & Dhanda Nyoliwala",
+    "albumName": "Chora Baba Ka - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8e/51/09/8e5109f6-4ef3-ffa9-fc6f-83cdb7d0de44/23UM1IM20635.rgb.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1706792330,
+    "title": "Legacy",
+    "trackName": "Legacy",
+    "artistName": "KSHMR & Raftaar",
+    "albumName": "Legacy - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6c/cf/ed/6ccfed06-8cb5-05ab-3b51-8484f6f4e8bd/197189871245.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1225527683,
+    "title": "Mera Highway Star",
+    "trackName": "Mera Highway Star",
+    "artistName": "Tulsi Kumar, Raftaar & Sanjay Rajee",
+    "albumName": "Mera Highway Star - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/21/47/5a/21475aec-140e-acf1-8359-9a337dccd4d4/8903431640444_cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1116073662,
+    "title": "Tamanche Pe Disco",
+    "trackName": "Tamanche Pe Disco",
+    "artistName": "Nindy Kaur & Raftaar",
+    "albumName": "Bullett Raja (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music30/v4/ab/e1/69/abe16972-2f82-39f1-5e67-1d240b4838df/8902894354820_cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1244430613,
+    "title": "Sadda Move",
+    "trackName": "Sadda Move",
+    "artistName": "Pritam, Diljit Dosanjh, Pardeep Singh Sran & Raftaar",
+    "albumName": "Raabta (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9b/83/b4/9b83b42b-0716-95cf-60f3-701ec9464ada/8902894359023_cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1730491931,
+    "title": "Yaar Mere",
+    "trackName": "Yaar Mere",
+    "artistName": "Parmish Verma & Raftaar",
+    "albumName": "Y Hate ? - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ef/fc/cb/effccbd4-3a81-e1af-9ae4-2be5feb9c5b1/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1273187024,
+    "title": "Teen Kabootar",
+    "trackName": "Teen Kabootar",
+    "artistName": "Mohit Chauhan, Divya Kumar, Raftaar & Arjunna Harjaie",
+    "albumName": "Lucknow Central (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9d/43/66/9d436674-7b0d-f88d-e2c2-c5340b9a7e5d/8902894359733_cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1671958258,
+    "title": "Pinnak",
+    "trackName": "Pinnak",
+    "artistName": "SAMBATA",
+    "albumName": "Pinnak - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/98/47/a1984730-3abd-e6ef-2c9e-a5d06eae9cbf/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1812505988,
+    "title": "Wajah",
+    "trackName": "Wajah (feat. Calm, OG Lucifer & Lil Bhavi)",
+    "artistName": "Seedhe Maut, Hurricane & DL91 Era",
+    "albumName": "DL91 FM",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fe/14/c3/fe14c33d-0a5d-fe17-6a20-c4ff16df98fa/199350493379.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1745276759,
+    "title": "Gangster Shit 1st",
+    "trackName": "Gangster Shit 1st",
+    "artistName": "SAMBATA",
+    "albumName": "Gangster Shit 1st - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/75/9f/08759fd5-f381-ec5e-71ab-a7ae1045ff76/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1764970534,
+    "title": "Vartmaan",
+    "trackName": "Vartmaan",
+    "artistName": "UNIYAL & Soumya rawat",
+    "albumName": "Nanda Devi Express - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/62/41/6d/62416d7d-10a3-65ac-c435-abe795f69f6e/artwork.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1768482071,
+    "title": "Hood Life",
+    "trackName": "Hood Life",
+    "artistName": "SAMBATA, Riar Saab & Karan Kanchan",
+    "albumName": "Hood Life - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/81/c6/76/81c676c9-d5ff-7d81-0e4f-3811c5d60a3f/cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1843376122,
+    "title": "Dalli",
+    "trackName": "Dalli",
+    "artistName": "Bhaskar, DL91 Era, Encore ABJ & RiJ",
+    "albumName": "DALLI",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cd/b3/2b/cdb32b64-1dbc-3f93-e9b0-9b22d5454fda/199538881028.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1792021189,
+    "title": "Terey papa",
+    "trackName": "Terey papa",
+    "artistName": "OG Lucifer & Calm",
+    "albumName": "Naala Paar",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b9/c7/0d/b9c70d4a-24ff-1769-a786-54ac08363c3c/8447053287019.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1815760000,
+    "title": "Backup Plan",
+    "trackName": "Backup Plan",
+    "artistName": "Hardbone boy, Yungsta & Teja",
+    "albumName": "Backup Plan - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cd/03/69/cd036984-a23f-40fb-253a-dc72fe95180e/5034644705378.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1754094143,
+    "title": "Blackball",
+    "trackName": "Blackball",
+    "artistName": "SOS & 30KEY!",
+    "albumName": "Blackball - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/56/e3/4e56e3bf-bda4-9d0d-b803-51e7396ace42/artwork.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1830398684,
+    "title": "SILENCE",
+    "trackName": "SILENCE",
+    "artistName": "YUNG SAMMY & Wamp",
+    "albumName": "SILENCE - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/3f/6e/073f6e71-269a-e70d-f429-1115b8c71d1b/198704646669_Cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1528933374,
+    "title": "Skate",
+    "trackName": "Skate (feat. Calm)",
+    "artistName": "Frappe Ash",
+    "albumName": "Bet You Know",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/46/b6/f8/46b6f891-3782-0394-dce7-18bc75927963/193436173889.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1674993526,
+    "title": "WuShang Clan",
+    "trackName": "WuShang Clan",
+    "artistName": "Dank Rishu, Foosie Gang & Adil",
+    "albumName": "WuShang Clan - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2b/72/95/2b729551-d9f0-dd6c-2ca4-bea844cf2ddc/artwork.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1795955175,
+    "title": "MR. RAMBO",
+    "trackName": "MR. RAMBO",
+    "artistName": "YUNG SAMMY & DESI TRILL",
+    "albumName": "MR. RAMBO - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a8/b1/36/a8b136d6-decc-3c04-304b-35d8cff739a7/198704362057_Cover.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1762291735,
+    "title": "CHATAK",
+    "trackName": "CHATAK",
+    "artistName": "SOS & 30KEY!",
+    "albumName": "CHATAK - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5e/8c/aa/5e8caab8-5112-bce2-6273-4dfbd9b1c516/artwork.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1843375734,
+    "title": "Baat Banjayegi",
+    "trackName": "Baat Banjayegi",
+    "artistName": "Bhaskar, DL91 Era, Encore ABJ & RiJ",
+    "albumName": "DALLI",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cd/b3/2b/cdb32b64-1dbc-3f93-e9b0-9b22d5454fda/199538881028.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1843318666,
+    "title": "BMK",
+    "trackName": "BMK",
+    "artistName": "SOS & 30KEY!",
+    "albumName": "BMK - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/64/4f/8c/644f8ce9-789c-ff89-ae73-a9f6658026b7/199538947250.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1528933381,
+    "title": "Wish You Were Here",
+    "trackName": "Wish You Were Here (feat. Rae & Encore ABJ)",
+    "artistName": "Frappe Ash",
+    "albumName": "Bet You Know",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/46/b6/f8/46b6f891-3782-0394-dce7-18bc75927963/193436173889.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1875343983,
+    "title": "KHO KHO",
+    "trackName": "KHO KHO",
+    "artistName": "Calm, DL91 Era & OG Lucifer",
+    "albumName": "PentHouse Tapes, Vol. 1",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/42/ec/11/42ec11fc-ad29-e186-ad9d-c93180f6f2e9/820200195487.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
+  },
+  {
+    "id": 1875344292,
+    "title": "RINGTONE",
+    "trackName": "RINGTONE",
+    "artistName": "Calm, DL91 Era & Bhaskar",
+    "albumName": "PentHouse Tapes, Vol. 1",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/42/ec/11/42ec11fc-ad29-e186-ad9d-c93180f6f2e9/820200195487.jpg/300x300bb.jpg",
+    "category": "dhh-indie"
   }
 ];
 
