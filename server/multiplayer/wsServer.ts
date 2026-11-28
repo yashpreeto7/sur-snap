@@ -216,6 +216,18 @@ export function createMultiplayerRuntime(): MultiplayerRuntime {
       return true;
     }
 
+    const previewMatch = /^\/api\/rooms\/([A-Za-z0-9]+)\/preview$/.exec(parsedUrl.pathname);
+    if (previewMatch && req.method === 'GET') {
+      const code = previewMatch[1].toUpperCase();
+      const preview = roomManager.getRoomInvitePreview(code);
+      if (!preview) {
+        sendJson(res, 404, { error: 'Invite room not found or expired.' });
+        return true;
+      }
+      sendJson(res, 200, { preview });
+      return true;
+    }
+
     return false;
   };
 

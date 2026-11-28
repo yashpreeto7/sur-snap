@@ -51,10 +51,10 @@ export const CATEGORIES: CategoryMeta[] = [
   },
   {
     id: 'dhh-indie',
-    name: 'DHH, Sufi & Indie',
+    name: 'Desi Hip Hop',
     shortTag: 'DHH',
-    subtitle: 'Underground & indie',
-    tagline: 'Desi hip-hop, Sufi soul, 90s Indipop & indie rock',
+    subtitle: 'DHH bangers',
+    tagline: 'Desi hip-hop hits, bars, cyphers & underground anthems',
     accent: '#06b6d4',
   },
 ];

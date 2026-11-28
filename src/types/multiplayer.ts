@@ -150,3 +150,15 @@ export type ServerWsMessage =
 export type RoomSuggestResponse = {
   suggestions: SearchSuggestion[];
 };
+
+export interface RoomInvitePreview {
+  code: string;
+  hostName: string;
+  mode: RoomMode;
+  packName: string;
+  roundCount: number;
+  stepTimerSec: number;
+  buzzTimeSec: number;
+  playerCount: number;
+  phase: RoomPhase;
+}

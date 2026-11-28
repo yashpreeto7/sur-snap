@@ -9,6 +9,7 @@ import {
   type PlayerRoundStatus,
   type PublicRoomPlayer,
   type PublicRoomState,
+  type RoomInvitePreview,
   type RoomMode,
   type RoomPhase,
   type RoomSettingsInput,
@@ -179,6 +180,24 @@ export class RoomManager {
   getPublicRoomState(code: string): PublicRoomState | null {
     const room = this.rooms.get(formatCode(code));
     return room ? buildPublicState(room, this.nowFn()) : null;
+  }
+
+  getRoomInvitePreview(code: string): RoomInvitePreview | null {
+    const room = this.rooms.get(formatCode(code));
+    if (!room) return null;
+    const connected = [...room.players.values()].filter((p) => p.connected);
+    const host = connected.find((p) => p.isHost) ?? [...room.players.values()][0];
+    return {
+      code: room.code,
+      hostName: host?.name ?? 'Host',
+      mode: room.mode,
+      packName: room.packName,
+      roundCount: room.roundCount,
+      stepTimerSec: room.stepTimerSec,
+      buzzTimeSec: room.buzzTimeSec,
+      playerCount: connected.length,
+      phase: room.phase,
+    };
   }
 
   getRoundAudioUrl(code: string, roundIndex: number): string | null {

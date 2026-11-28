@@ -1,10 +1,11 @@
-import { useId, useRef, useState } from 'react';
-import { Headphones, PlusCircle, Radio, Sparkles, Users, Zap } from 'lucide-react';
+import { useEffect, useId, useRef, useState } from 'react';
+import { Crown, Headphones, PlusCircle, Radio, Sparkles, Users, Zap } from 'lucide-react';
 import { CATEGORIES } from '../../data/catalog';
 import type { CustomPlaylist } from '../../types/game';
 import {
   BUZZ_TIME_PRESETS,
   STEP_TIMER_PRESETS,
+  type RoomInvitePreview,
   type RoomMode,
   type RoomSettingsInput,
   type RoomTrackInput,
@@ -99,6 +100,56 @@ export function MultiplayerLobby({
   const [stepTimerSec, setStepTimerSec] = useState<number>(60);
   const [buzzTimeSec, setBuzzTimeSec] = useState<number>(40);
 
+  const cleanInitialCode = initialCode.trim().toUpperCase().replace(/[^A-Z0-9]/g, '');
+  const [browseAll, setBrowseAll] = useState(false);
+  const [inviteLookup, setInviteLookup] = useState<{
+    code: string;
+    status: 'ready' | 'missing';
+    preview?: RoomInvitePreview;
+  } | null>(null);
+
+  const isInviteLanding = cleanInitialCode.length >= 4 && !browseAll;
+  const inviteResult =
+    isInviteLanding && inviteLookup?.code === cleanInitialCode ? inviteLookup : null;
+
+  useEffect(() => {
+    if (!isInviteLanding) return;
+    const controller = new AbortController();
+    fetch(`/api/rooms/${encodeURIComponent(cleanInitialCode)}/preview`, {
+      signal: controller.signal,
+    })
+      .then(async (res) => {
+        if (!res.ok) {
+          setInviteLookup({ code: cleanInitialCode, status: 'missing' });
+          return;
+        }
+        const data = (await res.json()) as { preview?: RoomInvitePreview };
+        if (data.preview) {
+          setInviteLookup({
+            code: cleanInitialCode,
+            status: 'ready',
+            preview: data.preview,
+          });
+        } else {
+          setInviteLookup({ code: cleanInitialCode, status: 'missing' });
+        }
+      })
+      .catch(() => {
+        if (!controller.signal.aborted) {
+          setInviteLookup({ code: cleanInitialCode, status: 'missing' });
+        }
+      });
+    return () => controller.abort();
+  }, [cleanInitialCode, isInviteLanding]);
+
+  const exitInviteLanding = () => {
+    setBrowseAll(true);
+    onClearError();
+    if (window.location.search.includes('room=')) {
+      window.history.replaceState({}, '', window.location.pathname);
+    }
+  };
+
   const validateNickname = (value: string): boolean => {
     const clean = value.trim();
     if (!clean) {
@@ -153,6 +204,164 @@ export function MultiplayerLobby({
     setJoinCodeError(null);
     onJoinRoom(cleanedCode, nickname.trim());
   };
+
+  if (isInviteLanding) {
+    const modeLabel =
+      MODE_OPTIONS.find((m) => m.id === inviteResult?.preview?.mode)?.label ?? 'Live Match';
+    const preview = inviteResult?.preview;
+
+    return (
+      <div className="w-full max-w-[540px] mx-auto py-4 flex flex-col gap-5">
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            if (busy) return;
+            if (!validateNickname(nickname)) {
+              nicknameInputRef.current?.focus();
+              return;
+            }
+            onJoinRoom(cleanInitialCode, nickname.trim());
+          }}
+          aria-labelledby={joinHeadingId}
+          noValidate
+          className="rounded-2xl bg-[#0E121C]/95 border border-cyanNeon-400/30 p-6 flex flex-col gap-5 shadow-[0_24px_60px_-16px_rgba(6,182,212,0.22)]"
+        >
+          <div>
+            <div className="inline-flex items-center gap-2 text-xs font-mono uppercase tracking-[0.14em] text-cyanNeon-300 mb-1.5">
+              <Crown size={14} className="text-amber-300" aria-hidden="true" />
+              <span>
+                {preview
+                  ? `Invited by ${preview.hostName}`
+                  : inviteResult?.status === 'missing'
+                    ? 'Invite Unavailable'
+                    : 'Loading Room Invite...'}
+              </span>
+            </div>
+            <h1 id={joinHeadingId} className="font-display text-2xl font-bold text-white">
+              {preview ? `Join ${preview.hostName}'s Room` : 'Join Live Room'}
+            </h1>
+            <p className="text-xs sm:text-sm text-slate-400 mt-1">
+              Enter your nickname to step straight into the waiting room.
+            </p>
+          </div>
+
+          {preview && (
+            <div className="rounded-xl bg-[#090B11] border border-white/[0.08] p-3.5 grid grid-cols-2 gap-3 text-xs">
+              <div>
+                <div className="text-slate-500">Mode</div>
+                <div className="font-semibold text-white mt-0.5">{modeLabel}</div>
+              </div>
+              <div>
+                <div className="text-slate-500">Pack</div>
+                <div className="font-semibold text-white truncate mt-0.5">{preview.packName}</div>
+              </div>
+              <div>
+                <div className="text-slate-500">Rounds & Timer</div>
+                <div className="font-semibold text-white mt-0.5">
+                  {preview.roundCount} rounds ·{' '}
+                  {preview.stepTimerSec === 0 ? 'Vote ∞' : `${preview.stepTimerSec}s`}
+                </div>
+              </div>
+              <div>
+                <div className="text-slate-500">Players Inside</div>
+                <div className="font-semibold text-cyanNeon-300 mt-0.5">
+                  {preview.playerCount} connected
+                </div>
+              </div>
+            </div>
+          )}
+
+          {inviteResult?.status === 'missing' && (
+            <div
+              role="alert"
+              className="rounded-xl bg-amber-500/12 border border-amber-400/40 px-4 py-3 text-xs text-amber-200"
+            >
+              This invite room has ended or expired. Ask the host for a new link or host your own room.
+            </div>
+          )}
+
+          {errorMessage && (
+            <div
+              role="alert"
+              className="rounded-xl bg-rose-500/12 border border-rose-500/40 px-4 py-3 text-xs text-rose-200 flex items-center justify-between gap-3"
+            >
+              <span>{errorMessage}</span>
+              <button
+                type="button"
+                onClick={onClearError}
+                className="text-xs font-semibold text-rose-200 hover:text-white underline shrink-0 cursor-pointer"
+              >
+                Dismiss
+              </button>
+            </div>
+          )}
+
+          <div className="flex flex-col gap-1.5">
+            <label htmlFor={nicknameId} className="text-xs font-semibold text-slate-200">
+              Your Nickname <span aria-hidden="true" className="text-cyanNeon-400">*</span>
+            </label>
+            <input
+              ref={nicknameInputRef}
+              id={nicknameId}
+              name="nickname"
+              type="text"
+              required
+              autoFocus
+              maxLength={20}
+              autoComplete="nickname"
+              autoCorrect="off"
+              autoCapitalize="words"
+              enterKeyHint="go"
+              value={nickname}
+              aria-invalid={nicknameError ? 'true' : undefined}
+              aria-describedby={nicknameError ? `${nicknameHelpId} ${nicknameErrId}` : nicknameHelpId}
+              onChange={(e) => {
+                setNickname(e.target.value);
+                if (nicknameError) setNicknameError(null);
+                if (errorMessage) onClearError();
+              }}
+              onBlur={() => {
+                if (nickname.length > 0) validateNickname(nickname);
+              }}
+              placeholder="e.g. Aman"
+              className="w-full px-3.5 py-2.5 min-h-[46px] rounded-xl bg-[#090B11] border border-white/[0.12] focus:border-cyanNeon-400/70 text-sm text-white placeholder-slate-500 transition"
+            />
+            <span id={nicknameHelpId} className="text-[11px] text-slate-400">
+              Up to 20 characters shown in the waiting room and scoreboard.
+            </span>
+            {nicknameError && (
+              <p id={nicknameErrId} role="alert" className="text-xs text-rose-400 font-medium mt-0.5">
+                {nicknameError}
+              </p>
+            )}
+          </div>
+
+          <button
+            type="submit"
+            disabled={busy || inviteResult?.status === 'missing'}
+            className="w-full py-3 px-5 rounded-xl tactile-play-btn text-sm font-bold text-[#061018] flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50"
+          >
+            <Users size={16} aria-hidden="true" />
+            <span>
+              {busy
+                ? 'Joining Room...'
+                : preview
+                  ? `Join ${preview.hostName}'s Room`
+                  : 'Join Waiting Room'}
+            </span>
+          </button>
+
+          <button
+            type="button"
+            onClick={exitInviteLanding}
+            className="text-xs text-slate-400 hover:text-cyanNeon-300 underline self-center cursor-pointer"
+          >
+            Or create your own room / enter another code
+          </button>
+        </form>
+      </div>
+    );
+  }
 
   return (
     <div className="w-full max-w-[1040px] mx-auto py-2 flex flex-col gap-5">

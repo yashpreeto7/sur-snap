@@ -7,6 +7,8 @@ import {
   Copy,
   Crown,
   ExternalLink,
+  Eye,
+  EyeOff,
   FastForward,
   LogOut,
   Pause,
@@ -236,6 +238,7 @@ export function MultiplayerRoomView({
   const [audioError, setAudioError] = useState<{ url: string; message: string } | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [elapsedSec, setElapsedSec] = useState(0);
+  const [showRoomCode, setShowRoomCode] = useState(false);
   const [racePicked, setRacePicked] = useState<{
     round: number;
     atAttempt: number;
@@ -458,8 +461,27 @@ export function MultiplayerRoomView({
       {/* Top Room Header Bar */}
       <div className="rounded-2xl bg-[#0E121C]/90 border border-white/[0.08] px-4 py-3 flex flex-wrap items-center justify-between gap-3">
         <div className="flex flex-wrap items-center gap-2.5">
-          <div className="px-3 py-1 rounded-xl bg-cyanNeon-500/15 border border-cyanNeon-400/40 font-mono text-sm font-bold tracking-[0.2em] text-cyanNeon-200">
-            {room.code}
+          <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-cyanNeon-500/15 border border-cyanNeon-400/40">
+            <span
+              className="font-mono text-sm font-bold tracking-[0.2em] text-cyanNeon-200 select-all"
+              aria-label={showRoomCode ? `Room code ${room.code}` : 'Room code hidden'}
+            >
+              {showRoomCode ? room.code : '••••'}
+            </span>
+            <button
+              type="button"
+              aria-pressed={showRoomCode}
+              aria-label={showRoomCode ? 'Hide room code' : 'Show room code'}
+              title={showRoomCode ? 'Hide code (stream safe)' : 'Show code'}
+              onClick={() => setShowRoomCode((prev) => !prev)}
+              className="p-1 rounded-lg hover:bg-cyanNeon-400/20 text-cyanNeon-200/80 hover:text-white transition cursor-pointer"
+            >
+              {showRoomCode ? (
+                <EyeOff size={14} aria-hidden="true" />
+              ) : (
+                <Eye size={14} aria-hidden="true" />
+              )}
+            </button>
           </div>
           <CopyInviteButton roomCode={room.code} />
           <span className="text-xs font-semibold text-white bg-white/[0.06] border border-white/10 px-2.5 py-1 rounded-lg">

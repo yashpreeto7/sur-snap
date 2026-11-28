@@ -354,3 +354,28 @@ test('Custom stepTimerSec (Vote Only / 30s) and buzzTimeSec presets apply on cre
 
   manager.destroyRoom(room.code);
 });
+
+test('getRoomInvitePreview returns host name and room metadata without leaking tracks', () => {
+  const { manager } = createHarness();
+  const room = manager.createRoom('host-1', 'Yash', {
+    mode: 'buzz-in',
+    packId: 'dhh-indie',
+    packName: 'Desi Hip Hop',
+    roundCount: 10,
+    stepTimerSec: 60,
+    buzzTimeSec: 25,
+  });
+  assert.ok(room);
+
+  const preview = manager.getRoomInvitePreview(room.code);
+  assert.ok(preview);
+  assert.equal(preview.hostName, 'Yash');
+  assert.equal(preview.mode, 'buzz-in');
+  assert.equal(preview.packName, 'Desi Hip Hop');
+  assert.equal(preview.roundCount, 10);
+  assert.equal(preview.buzzTimeSec, 25);
+  assert.equal(preview.playerCount, 1);
+  assert.equal(manager.getRoomInvitePreview('NOPE'), null);
+
+  manager.destroyRoom(room.code);
+});
