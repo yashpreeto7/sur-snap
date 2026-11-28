@@ -9518,6 +9518,2670 @@ export const TRACK_CATALOG: CatalogTrack[] = [
     "albumName": "Bande 4 - Single",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0a/08/c3/0a08c35b-a97d-635b-b354-021b98b548ef/8721253572435.png/300x300bb.jpg",
     "category": "punjabi"
+  },
+  {
+    "id": 6771421833,
+    "title": "Chunnari Chunnari - Let’s Go!",
+    "trackName": "Chunnari Chunnari - Let’s Go! (From \"Hai Jawani Toh Ishq Hona Hai\")",
+    "artistName": "Anu Malik, Anuradha Sriram, Sameer Anjaan, IP Singh, Sudhir Yaduvanshi, Akshay & IP, Jonita Gandhi & Asees Kaur",
+    "albumName": "Chunnari Chunnari - Let’s Go! (From \"Hai Jawani Toh Ishq Hona Hai\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3e/ce/75/3ece75a2-0cbf-cd04-e0d4-8508bc708f86/8901854116546.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6829855408,
+    "title": "Mahiya",
+    "trackName": "Mahiya",
+    "artistName": "Badshah, Shreya Ghoshal & Hiten",
+    "albumName": "Mahiya - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/10/82/db/1082db86-fafa-70a1-6b94-862384c21f2b/26UM1IM42410.rgb.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6781259904,
+    "title": "Bandhu 2.0",
+    "trackName": "Bandhu 2.0 (From \"Cocktail 2\")",
+    "artistName": "Pritam, Kavita Seth, Neeraj Shridhar & Irshad Kamil",
+    "albumName": "Bandhu 2.0 (From \"Cocktail 2\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e7/84/67/e7846772-eae5-38df-4dee-3a8088f8d756/196874518465.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1812162567,
+    "title": "Laal Pari",
+    "trackName": "Laal Pari (From \"Housefull 5\")",
+    "artistName": "Yo Yo Honey Singh, Simar Kaur & Alfaaz",
+    "albumName": "Laal Pari (From \"Housefull 5\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/6f/95/476f9531-0978-f832-befb-d5b51cadf746/8903431063830_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1729156767,
+    "title": "Teri Baaton Mein Aisa Uljha Jiya Title Song",
+    "trackName": "Teri Baaton Mein Aisa Uljha Jiya Title Song",
+    "artistName": "Raghav, Tanishk Bagchi, Asees Kaur & Nina Mathur",
+    "albumName": "Teri Baaton Mein Aisa Uljha Jiya (Original Motion Picture Soundtrack) - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/1d/95/cf1d95fc-0362-9ee6-b55a-d628ed549079/8902894362214_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6835745906,
+    "title": "Ji Ji Re Ji",
+    "trackName": "Ji Ji Re Ji (From \"Eetha\")",
+    "artistName": "Ajay-Atul, Ajay Gogavale, Shreya Ghoshal & Amitabh Bhattacharya",
+    "albumName": "Ji Ji Re Ji (From \"Eetha\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ab/69/7a/ab697a39-143b-0330-d625-50827353d01e/26UM1IM47268.rgb.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1763807350,
+    "title": "Payal",
+    "trackName": "Payal",
+    "artistName": "Yo Yo Honey Singh & Paradox",
+    "albumName": "GLORY",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/e3/9c/11e39c6d-0ac9-8728-cb9e-94197f645bfd/8903431012173_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1788665553,
+    "title": "Uyi Amma",
+    "trackName": "Uyi Amma (From \"Azaad\")",
+    "artistName": "Amit Trivedi, Madhubanti Bagchi & Amitabh Bhattacharya",
+    "albumName": "Uyi Amma (From \"Azaad\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0e/ea/22/0eea225c-28ff-b1e8-58eb-1f98ae02edf5/8909024069784.png/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1658280809,
+    "title": "Besharam Rang",
+    "trackName": "Besharam Rang (From \"Pathaan\")",
+    "artistName": "Vishal & Shekhar, Shilpa Rao, Caralisa Monteiro, Vishal Dadlani, Shekhar Ravjiani & Kumaar",
+    "albumName": "Besharam Rang (From \"Pathaan\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4c/ee/7c/4cee7c7a-8ce6-0a91-deb4-defbfac59509/Besharam_Rang.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6795580909,
+    "title": "Aankhon Se Tune 2.0",
+    "trackName": "Aankhon Se Tune 2.0 (From \"Bhai Tera Star Hai\")",
+    "artistName": "Lijo George, Dev Negi, Palak Muchhal, Jatin-Lalit, Kumar Sanu, Alka Yagnik, Sameer Anjaan & Mohsin Shaikh",
+    "albumName": "Bhai Tera Star Hai (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fd/ac/72/fdac725e-3a85-1c6c-021a-c6f20399acd6/8901854117550.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1346589685,
+    "title": "Bom Diggy Diggy",
+    "trackName": "Bom Diggy Diggy",
+    "artistName": "Zack Knight, Jasmin Walia & Kumaar",
+    "albumName": "Bom Diggy Diggy (From \"Sonu Ke Titu Ki Sweety\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/45/80/b3/4580b345-7fd7-dc14-2de9-a9bc9344551a/8903431668660_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1407156328,
+    "title": "Dilbar",
+    "trackName": "Dilbar (From \"Satyameva Jayate\")",
+    "artistName": "Neha Kakkar, Dhvani Bhanusali, Ikka & Tanishk Bagchi",
+    "albumName": "Dilbar (From \"Satyameva Jayate\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c2/84/60/c2846078-ade8-6e45-318e-2119a4677600/8903431680068_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1759100524,
+    "title": "Aaj Ki Raat",
+    "trackName": "Aaj Ki Raat (From \"Stree 2\")",
+    "artistName": "Madhubanti Bagchi, Divya Kumar, Sachin-Jigar & Amitabh Bhattacharya",
+    "albumName": "Aaj Ki Raat (From \"Stree 2\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3a/7f/47/3a7f47da-2330-c758-4460-ce12f9385a82/198588793954.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1770000282,
+    "title": "Mere Mehboob",
+    "trackName": "Mere Mehboob (From \"Vicky Vidya Ka Woh Wala Video\")",
+    "artistName": "Sachin-Jigar, Shilpa Rao, Sachet Tandon & Priya Saraiya",
+    "albumName": "Mere Mehboob (From \"Vicky Vidya Ka Woh Wala Video\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1a/a7/1d/1aa71d2b-8ef2-7330-d765-61e441f07243/8903431016409_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1887524276,
+    "title": "Vaari Jaavan",
+    "trackName": "Vaari Jaavan",
+    "artistName": "Shashwat Sachdev, Jyoti Nooran, Jasmine Sandlas & Reble",
+    "albumName": "Dhurandhar The Revenge (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dc/dc/a4/dcdca4bf-0e75-d88b-d211-c8c3eca5bfb9/8903431190581_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1570504157,
+    "title": "Paani Paani",
+    "trackName": "Paani Paani",
+    "artistName": "Badshah & Aastha Gill",
+    "albumName": "Paani Paani - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/27/41/33/27413394-ce55-c3e1-7835-25de01154e0b/196006844967.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1701222516,
+    "title": "Main Nikla Gaddi Leke",
+    "trackName": "Main Nikla Gaddi Leke",
+    "artistName": "Mithoon, Udit Narayan & Aditya Narayan",
+    "albumName": "Gadar 2 (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ec/6c/0a/ec6c0afa-2d31-015f-d143-2a033e0dfdc5/840214492716.png/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6775140389,
+    "title": "Ucha Lamba Kad Forever",
+    "trackName": "Ucha Lamba Kad Forever (From \"Welcome To The Jungle\")",
+    "artistName": "Anand Raj Anand, Vikram Montrose, Rubai & Meggha Bali",
+    "albumName": "Ucha Lamba Kad Forever (From \"Welcome To The Jungle\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ad/bb/cb/adbbcb33-60ea-7824-50f7-20d309932d4c/8902633461291.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6784139278,
+    "title": "Dhurandhar - Title Track (Eclipsa Audio)",
+    "trackName": "Dhurandhar - Title Track (Eclipsa Audio)",
+    "artistName": "Hanumankind, Shashwat Sachdev, Jasmine Sandlas, Sudhir Yaduvanshi, Muhammad Sadiq & Ranjit Kaur",
+    "albumName": "Dhurandhar - Title Track (Eclipsa Audio) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fd/32/5b/fd325b02-ac02-22b0-71aa-1e0f87a2ed49/820233852487.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6796310466,
+    "title": "Banger",
+    "trackName": "Banger",
+    "artistName": "Badshah, Hiten & Sharvi Yadav",
+    "albumName": "Banger - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fe/c0/3f/fec03fe6-dff4-0bdf-0f71-dcd5f7eea4a7/26UM1IM00030.rgb.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1476658854,
+    "title": "O Saki Saki",
+    "trackName": "O Saki Saki",
+    "artistName": "Neha Kakkar, Tulsi Kumar & B. Praak",
+    "albumName": "Batla House (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/66/ab/99/66ab99d8-ba5b-1d1c-2029-6920d911e9ed/8902894360906_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1696969405,
+    "title": "What Jhumka ?",
+    "trackName": "What Jhumka ? (From \"Rocky Aur Rani Kii Prem Kahaani\")",
+    "artistName": "Pritam, Arijit Singh, Jonita Gandhi, Ranveer Singh, Madan Mohan & Amitabh Bhattacharya",
+    "albumName": "What Jhumka ? (From \"Rocky Aur Rani Kii Prem Kahaani\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/a1/b8/2da1b888-ff70-edc8-1c2e-01d251a5ca10/197189341342.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1111783498,
+    "title": "Abhi Toh Party Shuru Hui Hai",
+    "trackName": "Abhi Toh Party Shuru Hui Hai",
+    "artistName": "Badshah & Aastha",
+    "albumName": "Khoobsurat (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a9/0a/42/a90a42be-f307-77aa-56ff-fcaefcfb1f08/8902894356282_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1453984030,
+    "title": "Coca Cola",
+    "trackName": "Coca Cola",
+    "artistName": "Tony Kakkar, Neha Kakkar & Young Desi",
+    "albumName": "Luka Chuppi (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2a/82/33/2a823318-956a-a6f2-7ef8-588defb7baf1/8902894360685_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1727144164,
+    "title": "Arjan Vailly",
+    "trackName": "Arjan Vailly",
+    "artistName": "Manan Bhardwaj & Bhupinder Babbal",
+    "albumName": "ANIMAL (Deluxe Edition Album)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fc/50/b3/fc50b3ca-c94b-58eb-a10c-80287d82eba3/8903431981196_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6840033877,
+    "title": "Daddy Cool - KING Version",
+    "trackName": "Daddy Cool - KING Version (From \"KING\")",
+    "artistName": "Sachin-Jigar, Boney M., Arijit Singh, Shilpa Rao & Kumaar",
+    "albumName": "Daddy Cool - KING Version (From \"KING\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/16/e9/f6/16e9f6f4-72cd-8fd9-bd9c-7fed7c642f72/8903431227379_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1807935869,
+    "title": "Nasha",
+    "trackName": "Nasha (From \"Raid 2\")",
+    "artistName": "Jasmine Sandlas, Sachet Tandon, Jaani, White Noise Collectives, Divya Kumar & Sumonto Mukherjee",
+    "albumName": "Nasha (From \"Raid 2\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ac/c7/1b/acc71b1f-f3d1-68dc-1abb-b71bc282f22c/8903431060754_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1529568809,
+    "title": "Kala Chashma",
+    "trackName": "Kala Chashma",
+    "artistName": "Amar Arshi, Badshah, Neha Kakkar & Indeep Bakshi",
+    "albumName": "Baar Baar Dekho (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/14/b8/58/14b85883-40a4-0a2e-de65-130f55726ee6/840780180390.png/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1529555769,
+    "title": "Makhna",
+    "trackName": "Makhna",
+    "artistName": "Tanishk Bagchi, Yasser Desai & Asees Kaur",
+    "albumName": "Drive (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/88/4e/93/884e93af-ef43-e215-0d90-a27e32ba6f86/8718857907909.png/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6771015859,
+    "title": "Mashooqa",
+    "trackName": "Mashooqa (From “Cocktail 2”)",
+    "artistName": "Pritam, Mahmood, Raghav Chaitanya, Amitabh Bhattacharya & Ruaa Kayy",
+    "albumName": "Mashooqa (From “Cocktail 2”) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b0/d1/27/b0d127b1-6899-d023-e264-9eb3ff4fc615/26UMGIM65166.rgb.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1829390160,
+    "title": "Oh Mama! TETEMA",
+    "trackName": "Oh Mama! TETEMA",
+    "artistName": "Rayvanny, Vishal Mishra, Shreya Ghoshal, Nora Fatehi, Sanjoy & The Plugz Europe",
+    "albumName": "Oh Mama! TETEMA - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f8/cb/11/f8cb119a-260c-92ce-6621-1f076e89fb68/8903431098405_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1568147769,
+    "title": "Jalebi Baby",
+    "trackName": "Jalebi Baby",
+    "artistName": "Tesher & Jason Derulo",
+    "albumName": "Jalebi Baby - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ea/88/25/ea882583-609f-3bd3-e276-ee4ddbc388ee/21UMGIM41757.rgb.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1337271604,
+    "title": "Mere Mehboob Mere Sanam",
+    "trackName": "Mere Mehboob Mere Sanam",
+    "artistName": "Udit Narayan & Alka Yagnik",
+    "albumName": "Duplicate (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/45/d6/6e45d667-7227-1a06-4b4a-f7ff94fbb600/191773207878.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1627294336,
+    "title": "Bhool Bhulaiyaa 2 Title Track",
+    "trackName": "Bhool Bhulaiyaa 2 Title Track",
+    "artistName": "Pritam, Tanishk Bagchi, Neeraj Shridhar, Mellow D & Bob",
+    "albumName": "Bhool Bhulaiyaa 2 (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/75/7b/a4/757ba408-b078-7dd2-98df-34fc5a1f6419/8902894361583_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1859965969,
+    "title": "Run Down the City - Monica",
+    "trackName": "Run Down the City - Monica (From \"Dhurandhar\")",
+    "artistName": "Shashwat Sachdev, Reble, Asha Bhosle, R.D. Burman & Majrooh Sultanpuri",
+    "albumName": "Run Down the City - Monica (From \"Dhurandhar\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/7e/76/357e76fa-9bd9-6354-4a75-575da6e9b839/199806689127.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1844558521,
+    "title": "Dilbar Ki Aankhon Ka",
+    "trackName": "Dilbar Ki Aankhon Ka (From \"Thamma\")",
+    "artistName": "Sachin-Jigar, Rashmeet Kaur & Amitabh Bhattacharya",
+    "albumName": "Dilbar Ki Aankhon Ka (From \"Thamma\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/22/2c/16222cd1-b538-c94e-ad97-103e5f99635c/8902894362726_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6789175567,
+    "title": "Saree",
+    "trackName": "Saree",
+    "artistName": "Tanishk Bagchi, Sanju Rathod & Kumaar",
+    "albumName": "Dhamaal 4 (Original Motion Picture Soundtrack) - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3a/a8/50/3aa8506e-c903-808a-90e1-8335d34ff505/8902894362948_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1139269924,
+    "title": "Sajna Ve Sajna",
+    "trackName": "Sajna Ve Sajna",
+    "artistName": "Sunidhi Chauhan",
+    "albumName": "Chameli (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/0c/9d/150c9d39-68b4-43ff-5b43-8936021f64f2/8902894116923_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1644884740,
+    "title": "Manike",
+    "trackName": "Manike (From \"Thank God\")",
+    "artistName": "Yohani, Jubin Nautiyal, Tanishk Bagchi, Surya Ragunnathan, Surya Ragunaathan, Chamath Sangeeth, Rashmi Virag, Dulan ARX & Mellow D",
+    "albumName": "Manike (From \"Thank God\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/f3/51/53/f351531e-921d-f874-ad69-698040d6efe3/8903431896933_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1205913431,
+    "title": "Tamma Tamma Again",
+    "trackName": "Tamma Tamma Again",
+    "artistName": "Bappi Lahiri, Anuradha Paudwal & Badshah",
+    "albumName": "Badrinath Ki Dulhania (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7c/6e/e7/7c6ee7c8-c1f3-e40f-1ec7-7ff96d0776f8/8902894358804_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1580061878,
+    "title": "Sakhiyan2.0",
+    "trackName": "Sakhiyan2.0 (From \"BellBottom\")",
+    "artistName": "Maninder Buttar, Zara Khan & Tanishk Bagchi",
+    "albumName": "Sakhiyan2.0 (From \"Bellbottom\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a8/5f/0d/a85f0d2c-7078-7199-b05c-c4c75732a68e/196292269536.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1483729685,
+    "title": "Naagin",
+    "trackName": "Naagin",
+    "artistName": "Vayu, Aastha Gill, Akasa & Puri",
+    "albumName": "Naagin - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a7/00/15/a700150f-49d4-2ace-f0b6-b31a7576abbd/886448078678.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1774175537,
+    "title": "Bhool Bhulaiyaa 3 - Title Track",
+    "trackName": "Bhool Bhulaiyaa 3 - Title Track [From \"Bhool Bhulaiyaa 3\"]",
+    "artistName": "Pitbull, Diljit Dosanjh, Tanishk Bagchi, Pritam, Neeraj Shridhar, Dhrruv Yogi & Sameer",
+    "albumName": "Bhool Bhulaiyaa 3 - Title Track [From \"Bhool Bhulaiyaa 3\"] - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/19/c3/7419c310-bae2-40a7-a799-0b18318b2f2a/8903431020192_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1840152141,
+    "title": "Ghafoor",
+    "trackName": "Ghafoor",
+    "artistName": "Shashwat Sachdev, Shilpa Rao & Ujwal Gupta",
+    "albumName": "The Ba***ds Of Bollywood (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/88/b1/a9/88b1a972-9555-8ba2-6382-f0d7daaa03b5/8903431116369_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1877047905,
+    "title": "Paan Ki Dukaan",
+    "trackName": "Paan Ki Dukaan",
+    "artistName": "Vishal Bhardwaj, Sukhwinder Singh, Rekha Bhardwaj & Gulzar",
+    "albumName": "O' Romeo (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ba/77/80/ba778089-8ed4-238f-708e-002fdee070f6/8902894362832_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 887456974,
+    "title": "Saturday Saturday",
+    "trackName": "Saturday Saturday",
+    "artistName": "Sharib Toshi, Badshah, Indeep Bakshi & Akriti Kakkar",
+    "albumName": "Humpty Sharma Ki Dulhania (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/a5/a4/24a5a4bf-5854-abf3-a834-845c0fef65c6/886444676540.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1724211587,
+    "title": "Abrar’S Entry Jamal Kudu",
+    "trackName": "Abrar’S Entry Jamal Kudu (From \"Animal\")",
+    "artistName": "Choir",
+    "albumName": "Non-Stop Bollywood Super - Hit Party Songs",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/57/a5/f0/57a5f0e8-d00d-1230-0935-6d10b98f808a/8903431976796_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6763062174,
+    "title": "WOW",
+    "trackName": "WOW (From \"Hai Jawani Toh Ishq Hona Hai\")",
+    "artistName": "Tanishk Bagchi, Harrdy Sandhu, Kiran Bajwa & Gill Machhrai",
+    "albumName": "WOW (From \"Hai Jawani Toh Ishq Hona Hai\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/bb/9d/c6bb9d38-cffc-6ca3-40a7-f9fdce93f8a5/8901854115686.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1842760963,
+    "title": "Tum Mere Na Huye",
+    "trackName": "Tum Mere Na Huye (From “Thamma”)",
+    "artistName": "Sachin-Jigar, Madhubanti Bagchi & Amitabh Bhattacharya",
+    "albumName": "Tum Mere Na Huye (From “Thamma”) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dc/7c/31/dc7c31e1-2540-ee67-e2ec-3871f65b5b6a/25UM1IM52319.rgb.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1536507918,
+    "title": "Choli Ke Peeche",
+    "trackName": "Choli Ke Peeche",
+    "artistName": "Alka Yagnik & Ila Arun",
+    "albumName": "Khal Nayak (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/68/6f/09/686f09d2-21b7-6d5d-c6d0-5c2570cb8441/8901854008636.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1705952067,
+    "title": "Not Ramaiya Vastavaiya",
+    "trackName": "Not Ramaiya Vastavaiya",
+    "artistName": "Anirudh Ravichander, Vishal Dadlani, Shilpa Rao & Kumaar",
+    "albumName": "Jawan (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/bb/f4/f5/bbf4f511-3c12-c25e-a475-b6d06faa8c13/8902894362047_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6766767536,
+    "title": "Humne Wahin Lagaya Dil",
+    "trackName": "Humne Wahin Lagaya Dil (From \"Pati Patni Aur Woh Do\")",
+    "artistName": "Badshah, Devv Sadaana, Kunaal Vermaa, Krish Mondal, Kishore Mondal, Hiten & Ipsitaa",
+    "albumName": "Humne Wahin Lagaya Dil (From \"Pati Patni Aur Woh Do\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1b/75/26/1b752685-fe99-168d-b2a4-c985062eb791/8903431196842_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1885815617,
+    "title": "Main Aur Tu",
+    "trackName": "Main Aur Tu (From \"Dhurandhar The Revenge\")",
+    "artistName": "Shashwat Sachdev, Jasmine Sandlas & Reble",
+    "albumName": "Main Aur Tu (From \"Dhurandhar The Revenge\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/e1/8c/d7e18ce7-a9f8-d9c3-c1a4-2fa1798e68fa/8903431190369_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1667650159,
+    "title": "Main Khiladi",
+    "trackName": "Main Khiladi (From \"Selfiee\")",
+    "artistName": "Udit Narayan, Abhijeet, Maya Govind, Anu Malik & Tanishk Bagchi",
+    "albumName": "Main Khiladi (From \"Selfiee\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/21/47/6b/21476b68-11c0-cc8a-0534-3277b66d2a12/cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1654920750,
+    "title": "Jehda Nasha",
+    "trackName": "Jehda Nasha (From \"An Action Hero\")",
+    "artistName": "Tanishk Bagchi, Amar Jalal, Faridkot, Yohani, Harjot Kaur, IP Singh & Balla Jalal",
+    "albumName": "Jehda Nasha (From \"An Action Hero\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/fb/f7/ed/fbf7ed33-c62e-db0b-5f53-8fa7fd280dd4/8903431910547_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1722603792,
+    "title": "Ishq Jaisa Kuch",
+    "trackName": "Ishq Jaisa Kuch (From \"Fighter\")",
+    "artistName": "Vishal & Shekhar, Shilpa Rao, Mellow D, Kumaar & Vishal Dadlani",
+    "albumName": "Ishq Jaisa Kuch (From \"Fighter\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/01/36/81/013681a4-b27f-24e3-3fc4-39ce41fb277e/8903431975973_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1555758702,
+    "title": "Husnn Hai Suhaana New (Jhankar)",
+    "trackName": "Husnn Hai Suhaana New (Jhankar)",
+    "artistName": "Chandana Dixit & Abhijeet",
+    "albumName": "Coolie No. 1 (2020) [Jhankar] - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4e/aa/da/4eaada64-af80-370d-7aa4-5f11b15e3abd/8901854064052.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1807793250,
+    "title": "Tu Tu Hai Wahi",
+    "trackName": "Tu Tu Hai Wahi",
+    "artistName": "RUUH, JOH, Jubin Nautiyal & Jonita Gandhi",
+    "albumName": "Tu Tu Hai Wahi - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/aa/be/eb/aabeebd1-be2f-2859-6a32-8de209169569/25UMGIM54068.rgb.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1748059885,
+    "title": "FA9LA",
+    "trackName": "FA9LA",
+    "artistName": "Flipperachi",
+    "albumName": "فصلة - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/da/55/1d/da551dbe-c8df-d7c2-e422-1e7b868ed1a1/198588182598.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1786071213,
+    "title": "Sher Khul Gaye",
+    "trackName": "Sher Khul Gaye (From \"Fighter\")",
+    "artistName": "Benny Dayal, Shilpa Rao, Vishal-Sheykhar & Mellow D",
+    "albumName": "Bollywood Beats By Vishal-Shekhar",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e4/ff/cb/e4ffcbed-9a7d-7377-c9b3-4bf7b23380db/8903431029829_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1501951386,
+    "title": "Dus Bahane 2.0",
+    "trackName": "Dus Bahane 2.0 (feat. K.K., Shaan, Tulsi Kumar)",
+    "artistName": "Vishal & Shekhar",
+    "albumName": "Baaghi 3 (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0b/ac/72/0bac72a3-72e6-0856-922d-34405c25eada/8902894361125_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1731368916,
+    "title": "Zaalim",
+    "trackName": "Zaalim",
+    "artistName": "Badshah, Payal Dev & Nora Fatehi",
+    "albumName": "Zaalim - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/91/3f/3c/913f3cde-c8d0-50d2-3b3b-f97057325106/8903431984395_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1886369136,
+    "title": "Rang De Lal (Oye Oye)",
+    "trackName": "Rang De Lal (Oye Oye) (From \"Dhurandhar The Revenge\")",
+    "artistName": "Shashwat Sachdev, Jasmine Sandlas, Afsana Khan, Amit Kumar, Kalyanji-Anandji, Anand Bakshi & Reble",
+    "albumName": "Rang De Lal (Oye Oye) (From \"Dhurandhar The Revenge\")[Original Motion Picture Soundtrack] - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bc/14/78/bc147806-4522-1c0a-6da7-5efb23b0d98f/8903431190604_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1810384423,
+    "title": "Chor Bazari Phir Se",
+    "trackName": "Chor Bazari Phir Se (From \"Bhool Chuk Maaf\")",
+    "artistName": "Tanishk Bagchi, Pritam, Irshad Kamil, Sunidhi Chauhan, Neeraj Shridhar & Zahrah S Khan",
+    "albumName": "Chor Bazari Phir Se (From \"Bhool Chuk Maaf\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c3/03/2b/c3032b2d-deea-467b-7654-a759c482c30a/196873086705.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1850432817,
+    "title": "3 Shaukk",
+    "trackName": "3 Shaukk (From \"De De Pyaar De 2\")",
+    "artistName": "Avvy Sra, Karan Aujla, Jaani & Jyotica Tangri",
+    "albumName": "3 Shaukk (From \"De De Pyaar De 2\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ae/a8/a0/aea8a04a-219c-297c-fa3c-74d4178d84fe/8903431146335_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1329701888,
+    "title": "Oh Ho Ho Ho (Remix)",
+    "trackName": "Oh Ho Ho Ho (Remix) [from \"Hindi Medium\"]",
+    "artistName": "Sukhbir & Ikka",
+    "albumName": "Punjabi Blockbusters 2017",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/8e/c0/01/8ec0019d-6a45-72a5-9427-3b955140c35e/8903431663436_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1793724408,
+    "title": "Gori Hai Kalaiyan",
+    "trackName": "Gori Hai Kalaiyan (From \"Mere Husband Ki Biwi\")",
+    "artistName": "Badshah, Akshay & IP, Kanika Kapoor & Sharvi Yadav",
+    "albumName": "Gori Hai Kalaiyan (From \"Mere Husband Ki Biwi\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/84/85/768485fe-5ca5-27ce-6e8a-b734e107a82c/cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1886367830,
+    "title": "Didi (Sher-E-Baloch)",
+    "trackName": "Didi (Sher-E-Baloch) [From \"Dhurandhar The Revenge\"]",
+    "artistName": "Shashwat Sachdev, Khaled, Sons of Yusuf & Nabil El Houri",
+    "albumName": "Didi (Sher-E-Baloch) [From \"Dhurandhar The Revenge\"] - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/04/cf/5004cfee-5635-b629-2081-53767627933b/8903431190628_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1725427599,
+    "title": "Laal Peeli Akhiyaan",
+    "trackName": "Laal Peeli Akhiyaan (From \"Teri Baaton Mein Aisa Uljha Jiya\")",
+    "artistName": "Tanishk Bagchi, Romy & Neeraj Rajawat",
+    "albumName": "Laal Peeli Akhiyaan (From \"Teri Baaton Mein Aisa Uljha Jiya\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c7/ce/29/c7ce29d8-d6f8-1a6b-fa84-1411542c497c/8903431977977_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1893914139,
+    "title": "Jab Talak",
+    "trackName": "Jab Talak (From “Cocktail 2”)",
+    "artistName": "Pritam, Arijit Singh, Amitabh Bhattacharya, Madhubanti Bagchi & Akasa",
+    "albumName": "Jab Talak (From “Cocktail 2”) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/b8/ef/47b8ef6f-6127-1ae0-a17d-b49c587c3b86/26UMGIM45939.rgb.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1656956656,
+    "title": "Aap Jaisa Koi",
+    "trackName": "Aap Jaisa Koi",
+    "artistName": "Zahrah S Khan, Altamash Faridi, Tanishk Bagchi & Indeevar",
+    "albumName": "An Action Hero (Original Motion Picture Soundtrack) - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/0b/8b/cf/0b8bcf8d-f3fb-47fe-3175-92c31349277a/8902894361811_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1832936716,
+    "title": "Janaab-e-Aali",
+    "trackName": "Janaab-e-Aali (From \"WAR 2\")",
+    "artistName": "Pritam, Sachet Tandon, Saaj Bhatt & Amitabh Bhattacharya",
+    "albumName": "Janaab-e-Aali (From \"WAR 2\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/d6/19/35d619f7-e7fc-d32d-48d2-d3e6cdaca985/Janaab-e-Aali.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6835335905,
+    "title": "Thummak Thummak",
+    "trackName": "Thummak Thummak",
+    "artistName": "Tanishk Bagchi, Dev Negi, Akasa & Shabbir Ahmed",
+    "albumName": "Nach Party",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/59/4e/df/594edf99-dab6-5885-bc54-896d99f74965/8909024126562.png/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6821957155,
+    "title": "Jhumka Patola",
+    "trackName": "Jhumka Patola (From \"Yeh Prem Mol Liya\")",
+    "artistName": "Himesh Reshammiya, Shreya Ghoshal & Sonia Kapoor Reshammiya",
+    "albumName": "Jhumka Patola (From \"Yeh Prem Mol Liya\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/62/35/a3/6235a39a-04ca-3168-3c45-2138fb07ddfa/823375531739_Cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6790094245,
+    "title": "Parvati",
+    "trackName": "Parvati",
+    "artistName": "Sadhu Tiwari",
+    "albumName": "Hanuman Ansh (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/20/98/472098ba-3557-4af7-42c2-55df4e874fe6/8902633457058.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1881511290,
+    "title": "Tabaahi",
+    "trackName": "Tabaahi (From \"Toxic - Kannada\")",
+    "artistName": "Vishal Mishra & Yogaraj Bhat",
+    "albumName": "Tabaahi (From \"Toxic') [Kannada]",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/ad/5f/66ad5f05-e650-e5ea-96a8-4b188be53675/8909024110806.png/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6802269797,
+    "title": "Vaaroon Forever",
+    "trackName": "Vaaroon Forever (From “Mirzapur The Movie”)",
+    "artistName": "Anand Bhaskar, Romy, Shreya Ghoshal & Ginny Diwan",
+    "albumName": "Vaaroon Forever (From “Mirzapur The Movie”) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e6/6f/8d/e66f8dd3-cba3-c943-bbee-69340f20d663/26UM1IM06728.rgb.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6814533036,
+    "title": "Afsaana Banaaya Aapne",
+    "trackName": "Afsaana Banaaya Aapne (From \"Gunmaaster G9\")",
+    "artistName": "Himesh Reshammiya & Asees Kaur",
+    "albumName": "Afsaana Banaaya Aapne (From \"Gunmaaster G9\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0f/1c/2d/0f1c2da0-bc41-59d8-3b84-0fb50a4bb806/823375468950_Cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6828305494,
+    "title": "Judi Jodi -  HINDI",
+    "trackName": "Judi Jodi (From \"Ramayana\") -  HINDI",
+    "artistName": "A.R. Rahman, Shreya Ghoshal & Kumar Vishwas",
+    "albumName": "Judi Jodi (From \"Ramayana\") [HINDI] - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/32/f1/c4/32f1c469-3206-235c-2373-5e6cac934ea3/8903431225160_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1841653256,
+    "title": "Mera Hua",
+    "trackName": "Mera Hua (From \"Ek Deewane Ki Deewaniyat\") [Original Motion Picture Soundtrack]",
+    "artistName": "Annkur R Pathakk & Sachin Urmtosh",
+    "albumName": "Mera Hua (From \"Ek Deewane Ki Deewaniyat\") [Original Motion Picture Soundtrack] - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/1c/aa/d21caa2c-8e0f-9f24-d184-522dfe6a9a1f/198704750663_Cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1855774455,
+    "title": "Ishq Jalakar - Karvaan",
+    "trackName": "Ishq Jalakar - Karvaan (From \"Dhurandhar\")",
+    "artistName": "Shashwat Sachdev, Shahzad Ali, Subhadeep Das Chowdhury, Armaan Khan, Irshad Kamil, Roshan & Sahir Ludhianvi",
+    "albumName": "Ishq Jalakar - Karvaan (From \"Dhurandhar\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/df/de/fd/dfdefde4-8001-679e-415f-250e0bc771ff/199806529416.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6813004258,
+    "title": "Yeh Prem Mol Liya Title Track",
+    "trackName": "Yeh Prem Mol Liya Title Track (From \"Yeh Prem Mol Liya\")",
+    "artistName": "Himesh Reshammiya, Shreya Ghoshal, Nihal Tauro & Kumaar",
+    "albumName": "Yeh Prem Mol Liya Title Track (From \"Yeh Prem Mol Liya\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/3e/31/2a3e3126-c3c8-35ce-c5c9-da95fce7adca/823375454410_Cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6800224984,
+    "title": "Ve Junoon",
+    "trackName": "Ve Junoon",
+    "artistName": "Mithoon, Sayeed Quadri & Subodhh Sharma",
+    "albumName": "Awarapan 2 (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/39/55/ce/3955ce23-fcb2-b409-e3da-ac3e7de1ea99/196874692820.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6772887736,
+    "title": "Tujhko",
+    "trackName": "Tujhko (From “Cocktail 2”)",
+    "artistName": "Pritam, Arijit Singh, Sunidhi Chauhan & Amitabh Bhattacharya",
+    "albumName": "Tujhko (From “Cocktail 2”) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/26/18/4326187c-66a0-7c94-fb3c-c092337e7e15/26UMGIM67498.rgb.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6766291537,
+    "title": "Maskara",
+    "trackName": "Maskara (From \"Main Vaapas Aaunga\")",
+    "artistName": "A.R. Rahman, Vedang Raina, Nilanjana Ghosh & Irshad Kamil",
+    "albumName": "Maskara (From \"Main Vaapas Aaunga\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/f1/d8/97f1d803-1939-68b1-f5a3-8ec4cd14b0cb/8901854115952.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1863080799,
+    "title": "Tu Meri Main Tera Main Tera Tu Meri - Title Track",
+    "trackName": "Tu Meri Main Tera Main Tera Tu Meri - Title Track",
+    "artistName": "Vishal-Shekhar, Vishal Dadlani, Shekhar Ravjiani & Anvita Dutt",
+    "albumName": "Tu Meri Main Tera Main Tera Tu Meri (Original Motion Picture Soundtrack) - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/63/85/9f/63859fd3-4fab-3618-6985-a15be6904b92/199806839478.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6792709557,
+    "title": "Yeh Awarapan",
+    "trackName": "Yeh Awarapan (From \"Awarapan 2\")",
+    "artistName": "Amaal Mallik, Arijit Singh & Rashmi Virag",
+    "albumName": "Yeh Awarapan (From \"Awarapan 2\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/70/18/f4701835-2020-152a-fce6-387d69d87ba4/196874621936.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6778782209,
+    "title": "Tere Paas Main - Female Version",
+    "trackName": "Tere Paas Main - Female Version (From \"Main Vaapas Aaunga\")",
+    "artistName": "A.R. Rahman, Irshad Kamil & Deepali Sahay",
+    "albumName": "Main Vaapas Aaunga (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/e4/b3/8ee4b35b-ae98-79e7-0cfb-56da68cfa8ef/8901854117178.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1846859013,
+    "title": "Raat Bhar",
+    "trackName": "Raat Bhar (From \"De De Pyaar De 2\")",
+    "artistName": "Aditya Rikhari, Payal Dev, Aditya Dev & Kumaar",
+    "albumName": "Raat Bhar (From \"De De Pyaar De 2\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ec/25/12/ec25121f-ab55-80d5-1c46-c8dfd5be61a8/8903431142405_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6800225150,
+    "title": "Toh Phir Aao - New Version",
+    "trackName": "Toh Phir Aao - New Version",
+    "artistName": "Mithoon, Pritam, Mustafa Zahid, Sayeed Quadri & Subodhh Sharma",
+    "albumName": "Awarapan 2 (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/39/55/ce/3955ce23-fcb2-b409-e3da-ac3e7de1ea99/196874692820.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6784610363,
+    "title": "Ishq Kameena 2.0",
+    "trackName": "Ishq Kameena 2.0 (From \"Baby Do Die Do\")",
+    "artistName": "Alka Yagnik, Lijo George, Anu Malik & Dee MC",
+    "albumName": "Ishq Kameena 2.0 (From \"Baby Do Die Do\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/a3/00/3ca300ee-1c77-c6ab-5748-ed59c40139fc/8901854116669.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1852499035,
+    "title": "Aawaara Angaara",
+    "trackName": "Aawaara Angaara (From \"Tere Ishk Mein\")",
+    "artistName": "A.R. Rahman, Faheem Abdullah & Irshad Kamil",
+    "albumName": "Aawaara Angaara (From \"Tere Ishk Mein\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/51/8c/04/518c043f-e6e0-4f42-74b1-5e41d57eb66c/8903431151148_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6822753226,
+    "title": "O Mere Saajan",
+    "trackName": "O Mere Saajan",
+    "artistName": "Ajay-Atul, Javed Ali, Shweta Mohan & Kshitij Patwardhan",
+    "albumName": "Ranabaali (Original Motion Picture Soundtrack) - Hindi",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/26/e8/e226e86e-f6d0-efca-15a0-dafc7c3f893a/8902894363020_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6811746468,
+    "title": "Jai Jai Ram",
+    "trackName": "Jai Jai Ram (From \"Ramayana\")",
+    "artistName": "A.R. Rahman, Shreya Ghoshal, Arijit Singh & Kumar Vishwas",
+    "albumName": "Jai Jai Ram (From \"Ramayana\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c3/ff/92/c3ff923d-f4a5-e708-9be2-97752b8c680f/8903431216816_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 6771667085,
+    "title": "Hai Jawani Toh Ishq Hona Hai (Title Track)",
+    "trackName": "Hai Jawani Toh Ishq Hona Hai (Title Track)",
+    "artistName": "Varun Dhawan, Anu Malik, Javed-Mohsin & Shankar Mahadevan",
+    "albumName": "Hai Jawani Toh Ishq Hona Hai (Title Track) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/0f/6c/050f6c04-24f4-1bac-da1e-83d06fc4525e/8901854116577.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 264849909,
+    "title": "Barso Re",
+    "trackName": "Barso Re",
+    "artistName": "A.R. Rahman, Shreya Ghoshal & Uday Majumdar",
+    "albumName": "Guru (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8d/8c/69/8d8c697e-f108-9e69-0cb1-475b45ab26a8/886970389020.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1131692261,
+    "title": "Masakali",
+    "trackName": "Masakali",
+    "artistName": "Mohit Chauhan",
+    "albumName": "Delhi-6 (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e2/fe/21/e2fe21b6-50e6-7b4b-285a-d40394baba4e/8902894628990_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 300388198,
+    "title": "You Are My Soniya",
+    "trackName": "You Are My Soniya",
+    "artistName": "Sandesh Shandilya, Sonu Nigam & Alka Yagnik",
+    "albumName": "Kabhi Khushi Kabhie Gham (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/86/d3/96/86d396fd-9230-aab9-115b-bada9149d8de/888880945778.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1134725348,
+    "title": "Ye Ishq Hai",
+    "trackName": "Ye Ishq Hai",
+    "artistName": "Pritam & Shreya Ghoshal",
+    "albumName": "Jab We Met (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/c7/43/3dc74387-e7f4-2342-397c-4cf2037c69a5/8902894623223_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 673596465,
+    "title": "Haule Haule",
+    "trackName": "Haule Haule",
+    "artistName": "Sukhwinder Singh",
+    "albumName": "Rab Ne Bana Di Jodi (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/7a/8b/e57a8bb7-8513-3bf9-8268-cc3062ae00df/849486008052_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1133344523,
+    "title": "Kaise Mujhe",
+    "trackName": "Kaise Mujhe",
+    "artistName": "Benny Dayal & Shreya Ghoshal",
+    "albumName": "Ghajini (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b1/2a/54/b12a5476-65db-75b9-be67-611bede2596e/8902894628464_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 673588937,
+    "title": "Falak Tak",
+    "trackName": "Falak Tak",
+    "artistName": "Vishal & Shekhar, Mahalakshmi Iyer & Udit Narayan",
+    "albumName": "Tashan (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2e/18/7f/2e187f10-7b65-79d6-3109-d23f8e6a81de/849486008120_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1120934453,
+    "title": "Tumse Milke Dil Ka",
+    "trackName": "Tumse Milke Dil Ka",
+    "artistName": "Sonu Nigam & Sabri Brothers",
+    "albumName": "Main Hoon Na (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/da/e5/1c/dae51cac-d526-1dc3-5bcc-3d1418fa5fc5/8902894117388_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 660561134,
+    "title": "Tum Mile",
+    "trackName": "Tum Mile (From \"Tum Mile\")",
+    "artistName": "Neeraj Shridhar & Pritam",
+    "albumName": "Best of Me: Pritam",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/37/27/a0/3727a0a1-d510-db4f-2fe0-fdc0a77afec8/886444060011.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 300388928,
+    "title": "Maahi Ve",
+    "trackName": "Maahi Ve",
+    "artistName": "Shankar Ehsaan Loy, Shankar Mahadevan, Sadhana Sargam, Sujata Bhattacharya, Udit Narayan & Sonu Nigam",
+    "albumName": "Kal Ho Naa Ho (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fb/82/da/fb82dab1-d0cd-714c-000c-6450774fd5d4/888880945587.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1071079640,
+    "title": "Deewangi Deewangi",
+    "trackName": "Deewangi Deewangi",
+    "artistName": "Shaan, Udit Narayan, Shreya Ghoshal, Sunidhi Chauhan, Rahul Saxena & Vishal & Shekhar",
+    "albumName": "Om Shanti Om (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4c/16/13/4c161318-5bf1-ea55-774d-2f55e2361d10/8902894623179_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1134568764,
+    "title": "Salaam-E-Ishq",
+    "trackName": "Salaam-E-Ishq",
+    "artistName": "Sonu Nigam, Shreya Ghoshal, Kunal Ganjawala, Sadhana Sargam & Shankar Mahadevan",
+    "albumName": "Salaam-E-Ishq (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b1/6a/cc/b16accb9-8890-a3ad-6206-add2f69dfee8/8902894602082_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 302523872,
+    "title": "In Dino",
+    "trackName": "In Dino",
+    "artistName": "Pritam & Soham",
+    "albumName": "Life In a Metro (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/91/38/c3/9138c3d7-941c-3298-49c4-1286f4216bbc/888880945457.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1139227712,
+    "title": "Dil Dooba",
+    "trackName": "Dil Dooba",
+    "artistName": "Sonu Nigam & Shreya Ghoshal",
+    "albumName": "Khakee (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/ae/f7/78aef78b-9372-5f6f-7c74-9de4c49c8c66/8902894116817_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1537027354,
+    "title": "Is This Love",
+    "trackName": "Is This Love",
+    "artistName": "Mohit Chauhan, Shreya Ghoshal & Pritam",
+    "albumName": "Kismat Konnection (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/03/c8/e4/03c8e4d9-d521-09b2-610f-1ea075e5cae2/8901854001989.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 686117790,
+    "title": "Teri Ore [Lounge Mix]",
+    "trackName": "Teri Ore (From \"Singh Is Kinng\") [Lounge Mix]",
+    "artistName": "Rahat Fateh Ali Khan & Shreya Ghoshal",
+    "albumName": "Made for Each Other - Akshay Kumar & Katrina Kaif",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/98/c3/82/98c3824a-0983-4b69-3453-6d6074e362f0/dj.xuudsstq.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 300388932,
+    "title": "Pretty Woman",
+    "trackName": "Pretty Woman",
+    "artistName": "Shankar Ehsaan Loy, Shankar Mahadevan & Ravi 'Rags' Khote",
+    "albumName": "Kal Ho Naa Ho (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fb/82/da/fb82dab1-d0cd-714c-000c-6450774fd5d4/888880945587.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1071079631,
+    "title": "Dard - E - Disco",
+    "trackName": "Dard - E - Disco",
+    "artistName": "Sukhwinder Singh, Marianne, Nisha, Caralisa & Vishal & Shekhar",
+    "albumName": "Om Shanti Om (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4c/16/13/4c161318-5bf1-ea55-774d-2f55e2361d10/8902894623179_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 305751202,
+    "title": "Radha Kaise Na Jale",
+    "trackName": "Radha Kaise Na Jale",
+    "artistName": "A.R. Rahman, Asha Bhosle, Udit Narayan & Vaishali Samant",
+    "albumName": "Lagaan (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/41/5b/88/415b88d2-00fc-2f74-fe21-f2d4b6f6ec5a/888880946072.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 300388228,
+    "title": "Deewana Hai Dekho",
+    "trackName": "Deewana Hai Dekho",
+    "artistName": "Alka Yagnik, Sandesh Shandilya, Sonu Nigam & Kareena Kapoor",
+    "albumName": "Kabhi Khushi Kabhie Gham (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/86/d3/96/86d396fd-9230-aab9-115b-bada9149d8de/888880945778.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 673576191,
+    "title": "Mere Haath Mein",
+    "trackName": "Mere Haath Mein",
+    "artistName": "Aamir Khan, Kajol, Sonu Nigam & Sunidhi Chauhan",
+    "albumName": "Fanaa (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6c/aa/dc/6caadc6b-8c42-a122-b3e1-41e6f14f0c22/849486005921_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1120951296,
+    "title": "Yun Hi Chala Chal",
+    "trackName": "Yun Hi Chala Chal",
+    "artistName": "Udit Narayan, Hariharan & Kailash Kher",
+    "albumName": "Swades (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4d/29/cc/4d29ccc6-7ced-c6d2-89c8-9af1b808fc63/8902894118262_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 673588784,
+    "title": "Chhaliya",
+    "trackName": "Chhaliya",
+    "artistName": "Vishal & Shekhar, Piyush Mishra & Sunidhi Chauhan",
+    "albumName": "Tashan (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2e/18/7f/2e187f10-7b65-79d6-3109-d23f8e6a81de/849486008120_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1131893423,
+    "title": "Dhan Te Nan",
+    "trackName": "Dhan Te Nan",
+    "artistName": "Sukhwinder Singh, Vishal Dadlani & Robert 'Bob' Omulo",
+    "albumName": "Kaminey (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/04/f1/f0/04f1f07b-3c95-af68-ce04-078ca9978e78/8902894683999_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 673521367,
+    "title": "Aahista Aahista",
+    "trackName": "Aahista Aahista",
+    "artistName": "Vishal & Shekhar, Lucky Ali & Shreya Ghoshal",
+    "albumName": "Bachna Ae Haseeno (Original Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/95/ca/0e/95ca0eee-4709-b2a0-7e2d-7097c944d2cc/849486005822_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1133247336,
+    "title": "Kuchh Khaas",
+    "trackName": "Kuchh Khaas",
+    "artistName": "Mohit Chauhan & Neha Bhasin",
+    "albumName": "Fashion (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music20/v4/94/83/9b/94839bee-f6a4-95f1-241b-a58ae5755734/8902894627573_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1842111837,
+    "title": "Main Jahaan Rahoon",
+    "trackName": "Main Jahaan Rahoon",
+    "artistName": "Himesh Reshammiya, Rahat Fateh Ali Khan & Krishna",
+    "albumName": "Namastey London (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/fb/82/cafb824d-28ac-ebaa-d668-74050ce3c77f/196871079693.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1364835822,
+    "title": "Right Here Right Now",
+    "trackName": "Right Here Right Now",
+    "artistName": "Abhishek Bachchan & Sunidhi Chauhan",
+    "albumName": "Bluff Master (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/e3/71/cc/e371cc68-7cf0-0f09-bee9-094cb843c89b/192562347799.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1138970390,
+    "title": "Koi Kahe Kehta Rahe",
+    "trackName": "Koi Kahe Kehta Rahe",
+    "artistName": "Shankar Mahadevan, Shaan & KK",
+    "albumName": "Dil Chahta Hai (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/df/62/2bdf6213-3d11-5f01-cc5e-ddfcc15923b4/8902894114844_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1337317377,
+    "title": "Mann Ki Lagan",
+    "trackName": "Mann Ki Lagan",
+    "artistName": "Rahat Fateh Ali Khan",
+    "albumName": "Paap (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/da/4d/a9/da4da9df-3295-f4e9-d162-69d6427d3d54/191773226671.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1544244033,
+    "title": "Tu Meri Dost Hain",
+    "trackName": "Tu Meri Dost Hain",
+    "artistName": "Benny Dayal & Shreya Ghoshal",
+    "albumName": "Yuvvraaj (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/30/90/f5/3090f53c-afd8-08ab-4e14-c39b966eff7d/8901854058600.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 668941168,
+    "title": "Aaja Nachle",
+    "trackName": "Aaja Nachle",
+    "artistName": "Sunidhi Chauhan",
+    "albumName": "Aaja Nachle (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0f/77/7a/0f777a59-0a16-89d5-7273-d6de038ae7c0/849486005808_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1328217561,
+    "title": "Banthan Ke",
+    "trackName": "Banthan Ke",
+    "artistName": "Sukhwinder Singh & Sunidhi Chauhan",
+    "albumName": "Kurukshetra (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/65/14/8f/65148fd8-7150-1849-2345-22054bd8992c/191773226510.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1136363173,
+    "title": "Kya Mujhe Pyar Hai (Remix)",
+    "trackName": "Kya Mujhe Pyar Hai (Remix)",
+    "artistName": "Pritam, KK, Dj A-Myth & DJ Kiran",
+    "albumName": "Woh Lamhe (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/23/f2/02/23f2021c-ae86-a637-ee5a-6e9e9b1bcc26/8902894601832_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1136551367,
+    "title": "Sajna Ji Vaari Vaari",
+    "trackName": "Sajna Ji Vaari Vaari",
+    "artistName": "Sunidhi Chauhan, Shekhar Ravjiani & Vishal & Shekhar",
+    "albumName": "Honeymoon Travels Pvt Ltd (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music60/v4/ff/5a/d5/ff5ad52c-f762-5adb-b294-b0a25571a302/8902894602211_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1139142576,
+    "title": "Chalte Chalte",
+    "trackName": "Chalte Chalte",
+    "artistName": "Abhijeet & Alka Yagnik",
+    "albumName": "Chalte Chalte (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music30/v4/5b/6f/99/5b6f99e1-3c08-b0aa-3ffc-62643b227622/8902894116398_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1134775427,
+    "title": "You're My Love",
+    "trackName": "You're My Love",
+    "artistName": "Shaan, Shweta Pandit, Suzi Q & Earl D'Souza",
+    "albumName": "Partner (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/1c/19/79/1c197964-2718-ed49-f31a-13fc71739f95/8902894836487_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1136155168,
+    "title": "Jhalak Dikhla Ja (Remix)",
+    "trackName": "Jhalak Dikhla Ja (Remix)",
+    "artistName": "Himesh Reshammiya",
+    "albumName": "Aksar (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/0b/17/91/0b179147-e6d9-060d-c071-6b88718ce4b7/8902894600644_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 673588780,
+    "title": "Dil Haara",
+    "trackName": "Dil Haara",
+    "artistName": "Vishal & Shekhar & Sukhwinder Singh",
+    "albumName": "Tashan (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2e/18/7f/2e187f10-7b65-79d6-3109-d23f8e6a81de/849486008120_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1116180563,
+    "title": "Mujhse Shaadi Karogi",
+    "trackName": "Mujhse Shaadi Karogi",
+    "artistName": "Sonu Nigam, Udit Narayan & Sunidhi Chauhan",
+    "albumName": "Mujhse Shaadi Karogi (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/cf/53/9c/cf539c00-d56d-07c6-2177-c43392ea9f36/8902894117753_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1129677852,
+    "title": "Hai Mera Dil",
+    "trackName": "Hai Mera Dil",
+    "artistName": "Udit Narayan & Alka Yagnik",
+    "albumName": "Josh (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/db/86/78db868d-b8f9-de19-b88e-bf6282cbf231/cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 556951487,
+    "title": "Radha",
+    "trackName": "Radha",
+    "artistName": "Vishal & Shekhar, Shekhar Ravjiani, Shreya Ghoshal, Udit Narayan & Vishal Dadlani",
+    "albumName": "Student of the Year (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fe/27/2f/fe272f90-3bf9-b6e3-ffba-7068e9958c9c/886443601017.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1121194888,
+    "title": "Subha Hone Na De",
+    "trackName": "Subha Hone Na De",
+    "artistName": "Pritam, Mika Singh & Shefali Alvares",
+    "albumName": "Desi Boyz (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d0/44/05/d04405c9-20f8-f11a-fa14-8867e988a409/8902894697743_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1121154170,
+    "title": "Humko Pyar Hua",
+    "trackName": "Humko Pyar Hua",
+    "artistName": "Pritam, Tulsi Kumar & KK",
+    "albumName": "Ready (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/33/df/3c/33df3ccf-d5e6-fa75-7484-a12d81ed6048/8902894694933_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1122053176,
+    "title": "Abhi Kuch Dino Se",
+    "trackName": "Abhi Kuch Dino Se",
+    "artistName": "Pritam & Mohit Chauhan",
+    "albumName": "Dil Toh Baccha Hai Ji (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/29/a8/4d/29a84d42-f74b-d652-9459-f217a5c584e1/8902894690553_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1129812921,
+    "title": "Rishte Naate",
+    "trackName": "Rishte Naate",
+    "artistName": "Rahat Fateh Ali Khan & Suzanne Demello",
+    "albumName": "De Dana Dan (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5f/2b/f6/5f2bf617-678d-b4b8-3556-e802f0910be9/cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 372673438,
+    "title": "Bheegi Si Bhaagi Si",
+    "trackName": "Bheegi Si Bhaagi Si",
+    "artistName": "Pritam, Mohit Chauhan & Antara Mitra",
+    "albumName": "Raajneeti (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/eb/e1/da/ebe1da1c-a07a-43b6-d64d-3c1bedde43e8/884977611403.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1638680267,
+    "title": "Deva Deva",
+    "trackName": "Deva Deva (From \"Brahmastra\")",
+    "artistName": "Pritam, Arijit Singh, Amitabh Bhattacharya & Jonita Gandhi",
+    "albumName": "Deva Deva (From \"Brahmastra\") - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/68/72/f9/6872f95d-9c56-beb8-2768-a5c07c304ee6/196589383044.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1131932791,
+    "title": "Dil Leke",
+    "trackName": "Dil Leke",
+    "artistName": "Shaan & Shreya Ghoshal",
+    "albumName": "Wanted (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f3/0e/ba/f30eba8f-db22-666d-b968-27648c678ad0/8902894684057_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 660561139,
+    "title": "Mere Bina",
+    "trackName": "Mere Bina (From \"Crook\")",
+    "artistName": "Pritam & Nikhil D'Souza",
+    "albumName": "Best of Me: Pritam",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/37/27/a0/3727a0a1-d510-db4f-2fe0-fdc0a77afec8/886444060011.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1123336063,
+    "title": "Sajde",
+    "trackName": "Sajde",
+    "artistName": "Pritam, KK & Sunidhi Chauhan",
+    "albumName": "Khatta Meetha (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c1/ed/9a/c1ed9ab3-5c73-5153-67a7-baca56057417/8902894688413_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1113025925,
+    "title": "Sawaar Loon",
+    "trackName": "Sawaar Loon",
+    "artistName": "Monali Thakur & Amit Trivedi",
+    "albumName": "Lootera (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/27/40/28/2740286f-fa6e-23dc-cae2-8fbfb2ee3e1d/8902894353533_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1122178119,
+    "title": "Te Amo (Duet)",
+    "trackName": "Te Amo (Duet)",
+    "artistName": "Pritam, Ash King & Sunidhi Chauhan",
+    "albumName": "Dum Maaro Dum (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/91/9c/18/919c1814-d24a-1dcf-edda-d9ffdcd83e7c/8902894694599_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1123355620,
+    "title": "Tujhe Bhula Diya",
+    "trackName": "Tujhe Bhula Diya",
+    "artistName": "Mohit Chauhan, Shekhar Ravjiani, Shruti Pathak & Vishal & Shekhar",
+    "albumName": "Anjaana Anjaani (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/8b/d8/a1/8bd8a190-8b8c-35f8-8573-614428dd6e42/8902894689113_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1123340747,
+    "title": "Tum Jo Aaye",
+    "trackName": "Tum Jo Aaye",
+    "artistName": "Pritam, Rahat Fateh Ali Khan & Tulsi Kumar",
+    "albumName": "Once Upon a Time In Mumbaai (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f3/d9/23/f3d92398-118c-10c9-2ef8-5f28cff344c2/8902894688512_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1569776326,
+    "title": "Sajdaa",
+    "trackName": "Sajdaa",
+    "artistName": "Shankar Ehsaan Loy, Rahat Fateh Ali Khan, Shankar Mahadevan & Richa Sharma",
+    "albumName": "My Name Is Khan (Original Motion Picture Soundtrack) - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/49/32/5a/49325a52-e5e5-bb10-62f6-eebb211ce423/886446889825.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 372906478,
+    "title": "Bin Tere",
+    "trackName": "Bin Tere",
+    "artistName": "Shafqat Amanat Ali, Vishal & Shekhar & Sunidhi Chauhan",
+    "albumName": "I Hate Luv Storys (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a7/92/20/a7922048-2338-074c-17f4-5318e9097577/884977629200.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 333294971,
+    "title": "Shukran Allah",
+    "trackName": "Shukran Allah",
+    "artistName": "Salim Merchant, Salim-Sulaiman, Sonu Nigam & Shreya Ghoshal",
+    "albumName": "Kurbaan (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/2f/46/a8/2f46a861-e694-80e9-8a31-027977af95c7/884977367751.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 300388590,
+    "title": "Ladki Badi Anjani Hai",
+    "trackName": "Ladki Badi Anjani Hai",
+    "artistName": "Jatin-Lalit, Kumar Sanu & Alka Yagnik",
+    "albumName": "Kuch Kuch Hota Hai (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/b7/a4/07b7a4a5-d21f-db81-1d51-1eb1846c7dcb/888880945907.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 305752291,
+    "title": "Mitwa",
+    "trackName": "Mitwa",
+    "artistName": "Caralisa Monteiro, Shafqat Amanat Ali, Shankar Mahadevan & Shankar Ehsaan Loy",
+    "albumName": "Kabhi Alvida Naa Kehna (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/15/3e/84/153e841c-14dc-4841-7e2d-f677dd9bff61/888880946089.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1116365489,
+    "title": "Ik Junoon (Paint It Red)",
+    "trackName": "Ik Junoon (Paint It Red)",
+    "artistName": "Vishal Dadlani",
+    "albumName": "Zindagi Na Milegi Dobara (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b0/3f/4c/b03f4cca-8a6a-f506-4490-3263b4fb620c/8902894696296_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1071079478,
+    "title": "Ajab Si",
+    "trackName": "Ajab Si",
+    "artistName": "KK & Vishal & Shekhar",
+    "albumName": "Om Shanti Om (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4c/16/13/4c161318-5bf1-ea55-774d-2f55e2361d10/8902894623179_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1123355618,
+    "title": "Aas Paas Khuda",
+    "trackName": "Aas Paas Khuda",
+    "artistName": "Rahat Fateh Ali Khan & Vishal & Shekhar",
+    "albumName": "Anjaana Anjaani (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/8b/d8/a1/8bd8a190-8b8c-35f8-8573-614428dd6e42/8902894689113_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1121666601,
+    "title": "Saathiyaa",
+    "trackName": "Saathiyaa",
+    "artistName": "Shreya Ghoshal & Ajay",
+    "albumName": "Singham (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music20/v4/8e/8c/4e/8e8c4ea9-8445-8928-f755-5d7ab7194f96/8902894696470_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1123097829,
+    "title": "Adhoore",
+    "trackName": "Adhoore",
+    "artistName": "Vishal Dadlani, Alyssa Mendonsa & Vishal & Shekhar",
+    "albumName": "Break Ke Baad (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music30/v4/73/ee/0b/73ee0b88-6216-d896-0676-105d01d91e67/8902894689731_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1121136876,
+    "title": "Pappu Can't Dance",
+    "trackName": "Pappu Can't Dance",
+    "artistName": "Benny Dayal, Naresh Iyer, Satish Chakravarthy, Aslam, Blaaze, Tanvi & Bhargavi",
+    "albumName": "Jaane Tu... Ya Jaane Na (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/69/9d/1e/699d1e5f-9fb9-a4a9-3fe0-6cae29b7dd49/8902894626033_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 327458459,
+    "title": "Iktara",
+    "trackName": "Iktara",
+    "artistName": "Amit Trivedi, Kavita Seth & Amitabh Bhattacharya",
+    "albumName": "Wake Up Sid (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/c8/f8/5cc8f804-a9d6-7a11-57f6-840e1e2c9419/884977322910.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1562303433,
+    "title": "Zoobi Doobi",
+    "trackName": "Zoobi Doobi",
+    "artistName": "Sonu Nigam & Shreya Ghoshal",
+    "albumName": "3 Idiots (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/99/7c/6e997cb1-1d80-3dc1-121d-53919ccace52/840214403941.png/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 673999057,
+    "title": "Saans Reprise",
+    "trackName": "Saans Reprise",
+    "artistName": "Shreya Ghoshal",
+    "albumName": "Jab Tak Hai Jaan (Original Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2f/52/4d/2f524d1f-8ca3-5fa3-26c0-1ba1ac5b06fa/849486008274_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1117420384,
+    "title": "Raabta",
+    "trackName": "Raabta",
+    "artistName": "Pritam & Arijit Singh",
+    "albumName": "Agent Vinod (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/dc/a5/46/dca54628-5ca4-148c-d5c3-6219abc886e1/8902894698825_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 556951504,
+    "title": "Ishq Wala Love",
+    "trackName": "Ishq Wala Love",
+    "artistName": "Vishal & Shekhar, Neeti Mohan, Salim Merchant & Shekhar Ravjiani",
+    "albumName": "Student of the Year (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fe/27/2f/fe272f90-3bf9-b6e3-ffba-7068e9958c9c/886443601017.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 783487049,
+    "title": "Drama Queen",
+    "trackName": "Drama Queen",
+    "artistName": "Vishal & Shekhar, Shreya Ghoshal & Vishal Dadlani",
+    "albumName": "Hasee Toh Phasee (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/16/61/f8/1661f8e0-7d25-0f4e-a50e-5338808dfdbb/886444396479.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1529462945,
+    "title": "The Jawaani Song",
+    "trackName": "The Jawaani Song",
+    "artistName": "Vishal & Shekhar, Vishal Dadlani, Payal Dev & Kishore Kumar",
+    "albumName": "Student of the Year 2 (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/b2/9f/45/b29f4582-a1a2-ec02-ee7d-21bef3346547/8718857677529.png/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 673948355,
+    "title": "Mashallah",
+    "trackName": "Mashallah",
+    "artistName": "Shreya Ghoshal & Wajid",
+    "albumName": "Ek Tha Tiger (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ef/eb/b9/efebb98b-c9c8-33b9-7476-2e01a622edc0/849486005914_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1116449726,
+    "title": "Saadi Galli Aaja",
+    "trackName": "Saadi Galli Aaja",
+    "artistName": "Ayushmann Khurrana & Neeti Mohan",
+    "albumName": "Nautanki Saala! (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/cb/6b/d4/cb6bd4a6-ed30-f42c-3e91-cc06c8dfe426/8902894352635_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 556951483,
+    "title": "Ratta Maar",
+    "trackName": "Ratta Maar",
+    "artistName": "Vishal & Shekhar, Shefali Alvares & Vishal Dadlani",
+    "albumName": "Student of the Year (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fe/27/2f/fe272f90-3bf9-b6e3-ffba-7068e9958c9c/886443601017.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 582034958,
+    "title": "Kukkad (DJ Savyo/Ribin Remix)",
+    "trackName": "Kukkad (DJ Savyo/Ribin Remix)",
+    "artistName": "Shahid Mallya, Nisha Mascarenhas, Marianne D'cruz Aiman, Shekhar Ravjiani & Vishal Dadlani",
+    "albumName": "Student of the Year (Remixes) - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cc/f1/75/ccf175bd-9ff0-6ffd-9f9e-ba937bb6683e/886443747081.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 486353433,
+    "title": "Gun Gun Guna",
+    "trackName": "Gun Gun Guna",
+    "artistName": "Udit Narayan, Sunidhi Chauhan & Ajay-Atul",
+    "albumName": "Agneepath (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/15/fe/6015feb2-58ed-eafd-9870-f154de2b4ed8/886443303317.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 673998988,
+    "title": "Jiya Re",
+    "trackName": "Jiya Re",
+    "artistName": "Neeti Mohan",
+    "albumName": "Jab Tak Hai Jaan (Original Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2f/52/4d/2f524d1f-8ca3-5fa3-26c0-1ba1ac5b06fa/849486008274_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 673948359,
+    "title": "Laapata",
+    "trackName": "Laapata",
+    "artistName": "KK & Palak Muchhal",
+    "albumName": "Ek Tha Tiger (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ef/eb/b9/efebb98b-c9c8-33b9-7476-2e01a622edc0/849486005914_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1117322423,
+    "title": "Ek Main Aur Ekk Tu",
+    "trackName": "Ek Main Aur Ekk Tu",
+    "artistName": "Benny Dayal, Anushka Manchanda & Amit Trivedi",
+    "albumName": "Ek Main Aur Ekk Tu (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music60/v4/e7/05/fe/e705fee9-8b16-9dce-7788-5ed19082b767/8902894698320_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1115905461,
+    "title": "Kashmir Main Tu Kanyakumari",
+    "trackName": "Kashmir Main Tu Kanyakumari",
+    "artistName": "Sunidhi Chauhan, Arijit Singh & Neeti Mohan",
+    "albumName": "Chennai Express (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/91/89/89/918989bc-cc33-5538-cd16-76f400aab629/8902894353823_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1115905445,
+    "title": "One Two Three Four (Get On the Dance Floor)",
+    "trackName": "One Two Three Four (Get On the Dance Floor)",
+    "artistName": "Vishal Dadlani & Hamsika Iyer",
+    "albumName": "Chennai Express (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/91/89/89/918989bc-cc33-5538-cd16-76f400aab629/8902894353823_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1070912803,
+    "title": "Badtameez Dil",
+    "trackName": "Badtameez Dil",
+    "artistName": "Pritam, Benny Dayal & Shefali Alvares",
+    "albumName": "Yeh Jawaani Hai Deewani (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/62/d6/74/62d67432-0670-631f-db6a-d4bac3adae4b/8902894353328_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1070912810,
+    "title": "Balam Pichkari",
+    "trackName": "Balam Pichkari",
+    "artistName": "Pritam, Vishal Dadlani & Shalmali Kholgade",
+    "albumName": "Yeh Jawaani Hai Deewani (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/62/d6/74/62d67432-0670-631f-db6a-d4bac3adae4b/8902894353328_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1070912833,
+    "title": "Ghagra",
+    "trackName": "Ghagra",
+    "artistName": "Pritam, Rekha Bhardwaj & Vishal Dadlani",
+    "albumName": "Yeh Jawaani Hai Deewani (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/62/d6/74/62d67432-0670-631f-db6a-d4bac3adae4b/8902894353328_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1116194835,
+    "title": "London Thumakda",
+    "trackName": "London Thumakda",
+    "artistName": "Labh Janjua, Sonu Kakkar, Neha Kakkar & Amit Trivedi",
+    "albumName": "Queen (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music20/v4/ed/4c/52/ed4c520a-0714-0234-60cf-5f5b09ada16b/8902894355360_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1074829405,
+    "title": "Locha-E-Ulfat",
+    "trackName": "Locha-E-Ulfat",
+    "artistName": "Benny Dayal",
+    "albumName": "2 States (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e1/1b/83/e11b8398-0089-cfb1-f998-16125b3f17c4/8902894355612_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1074829986,
+    "title": "Mast Magan",
+    "trackName": "Mast Magan",
+    "artistName": "Arijit Singh & Chinmayi Sripada",
+    "albumName": "2 States (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e1/1b/83/e11b8398-0089-cfb1-f998-16125b3f17c4/8902894355612_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1534551264,
+    "title": "Tu Meri",
+    "trackName": "Tu Meri",
+    "artistName": "Vishal Dadlani & Vishal & Shekhar",
+    "albumName": "Bang Bang (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/25/01/97/250197ec-0724-b228-4bb6-b2763b1892f7/8718857799191.png/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1534551260,
+    "title": "Meherbaan",
+    "trackName": "Meherbaan",
+    "artistName": "Ash King, Shilpa Rao, Vishal & Shekhar & Shekhar Ravjiani",
+    "albumName": "Bang Bang (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/25/01/97/250197ec-0724-b228-4bb6-b2763b1892f7/8718857799191.png/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1534551262,
+    "title": "Uff",
+    "trackName": "Uff",
+    "artistName": "Harshdeep Kaur, Benny Dayal & Vishal & Shekhar",
+    "albumName": "Bang Bang (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/25/01/97/250197ec-0724-b228-4bb6-b2763b1892f7/8718857799191.png/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1534551261,
+    "title": "Bang Bang",
+    "trackName": "Bang Bang",
+    "artistName": "Benny Dayal, Neeti Mohan & Vishal & Shekhar",
+    "albumName": "Bang Bang (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/25/01/97/250197ec-0724-b228-4bb6-b2763b1892f7/8718857799191.png/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1111703145,
+    "title": "Rabba",
+    "trackName": "Rabba",
+    "artistName": "Mohit Chauhan",
+    "albumName": "Heropanti (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3f/e1/dd/3fe1dd34-e0bb-3285-38c5-f58dba4db008/8902894355759_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1111703146,
+    "title": "Raat Bhar",
+    "trackName": "Raat Bhar",
+    "artistName": "Arijit Singh & Shreya Ghoshal",
+    "albumName": "Heropanti (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3f/e1/dd/3fe1dd34-e0bb-3285-38c5-f58dba4db008/8902894355759_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1111741439,
+    "title": "Galliyan",
+    "trackName": "Galliyan",
+    "artistName": "Ankit Tiwari",
+    "albumName": "Ek Villain (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4f/3b/0b/4f3b0b0c-45e2-18fa-83e0-61ef4a1a2fa4/8902894355872_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1111783512,
+    "title": "Naina",
+    "trackName": "Naina",
+    "artistName": "Sona Mohapatra & Armaan Malik",
+    "albumName": "Khoobsurat (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a9/0a/42/a90a42be-f307-77aa-56ff-fcaefcfb1f08/8902894356282_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 887456984,
+    "title": "Lucky Tu Lucky Me",
+    "trackName": "Lucky Tu Lucky Me",
+    "artistName": "Sachin-Jigar, Benny Dayal, Anushka Manchanda & Varun Dhawan",
+    "albumName": "Humpty Sharma Ki Dulhania (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/a5/a4/24a5a4bf-5854-abf3-a834-845c0fef65c6/886444676540.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1111605340,
+    "title": "Besharmi Ki Height",
+    "trackName": "Besharmi Ki Height",
+    "artistName": "Benny Dayal & Shalmali Kholgade",
+    "albumName": "Main Tera Hero (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/34/19/ef/3419efb8-c5fa-b44d-0752-1afe30b6009f/8902894355537_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1111605407,
+    "title": "Galat Baat Hai",
+    "trackName": "Galat Baat Hai",
+    "artistName": "Neeti Mohan & Javed Ali",
+    "albumName": "Main Tera Hero (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/34/19/ef/3419efb8-c5fa-b44d-0752-1afe30b6009f/8902894355537_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1116089686,
+    "title": "Kabhi Jo Baadal Barse",
+    "trackName": "Kabhi Jo Baadal Barse",
+    "artistName": "Arijit Singh",
+    "albumName": "Jackpot (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8e/f9/13/8ef91340-3e77-13d6-72e6-f0685683f06d/8902894354875_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1121693948,
+    "title": "I Love You",
+    "trackName": "I Love You",
+    "artistName": "Pritam, Ash King & Clinton Cerejo",
+    "albumName": "Bodyguard (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/33/0a/b5/330ab537-2408-e167-867c-7c4d15430fd6/8902894696722_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1842077298,
+    "title": "Daaru Desi",
+    "trackName": "Daaru Desi",
+    "artistName": "Pritam, Benny Dayal, Shalmali Kholgade & Irshad Kamil",
+    "albumName": "Cocktail (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3d/dd/ec/3dddec12-be24-6746-f20b-24dd599e1b52/196871082891.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 372906480,
+    "title": "I Hate Luv Storys",
+    "trackName": "I Hate Luv Storys",
+    "artistName": "Vishal & Shekhar & Vishal Dadlani",
+    "albumName": "I Hate Luv Storys (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a7/92/20/a7922048-2338-074c-17f4-5318e9097577/884977629200.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 673596466,
+    "title": "Dance Pe Chance",
+    "trackName": "Dance Pe Chance",
+    "artistName": "Labh Janjua & Sunidhi Chauhan",
+    "albumName": "Rab Ne Bana Di Jodi (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e5/7a/8b/e57a8bb7-8513-3bf9-8268-cc3062ae00df/849486008052_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1071855816,
+    "title": "Tu Jo Mila",
+    "trackName": "Tu Jo Mila",
+    "artistName": "Pritam & KK",
+    "albumName": "Bajrangi Bhaijaan (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/93/06/e6/9306e63e-5dc3-1b60-3488-1332bbfacfd7/8902894357128_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1123355652,
+    "title": "Anjaana Anjaani",
+    "trackName": "Anjaana Anjaani",
+    "artistName": "Vishal Dadlani, Shilpa Rao & Vishal & Shekhar",
+    "albumName": "Anjaana Anjaani (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/8b/d8/a1/8bd8a190-8b8c-35f8-8573-614428dd6e42/8902894689113_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1562303434,
+    "title": "Behti Hawa Sa Tha Woh",
+    "trackName": "Behti Hawa Sa Tha Woh",
+    "artistName": "Shaan & Shantanu Moitra",
+    "albumName": "3 Idiots (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/99/7c/6e997cb1-1d80-3dc1-121d-53919ccace52/840214403941.png/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1529567807,
+    "title": "Bezubaan Phir Se",
+    "trackName": "Bezubaan Phir Se",
+    "artistName": "Vishal Dadlani, Anushka Manchanda & Madhav Krishna",
+    "albumName": "Abcd 2 (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ae/55/86/ae55860d-9cfd-bc4e-60ef-dbec948aa7bb/8718857709992.png/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 333295071,
+    "title": "Kurbaan Hua",
+    "trackName": "Kurbaan Hua",
+    "artistName": "Salim-Sulaiman & Vishal Dadlani",
+    "albumName": "Kurbaan (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/2f/46/a8/2f46a861-e694-80e9-8a31-027977af95c7/884977367751.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1136551371,
+    "title": "Pyaar Ki Yeh Kahani",
+    "trackName": "Pyaar Ki Yeh Kahani",
+    "artistName": "Sunidhi Chauhan, Gayatri Iyer & Vishal & Shekhar",
+    "albumName": "Honeymoon Travels Pvt Ltd (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music60/v4/ff/5a/d5/ff5ad52c-f762-5adb-b294-b0a25571a302/8902894602211_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1569776328,
+    "title": "Tere Naina",
+    "trackName": "Tere Naina",
+    "artistName": "Shankar Ehsaan Loy & Shafqat Amanat Ali",
+    "albumName": "My Name Is Khan (Original Motion Picture Soundtrack) - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/49/32/5a/49325a52-e5e5-bb10-62f6-eebb211ce423/886446889825.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1136181166,
+    "title": "Koi Tumsa Nahin",
+    "trackName": "Koi Tumsa Nahin",
+    "artistName": "Sonu Nigam & Shreya Ghoshal",
+    "albumName": "Krrish (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/fa/26/25fa266b-eafc-0374-56b2-e0166ca738aa/8902894601085_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1136347374,
+    "title": "Pal Pal … Har Pal",
+    "trackName": "Pal Pal … Har Pal",
+    "artistName": "Sonu Nigam & Shreya Ghoshal",
+    "albumName": "Lage Raho Munna Bhai (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music30/v4/68/85/8f/68858f1b-d7f3-9d09-6569-6a46f07537be/8902894601689_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 733765384,
+    "title": "Naina",
+    "trackName": "Naina",
+    "artistName": "Vishal & Shekhar, Kamal Khan & Neeti Mohan",
+    "albumName": "Gori Tere Pyaar Mein (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e0/25/1c/e0251ca4-d4c4-c40c-f53f-5c79fa49430a/886444283526.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1136181171,
+    "title": "Dil Na Diya",
+    "trackName": "Dil Na Diya",
+    "artistName": "Kunal Ganjawala",
+    "albumName": "Krrish (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/fa/26/25fa266b-eafc-0374-56b2-e0166ca738aa/8902894601085_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1057567670,
+    "title": "Gerua",
+    "trackName": "Gerua",
+    "artistName": "Pritam, Arijit Singh & Antara Mitra",
+    "albumName": "Dilwale (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dd/c8/ee/ddc8ee1d-baeb-0c8b-383f-1eb21bd172c2/886445593280.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1439673822,
+    "title": "Morni Banke",
+    "trackName": "Morni Banke",
+    "artistName": "Guru Randhawa & Neha Kakkar",
+    "albumName": "Badhaai Ho (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4c/a2/fa/4ca2fa52-4aff-9a11-cdf4-4c71e6429eff/8902894360494_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1413202729,
+    "title": "Dope Shope",
+    "trackName": "Dope Shope",
+    "artistName": "Yo Yo Honey Singh & Deep Money",
+    "albumName": "International Villager",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/1a/1e/691a1ec2-cae5-4923-4a43-72b1155c004f/8902633269552.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1189518727,
+    "title": "One Bottle Down",
+    "trackName": "One Bottle Down",
+    "artistName": "Yo Yo Honey Singh",
+    "albumName": "One Bottle Down - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/94/2f/d9/942fd9f8-cc37-d90c-530e-3b6367005db6/8903431606457_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1413203018,
+    "title": "Goliya",
+    "trackName": "Goliya",
+    "artistName": "Diljit Dosanjh & Yo Yo Honey Singh",
+    "albumName": "International Villager",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/1a/1e/691a1ec2-cae5-4923-4a43-72b1155c004f/8902633269552.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1157906527,
+    "title": "Superman",
+    "trackName": "Superman",
+    "artistName": "Yo Yo Honey Singh",
+    "albumName": "Zorawar (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/05/de/6f/05de6f2d-b642-561b-32bf-95d6aadf6915/8902894357951_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1189566220,
+    "title": "Issey Kehte Hain Hip Hop",
+    "trackName": "Issey Kehte Hain Hip Hop (feat. Lil Golu)",
+    "artistName": "Yo Yo Honey Singh",
+    "albumName": "Issey Kehte Hain Hip Hop (feat. Lil Golu) - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/15/52/3a/15523a03-33d3-899b-3185-7bb52a3a032b/8902894355995_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1442803244,
+    "title": "Bebo",
+    "trackName": "Bebo",
+    "artistName": "Yo Yo Honey Singh & Alfaaz",
+    "albumName": "Ultimate Desi Beats, Vol. 1",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/42/12/43/421243e4-8f57-5d5f-3f8a-fb7efb77ef9e/00602537647385.rgb.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 820889708,
+    "title": "Mast Kalander",
+    "trackName": "Mast Kalander",
+    "artistName": "Mika Singh & Yo Yo Honey Singh",
+    "albumName": "Mast Kalander - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/83/0c/cf/830ccf6c-0a62-a7e2-d842-6e3c9d02a807/dj.sbbyqtox.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1071078538,
+    "title": "Dheere Dheere",
+    "trackName": "Dheere Dheere",
+    "artistName": "Yo Yo Honey Singh",
+    "albumName": "Dheere Dheere - Single",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a8/2b/38/a82b38ac-432f-32b7-0587-864b733855ef/8903431608901_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1116109818,
+    "title": "Sunny Sunny",
+    "trackName": "Sunny Sunny",
+    "artistName": "Yo Yo Honey Singh & Neha Kakkar",
+    "albumName": "Yaariyan (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b1/df/5a/b1df5a4f-64cc-a1f7-fb12-dad245a097c0/8902894354998_cover.jpg/300x300bb.jpg",
+    "category": "modern-bollywood"
+  },
+  {
+    "id": 1364843564,
+    "title": "Pyar Ki Kashti Mein",
+    "trackName": "Pyar Ki Kashti Mein",
+    "artistName": "Udit Narayan & Alka Yagnik",
+    "albumName": "Kaho Naa Pyaar Hai (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/57/a5/e0/57a5e064-f087-e318-582f-27ab8eb71496/192562328149.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1364843580,
+    "title": "Chand Sitare",
+    "trackName": "Chand Sitare",
+    "artistName": "Kumar Sanu",
+    "albumName": "Kaho Naa Pyaar Hai (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/57/a5/e0/57a5e064-f087-e318-582f-27ab8eb71496/192562328149.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1364843165,
+    "title": "Kaho Naa Pyar Hai, Pt. 1",
+    "trackName": "Kaho Naa Pyar Hai, Pt. 1",
+    "artistName": "Udit Narayan & Alka Yagnik",
+    "albumName": "Kaho Naa Pyaar Hai (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/57/a5/e0/57a5e064-f087-e318-582f-27ab8eb71496/192562328149.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1138970382,
+    "title": "Jaane Kyon Log Pyar",
+    "trackName": "Jaane Kyon Log Pyar",
+    "artistName": "Udit Narayan & Alka Yagnik",
+    "albumName": "Dil Chahta Hai (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/df/62/2bdf6213-3d11-5f01-cc5e-ddfcc15923b4/8902894114844_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1138970392,
+    "title": "Tanhayee",
+    "trackName": "Tanhayee",
+    "artistName": "Sonu Nigam",
+    "albumName": "Dil Chahta Hai (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/df/62/2bdf6213-3d11-5f01-cc5e-ddfcc15923b4/8902894114844_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1340760563,
+    "title": "Rehnaa Hai Tere Dil Mein",
+    "trackName": "Rehnaa Hai Tere Dil Mein",
+    "artistName": "Sonu Nigam & Kavita Krishnamurthy",
+    "albumName": "Rehnaa Hai Terre Dil Mein (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3c/78/a8/3c78a87a-0e4b-c8d9-807f-70998d0596be/191773226831.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 212790561,
+    "title": "Jab Kisiki Taraf Dil",
+    "trackName": "Jab Kisiki Taraf Dil (With Dialogue)",
+    "artistName": "Jatin-Lalit & Kumar Sanu",
+    "albumName": "Pyaar To Hona Hi Tha (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f2/e8/df/f2e8df92-6773-556d-d070-f1b8f90025c4/499762200000.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1128772020,
+    "title": "Kahin Pyaar Na Ho Jaaye",
+    "trackName": "Kahin Pyaar Na Ho Jaaye",
+    "artistName": "Alka Yagnik & Kumar Sanu",
+    "albumName": "Kahin Pyaar Na Ho Jaaye (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d7/3c/b1/d73cb1e0-80bd-a1d8-5131-dcdee8975917/cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1536510733,
+    "title": "Dil Laga Liya Maine",
+    "trackName": "Dil Laga Liya Maine",
+    "artistName": "Alka Yagnik & Udit Narayan",
+    "albumName": "Dil Hai Tumhaara (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/c4/03/05c4035d-d50e-aa92-6408-b346c140cabc/8901854009541.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1539190370,
+    "title": "Chupke Se Sun",
+    "trackName": "Chupke Se Sun",
+    "artistName": "Udit Narayan & Alka Yagnik",
+    "albumName": "Mission Kashmir (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/52/85/a0/5285a06a-e4b0-effa-e151-4bf88cd4144a/8901854010714.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1539190368,
+    "title": "Bumbro",
+    "trackName": "Bumbro",
+    "artistName": "Shankar Mahadevan, Sunidhi Chauhan & Jaspinder Narula",
+    "albumName": "Mission Kashmir (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/52/85/a0/5285a06a-e4b0-effa-e151-4bf88cd4144a/8901854010714.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1338718016,
+    "title": "Jadu Hai Nasha Hai",
+    "trackName": "Jadu Hai Nasha Hai",
+    "artistName": "Shreya Ghoshal",
+    "albumName": "Jism (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/b9/68/f1/b968f1c3-e618-7781-0c4c-2451cf59f716/191773226374.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1338717834,
+    "title": "Jaadu Hai Nasha",
+    "trackName": "Jaadu Hai Nasha",
+    "artistName": "Shreya Ghoshal & Shaan",
+    "albumName": "Jism (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/b9/68/f1/b968f1c3-e618-7781-0c4c-2451cf59f716/191773226374.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 300388929,
+    "title": "It's the Time to Disco",
+    "trackName": "It's the Time to Disco",
+    "artistName": "Shankar Ehsaan Loy, KK, Vasundhara Das, Loy Mendonsa & Shaan",
+    "albumName": "Kal Ho Naa Ho (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fb/82/da/fb82dab1-d0cd-714c-000c-6450774fd5d4/888880945587.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1120951283,
+    "title": "Yeh Tara Woh Tara",
+    "trackName": "Yeh Tara Woh Tara",
+    "artistName": "Udit Narayan, Master Vignesh & Pooja",
+    "albumName": "Swades (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4d/29/cc/4d29ccc6-7ced-c6d2-89c8-9af1b808fc63/8902894118262_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1120951295,
+    "title": "Saanwariya Saanwariya",
+    "trackName": "Saanwariya Saanwariya",
+    "artistName": "Alka Yagnik",
+    "albumName": "Swades (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4d/29/cc/4d29ccc6-7ced-c6d2-89c8-9af1b808fc63/8902894118262_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1134725346,
+    "title": "Mauja Hi Mauja",
+    "trackName": "Mauja Hi Mauja",
+    "artistName": "Pritam & Mika Singh",
+    "albumName": "Jab We Met (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/c7/43/3dc74387-e7f4-2342-397c-4cf2037c69a5/8902894623223_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1888494363,
+    "title": "Tu Hi Meri Shab Hai",
+    "trackName": "Tu Hi Meri Shab Hai",
+    "artistName": "Pritam & KK",
+    "albumName": "Gangster (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/42/b4/e342b46e-fd2c-8659-703c-ebc2af4df418/0602465585810.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1888503244,
+    "title": "Bheegey Hont",
+    "trackName": "Bheegey Hont",
+    "artistName": "Anu Malik & Kunal Ganjawala",
+    "albumName": "Murder (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/e6/d3/1fe6d342-2267-e086-f7f7-741718363879/0602465684476.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1888503247,
+    "title": "Dil Ko Hazar Bar",
+    "trackName": "Dil Ko Hazar Bar",
+    "artistName": "Anu Malik & Alisha Chinai",
+    "albumName": "Murder (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/e6/d3/1fe6d342-2267-e086-f7f7-741718363879/0602465684476.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1888503245,
+    "title": "Kaho Na Kaho",
+    "trackName": "Kaho Na Kaho",
+    "artistName": "Anu Malik & Amir Jamal",
+    "albumName": "Murder (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/e6/d3/1fe6d342-2267-e086-f7f7-741718363879/0602465684476.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1888495037,
+    "title": "Agar Tum Mil Jao (Female Version)",
+    "trackName": "Agar Tum Mil Jao (Female Version)",
+    "artistName": "Roop Kumar Rathod, Sayeed Quadri, Anu Malik & Shreya Ghoshal",
+    "albumName": "Zeher (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9d/4e/5a/9d4e5a11-1eb8-ae96-eb4b-cf01c89f583c/0602465590869.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 305752290,
+    "title": "Kabhi Alvida Naa Kehna",
+    "trackName": "Kabhi Alvida Naa Kehna",
+    "artistName": "Alka Yagnik, Shankar Ehsaan Loy & Sonu Nigam",
+    "albumName": "Kabhi Alvida Naa Kehna (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/15/3e/84/153e841c-14dc-4841-7e2d-f677dd9bff61/888880946089.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 305752292,
+    "title": "Where's the Party Tonight",
+    "trackName": "Where's the Party Tonight",
+    "artistName": "Loy Mendonsa, Shaan, Shankar Mahadevan, Shankar Ehsaan Loy & Vasundhara Das",
+    "albumName": "Kabhi Alvida Naa Kehna (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/15/3e/84/153e841c-14dc-4841-7e2d-f677dd9bff61/888880946089.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1071079652,
+    "title": "Main Agar Kahoon",
+    "trackName": "Main Agar Kahoon",
+    "artistName": "Sonu Nigam, Shreya Ghoshal & Vishal & Shekhar",
+    "albumName": "Om Shanti Om (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4c/16/13/4c161318-5bf1-ea55-774d-2f55e2361d10/8902894623179_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 305751200,
+    "title": "Mitwa",
+    "trackName": "Mitwa",
+    "artistName": "A.R. Rahman, Alka Yagnik, Srinivas, Sukhwinder Singh & Udit Narayan",
+    "albumName": "Lagaan (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/41/5b/88/415b88d2-00fc-2f74-fe21-f2d4b6f6ec5a/888880946072.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 305751207,
+    "title": "O Rey Chhori",
+    "trackName": "O Rey Chhori",
+    "artistName": "A.R. Rahman, Alka Yagnik, Udit Narayan & Vasundhara Das",
+    "albumName": "Lagaan (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/41/5b/88/415b88d2-00fc-2f74-fe21-f2d4b6f6ec5a/888880946072.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1115757216,
+    "title": "O Sathiya",
+    "trackName": "O Sathiya",
+    "artistName": "Udit Narayan & Alka Yagnik",
+    "albumName": "Saaya (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music30/v4/79/0d/44/790d4432-4372-1cc4-1586-a87abd328fa5/8902894116428_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1115786552,
+    "title": "Oodhni",
+    "trackName": "Oodhni",
+    "artistName": "Udit Narayan & Alka Yagnik",
+    "albumName": "Tere Naam (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cb/8f/47/cb8f4723-8f20-1e1c-dcef-c8eb8ddf0663/8902894116473_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1382820386,
+    "title": "Panchhi Nadiyan Pawan Ke Jhonke",
+    "trackName": "Panchhi Nadiyan Pawan Ke Jhonke (with Dialogues)",
+    "artistName": "Sonu Nigam, Alka Yagnik, Abhishek Bachchan & Kareena Kapoor",
+    "albumName": "Refugee (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c2/fe/a8/c2fea855-3918-41a7-7c21-f9a40cfcbe7d/191773221539.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1382820804,
+    "title": "Aisa Lagta Hai",
+    "trackName": "Aisa Lagta Hai",
+    "artistName": "Sonu Nigam & Alka Yagnik",
+    "albumName": "Refugee (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c2/fe/a8/c2fea855-3918-41a7-7c21-f9a40cfcbe7d/191773221539.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1382820894,
+    "title": "Mere Humsafar",
+    "trackName": "Mere Humsafar",
+    "artistName": "Alka Yagnik & Sonu Nigam",
+    "albumName": "Refugee (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c2/fe/a8/c2fea855-3918-41a7-7c21-f9a40cfcbe7d/191773221539.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1138918971,
+    "title": "Ek Garam Chai Ki Pyali",
+    "trackName": "Ek Garam Chai Ki Pyali",
+    "artistName": "Anu Malik",
+    "albumName": "Har Dil Jo Pyar Karega (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/31/ca/d0/31cad028-89a6-76e9-46f2-8c6b8acd57fa/8902894114295_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 302381531,
+    "title": "Phir Bhi Dil Hai Hindustani",
+    "trackName": "Phir Bhi Dil Hai Hindustani",
+    "artistName": "Jatin-Lalit & Udit Narayan",
+    "albumName": "Phir Bhi Dil Hai Hindustani (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ac/09/3c/ac093c92-7126-9043-a7be-0739c0482ff1/888880945921.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 302381533,
+    "title": "Banke Tera Jogi",
+    "trackName": "Banke Tera Jogi",
+    "artistName": "Jatin-Lalit, Alka Yagnik & Sonu Nigam",
+    "albumName": "Phir Bhi Dil Hai Hindustani (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ac/09/3c/ac093c92-7126-9043-a7be-0739c0482ff1/888880945921.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 302381536,
+    "title": "Aur Kya",
+    "trackName": "Aur Kya",
+    "artistName": "Jatin-Lalit, Abhijeet & Alka Yagnik",
+    "albumName": "Phir Bhi Dil Hai Hindustani (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ac/09/3c/ac093c92-7126-9043-a7be-0739c0482ff1/888880945921.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 673594507,
+    "title": "Aye Udi Udi Udi",
+    "trackName": "Aye Udi Udi Udi",
+    "artistName": "Adnan Sami",
+    "albumName": "Saathiya (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5e/71/f5/5e71f586-3e35-e7c8-f4c6-46006b4d3a88/Saathiya.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1275639469,
+    "title": "Main Hoon Don",
+    "trackName": "Main Hoon Don",
+    "artistName": "Shaan",
+    "albumName": "Don (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/08/12/40/081240bc-e812-5902-0608-380caceb6538/8902894601818_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1139227707,
+    "title": "Wada Raha",
+    "trackName": "Wada Raha",
+    "artistName": "Arnab Chakraborty & Shreya Ghoshal",
+    "albumName": "Khakee (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/ae/f7/78aef78b-9372-5f6f-7c74-9de4c49c8c66/8902894116817_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1139227709,
+    "title": "Aisa Jadoo",
+    "trackName": "Aisa Jadoo",
+    "artistName": "Sunidhi Chauhan",
+    "albumName": "Khakee (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/ae/f7/78aef78b-9372-5f6f-7c74-9de4c49c8c66/8902894116817_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1120934442,
+    "title": "Main Hoon Na",
+    "trackName": "Main Hoon Na",
+    "artistName": "Sonu Nigam & Shreya Ghoshal",
+    "albumName": "Main Hoon Na (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/da/e5/1c/dae51cac-d526-1dc3-5bcc-3d1418fa5fc5/8902894117388_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1120934443,
+    "title": "Tumhe Jo Maine Dekha",
+    "trackName": "Tumhe Jo Maine Dekha",
+    "artistName": "Abhijeet & Shreya Ghoshal",
+    "albumName": "Main Hoon Na (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/da/e5/1c/dae51cac-d526-1dc3-5bcc-3d1418fa5fc5/8902894117388_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1120934445,
+    "title": "Chale Jaise Hawaien",
+    "trackName": "Chale Jaise Hawaien",
+    "artistName": "KK & Vasundhara Das",
+    "albumName": "Main Hoon Na (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/da/e5/1c/dae51cac-d526-1dc3-5bcc-3d1418fa5fc5/8902894117388_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 316981881,
+    "title": "Masti Ki Paathshala",
+    "trackName": "Masti Ki Paathshala",
+    "artistName": "A.R. Rahman, Naresh Iyer & Mohammed Aslam",
+    "albumName": "Rang De Basanti (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/91/2c/6c/912c6c29-bbec-e560-0088-0cdd4201359a/888880944825.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 316981885,
+    "title": "Khalbali",
+    "trackName": "Khalbali",
+    "artistName": "A.R. Rahman, Nacim & Mohammed Aslam",
+    "albumName": "Rang De Basanti (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/91/2c/6c/912c6c29-bbec-e560-0088-0cdd4201359a/888880944825.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1820141717,
+    "title": "Sitaare Zameen Par Title Track",
+    "trackName": "Sitaare Zameen Par Title Track",
+    "artistName": "Shankar Ehsaan Loy, Shankar Mahadevan, Amitabh Bhattacharya, Siddharth Mahadevan & Divya Kumar",
+    "albumName": "Sitaare Zameen Par (Original Motion Picture Soundtrack) - EP",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/87/79/37/87793732-388d-c8ae-5105-91edefa97936/8909024082288.png/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1138158327,
+    "title": "Aap Ki Kashish",
+    "trackName": "Aap Ki Kashish",
+    "artistName": "Himesh Reshammiya, Krishna & Ahir",
+    "albumName": "Aashiq Banaya Aapne (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/85/7b/90/857b9025-8a2b-8d2f-17d0-25d38b6ed39a/8902894120081_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1138158297,
+    "title": "Aashiq Banaya Aapne",
+    "trackName": "Aashiq Banaya Aapne",
+    "artistName": "Himesh Reshammiya & Shreya Ghoshal",
+    "albumName": "Aashiq Banaya Aapne (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/85/7b/90/857b9025-8a2b-8d2f-17d0-25d38b6ed39a/8902894120081_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1138022122,
+    "title": "Chori Chori",
+    "trackName": "Chori Chori",
+    "artistName": "Alka Yagnik & Sonu Nigam",
+    "albumName": "Lucky - No Time For Love (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music60/v4/22/2b/af/222baf16-aafe-4346-85bb-c3bdebaa9ab8/8902894119153_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1139112187,
+    "title": "Rama Re",
+    "trackName": "Rama Re",
+    "artistName": "Sanjay Dutt, Shaan, Zubeen Garg, Anand Raj Anand & Sudesh Bhonsle",
+    "albumName": "Kaante (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/91/40/b69140e9-3abb-f19c-374f-a569aa278ba9/8902894115629_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1139112188,
+    "title": "Dil Kya Kare",
+    "trackName": "Dil Kya Kare",
+    "artistName": "Kumar Sanu & Kavita Krishnamurthy",
+    "albumName": "Kaante (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/91/40/b69140e9-3abb-f19c-374f-a569aa278ba9/8902894115629_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1139112229,
+    "title": "Maahi Ve",
+    "trackName": "Maahi Ve",
+    "artistName": "Sukhwinder Singh & Richa Sharma",
+    "albumName": "Kaante (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/91/40/b69140e9-3abb-f19c-374f-a569aa278ba9/8902894115629_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 469263364,
+    "title": "Main Aisa Kyon Hoon",
+    "trackName": "Main Aisa Kyon Hoon",
+    "artistName": "Shaan & Shankar Ehsaan Loy",
+    "albumName": "Lakshya (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/41/81/c3/4181c3fc-4d54-c26b-2c8c-58746c112121/884977585810.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 469263365,
+    "title": "Agar Main Kahoon",
+    "trackName": "Agar Main Kahoon",
+    "artistName": "Alka Yagnik, Udit Narayan & Shankar Ehsaan Loy",
+    "albumName": "Lakshya (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/41/81/c3/4181c3fc-4d54-c26b-2c8c-58746c112121/884977585810.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 673571402,
+    "title": "Dhoom Machale",
+    "trackName": "Dhoom Machale",
+    "artistName": "Sunidhi Chauhan",
+    "albumName": "Dhoom (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/37/16/6f/37166fe6-9203-aa32-9202-ed73344eeae3/849486005860_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 673690042,
+    "title": "Humko Humise Chura Lo",
+    "trackName": "Humko Humise Chura Lo",
+    "artistName": "Lata Mangeshkar & Udit Narayan",
+    "albumName": "Mohabbatein (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4f/24/ae/4f24ae5f-928e-5f34-4c98-a4b6abfa26e2/849486008014_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1129830069,
+    "title": "Tum Dil Ki Dhadkan Mein",
+    "trackName": "Tum Dil Ki Dhadkan Mein",
+    "artistName": "Abhijeet & Alka Yagnik",
+    "albumName": "Dhadkan (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/89/fb/29/89fb29c0-5dc7-f987-6693-9c1e69ed5cf0/cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1129831066,
+    "title": "Tum Dil Ki Dhadkan Mein",
+    "trackName": "Tum Dil Ki Dhadkan Mein",
+    "artistName": "Kumar Sanu",
+    "albumName": "Dhadkan (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/89/fb/29/89fb29c0-5dc7-f987-6693-9c1e69ed5cf0/cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1129831333,
+    "title": "Aksar Is Duniya Mein",
+    "trackName": "Aksar Is Duniya Mein",
+    "artistName": "Alka Yagnik",
+    "albumName": "Dhadkan (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/89/fb/29/89fb29c0-5dc7-f987-6693-9c1e69ed5cf0/cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1331772808,
+    "title": "Kuch Naa Kaho",
+    "trackName": "Kuch Naa Kaho",
+    "artistName": "Shaan & Sadhana Sargam",
+    "albumName": "Kuch Naa Kaho (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/87/65/af/8765afa5-736b-2029-9ac4-7e4c5f40e50d/191773199678.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1134568342,
+    "title": "Dil Kya Kare",
+    "trackName": "Dil Kya Kare",
+    "artistName": "Adnan Sami",
+    "albumName": "Salaam-E-Ishq (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b1/6a/cc/b16accb9-8890-a3ad-6206-add2f69dfee8/8902894602082_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1138022120,
+    "title": "Sun Zara",
+    "trackName": "Sun Zara",
+    "artistName": "Sonu Nigam",
+    "albumName": "Lucky - No Time For Love (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music60/v4/22/2b/af/222baf16-aafe-4346-85bb-c3bdebaa9ab8/8902894119153_cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1545677140,
+    "title": "Aapke Pyaar Mein Hum",
+    "trackName": "Aapke Pyaar Mein Hum",
+    "artistName": "Alka Yagnik",
+    "albumName": "Raaz (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/48/12/23/4812232c-4293-01ec-dde7-b656f0c58d48/8901854010998.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1545677158,
+    "title": "Main Agar Saamne",
+    "trackName": "Main Agar Saamne",
+    "artistName": "Abhijeet & Alka Yagnik",
+    "albumName": "Raaz (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/48/12/23/4812232c-4293-01ec-dde7-b656f0c58d48/8901854010998.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1103753480,
+    "title": "Suno Na",
+    "trackName": "Suno Na",
+    "artistName": "Vishal & Shekhar & Shaan",
+    "albumName": "Jhankaar Beats (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/4c/06/48/4c0648b0-bbb0-8215-2cf0-2acd51b2880a/886445784718.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1103753484,
+    "title": "Tu Aashiqui Hai",
+    "trackName": "Tu Aashiqui Hai",
+    "artistName": "Vishal & Shekhar & KK",
+    "albumName": "Jhankaar Beats (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/4c/06/48/4c0648b0-bbb0-8215-2cf0-2acd51b2880a/886445784718.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1126858481,
+    "title": "Kambakth Ishq",
+    "trackName": "Kambakth Ishq",
+    "artistName": "Asha Bhosle, Sukhwinder Singh & Sonu Nigam",
+    "albumName": "Pyaar Tune Kya Kiya (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/aa/c7/15/aac7158a-bc73-c253-d294-d4e8455df93b/cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1550865784,
+    "title": "Aaja Mahiya",
+    "trackName": "Aaja Mahiya",
+    "artistName": "Udit Narayan, Prashant Samaddar & Alka Yagnik",
+    "albumName": "Fiza (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bd/35/dd/bd35dd24-9b64-a919-3cf6-4b768c1977d1/8901854009787.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1550866036,
+    "title": "Mehboob Mere",
+    "trackName": "Mehboob Mere",
+    "artistName": "Sunidhi Chauhan & Karsan Sargathiya",
+    "albumName": "Fiza (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bd/35/dd/bd35dd24-9b64-a919-3cf6-4b768c1977d1/8901854009787.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1550796236,
+    "title": "Jab Dil Mile",
+    "trackName": "Jab Dil Mile",
+    "artistName": "Asha Bhosle, Sunidhi Chauhan, Sukhwinder Singh & Udit Narayan",
+    "albumName": "Yaadein (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d7/ef/a1/d7efa19f-d0a9-bfa8-dd27-a69955820940/8901854004607.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1130295350,
+    "title": "Sanam Mere Humraaz",
+    "trackName": "Sanam Mere Humraaz",
+    "artistName": "Kumar Sanu & Alka Yagnik",
+    "albumName": "Humraaz (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/85/72/58/857258c4-7c76-cd69-9910-44e3a5d57f83/cover.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1551664452,
+    "title": "Meri Zindagi Mein Ajnabee",
+    "trackName": "Meri Zindagi Mein Ajnabee",
+    "artistName": "Kumar Sanu & Sunidhi Chauhan",
+    "albumName": "Ajnabee (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2b/d3/f6/2bd3f6de-a7f9-6563-bc39-0944ef840d49/8901854004140.jpg/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1562303432,
+    "title": "Aal Izz Well",
+    "trackName": "Aal Izz Well",
+    "artistName": "Sonu Nigam, Swanand Kirkire & Shaan",
+    "albumName": "3 Idiots (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/99/7c/6e997cb1-1d80-3dc1-121d-53919ccace52/840214403941.png/300x300bb.jpg",
+    "category": "bollywood-classics"
+  },
+  {
+    "id": 1562303826,
+    "title": "Jaane Nahin Denge Tujhe",
+    "trackName": "Jaane Nahin Denge Tujhe",
+    "artistName": "Sonu Nigam",
+    "albumName": "3 Idiots (Original Motion Picture Soundtrack)",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/99/7c/6e997cb1-1d80-3dc1-121d-53919ccace52/840214403941.png/300x300bb.jpg",
+    "category": "bollywood-classics"
   }
 ];
 
